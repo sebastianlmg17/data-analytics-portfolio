@@ -10,6 +10,7 @@ Learn how to filter data efficiently using SQL conditions to answer specific bus
 
 - WHERE
 - Comparison Operators
+- Logical Operators (AND)
 - LIKE
 - ORDER BY
 
@@ -23,9 +24,10 @@ Learn how to filter data efficiently using SQL conditions to answer specific bus
 | 02 | High-Value Payments for Financial Audit | Finance | ⭐ | ✅ |
 | 03 | Staff Working at Store 1 | Human Resources | ⭐ | ✅ |
 | 04 | Customers with Last Name Starting with "S" | Customer Service | ⭐ | ✅ |
-| ⭐ Challenge 01 | Customer Segmentation | Marketing | ⭐⭐⭐ | 🔒 |
-| ⭐ Challenge 02 | High-Value Rentals | Operations | ⭐⭐⭐ | 🔒 |
-| ⭐ Challenge 03 | Marketing Campaign Selection | Marketing | ⭐⭐⭐⭐ | 🔒 |
+| ⭐ Challenge 01 | Customer Segmentation for a Marketing Campaign | Marketing | ⭐⭐⭐ | ✅ |
+| ⭐ Challenge 02 | High-Value Payments Processed by Staff Member 1 | Operations | ⭐⭐⭐ | ✅ |
+| ⭐ Challenge 03 | Recent Rentals Review | Customer Service | ⭐⭐⭐ | ✅ |
+| ⭐ Challenge 04 | Premium Customer Selection | Marketing | ⭐⭐⭐⭐ | ⏳ |
 
 ---
 
