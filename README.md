@@ -15,6 +15,14 @@ The portfolio includes practical projects focused on solving real business probl
 - Machine Learning
 - End-to-End Projects
 
+## Technologies
+
+- SQL (MySQL)
+- Dataiku
+- Python
+- Power BI
+- Git & GitHub
+- 
 ## Objective
 
 The goal of this portfolio is to showcase my technical skills, project experience and continuous learning in the field of Data Analytics.
