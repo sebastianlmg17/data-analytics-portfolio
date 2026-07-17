@@ -1,0 +1,75 @@
+/*============================================================
+
+Challenge 01
+
+Title:
+Canadian Customers for a Marketing Campaign
+
+Department:
+Marketing
+
+Difficulty:
+⭐⭐⭐ Intermediate
+
+Business Request:
+The Marketing department is preparing a campaign targeted
+exclusively at customers living in Canada.
+
+Required Information:
+- Customer ID
+- First Name
+- Last Name
+- Email
+- Country
+
+Requirements:
+- Include only customers living in Canada.
+- Sort the results alphabetically by last name and,
+  if two customers share the same last name,
+  by first name.
+
+Skills Demonstrated:
+- INNER JOIN
+- WHERE
+- ORDER BY
+- Multi-table relationships
+
+Concepts Learned:
+- Navigating related tables
+- Filtering by information stored in another table
+- Translating business requirements into SQL
+
+Database:
+MySQL - Sakila
+
+============================================================*/
+
+SELECT
+    customer.customer_id,
+    customer.first_name,
+    customer.last_name,
+    customer.email,
+    country.country
+FROM customer
+INNER JOIN address
+    ON customer.address_id = address.address_id
+INNER JOIN city
+    ON address.city_id = city.city_id
+INNER JOIN country
+    ON city.country_id = country.country_id
+WHERE country.country = 'Canada'
+ORDER BY
+    customer.last_name,
+    customer.first_name;
+
+/*
+============================================================
+
+Business Insight
+
+This query helps the Marketing team identify all customers
+living in Canada, making it possible to launch regional
+campaigns and personalized communications.
+
+============================================================
+*/
