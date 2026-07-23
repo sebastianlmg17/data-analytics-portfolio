@@ -12,4 +12,4 @@ Exercises will be added progressively as they are completed and reviewed.
 | 08 | Customers Without Rentals Report | LEFT JOIN, NULL Filtering, Customer Analysis | ⭐⭐⭐ | ✅ |
 | 09 | Films Without Inventory Report | LEFT JOIN, NULL Filtering, Inventory Analysis | ⭐⭐⭐ | ✅ |
 | 10 | Customer Rental History Report | LEFT JOIN, One-to-Many Relationships, Handling NULL Values | ⭐⭐⭐ | ✅ |
-| Challenge 01 | Canadian Customers for a Marketing Campaign | INNER JOIN, WHERE, ORDER BY | ⭐⭐⭐ | ✅ |
+
