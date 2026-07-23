@@ -1,11 +1,3 @@
-# Joins
-
-## Objective
-
-Learn how to combine information from multiple tables using SQL JOINs to solve business problems.
-
-## Exercises
-
 Exercises will be added progressively as they are completed and reviewed.
 
 | # | Exercise | Concepts | Difficulty | Status |
@@ -14,7 +6,9 @@ Exercises will be added progressively as they are completed and reviewed.
 | 02 | Films and Their Language | INNER JOIN | ⭐ | ✅ |
 | 03 | Staff by City and Country | INNER JOIN, Multi-table Relationships | ⭐⭐ | ✅ |
 | 04 | Store Inventory Catalog | Choosing the Starting Table, INNER JOIN | ⭐⭐ | ✅ |
-| ⭐ Challenge 01 | Canadian Customers for a Marketing Campaign | INNER JOIN, WHERE, ORDER BY | ⭐⭐⭐ | ✅ |
-| ⭐ Challenge 02 | ⏳ | - | ⭐⭐⭐ | ⏳ |
-| ⭐ Challenge 03 | ⏳ | - | ⭐⭐⭐⭐ | ⏳ |
-| ⭐ Challenge 04 | ⏳ | - | ⭐⭐⭐⭐ | ⏳ |
+| 05 | Customer Rental Activity Report | INNER JOIN, Transactional Data | ⭐⭐⭐ | ✅ |
+| 06 | Film Cast Analysis Report | INNER JOIN, Many-to-Many Relationships, Bridge Tables | ⭐⭐⭐ | ✅ |
+| Challenge 01 | Canadian Customers for a Marketing Campaign | INNER JOIN, WHERE, ORDER BY | ⭐⭐⭐ | ✅ |
+| Challenge 02 | Customers Without Rentals Report | LEFT JOIN, NULL Filtering, Customer Analysis | ⭐⭐⭐ | ⏳ |
+| Challenge 03 | Films Without Inventory Report | LEFT JOIN, NULL Filtering, Inventory Analysis | ⭐⭐⭐ | ⏳ |
+| Challenge 04 | Categories Without Films Report | LEFT JOIN, Multi-table Relationships, NULL Analysis | ⭐⭐⭐⭐ | ⏳ |
