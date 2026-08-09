@@ -7,7 +7,23 @@ Calculate the average film length for each category.
 ## Query
 
 ```sql
--- Write your solution here
+SELECT
+    category.category_id,
+    category.name,
+    AVG(film.length) AS average_length
+FROM category
+
+INNER JOIN film_category
+    ON category.category_id = film_category.category_id
+
+INNER JOIN film
+    ON film_category.film_id = film.film_id
+
+GROUP BY
+    category.category_id,
+    category.name
+
+ORDER BY average_length DESC;
 ```
 
 ## Concepts
