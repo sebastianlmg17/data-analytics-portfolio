@@ -1,4 +1,3 @@
-
 # Oversampling
 
 ## Overview
@@ -13,8 +12,8 @@ The objective was to determine whether increasing the representation of the mino
 
 The original training dataset presented an imbalanced class distribution.
 
-- Majority class: Customers who **did not subscribe** (`y = 0`)
-- Minority class: Customers who **subscribed** (`y = 1`)
+* Majority class: Customers who **did not subscribe** (`y = 0`)
+* Minority class: Customers who **subscribed** (`y = 1`)
 
 An imbalanced dataset may cause machine learning models to favor the majority class, reducing their ability to correctly classify minority class observations.
 
@@ -36,26 +35,31 @@ The testing dataset remained unchanged to ensure that model evaluation reflected
 
 The balanced training dataset was used to train the following classification models:
 
-- Random Forest
-- Logistic Regression
+* Random Forest
+* Logistic Regression
 
 Model performance was evaluated using:
 
-- ROC AUC
-- Accuracy
-- Precision
-- Recall
-- F1-Score
+* ROC AUC
+* Accuracy
+* Precision
+* Recall
+* F1-Score
 
 ---
 
 ## Results
 
-Although Oversampling successfully balanced the training data, it did not improve the overall predictive performance of the models.
+The Oversampling experiment produced the following results:
 
-Compared with the model trained on the original dataset, the Random Forest model achieved lower evaluation metrics.
+| Model               | ROC AUC | Accuracy | Precision | Recall | F1-Score |
+| ------------------- | ------: | -------: | --------: | -----: | -------: |
+| Random Forest       |  0.7982 |   0.8722 |    0.4461 | 0.4797 |   0.4623 |
+| Logistic Regression |  0.8940 |        — |         — |      — |        — |
 
-The duplicated observations increased the representation of the minority class but did not provide additional information to improve the model's generalization ability.
+Although Oversampling successfully balanced the training data, it did not improve the overall predictive performance of the Random Forest model compared with the original training dataset.
+
+The Random Forest model achieved a ROC AUC of **0.7982**, while the Logistic Regression model achieved a ROC AUC of **0.8940**.
 
 ---
 
@@ -63,4 +67,7 @@ The duplicated observations increased the representation of the minority class b
 
 Oversampling proved to be a valuable experiment for evaluating the effect of class balancing.
 
-However, for this dataset, duplicating minority class observations did not outperform the model trained using the original class distribution.
+However, for this dataset, duplicating minority class observations did not improve the performance of the Random Forest model.
+
+The results suggest that increasing the representation of the minority class did not provide additional information that improved the model's ability to generalize to the unchanged test dataset.
+
