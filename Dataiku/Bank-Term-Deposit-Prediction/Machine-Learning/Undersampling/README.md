@@ -12,8 +12,8 @@ The objective was to determine whether balancing the training dataset by reducin
 
 The original training dataset presented a significant class imbalance.
 
-- Majority class: Customers who **did not subscribe** (`y = 0`)
-- Minority class: Customers who **subscribed** (`y = 1`)
+* Majority class: Customers who **did not subscribe** (`y = 0`)
+* Minority class: Customers who **subscribed** (`y = 1`)
 
 Machine learning models trained on imbalanced data may become biased toward the majority class, making it more difficult to correctly identify customers belonging to the minority class.
 
@@ -27,7 +27,7 @@ The majority class was randomly sampled until it contained the same number of ob
 
 As a result, the training dataset became balanced while the testing dataset remained unchanged.
 
-This approach ensured that model evaluation was always performed using real-world data.
+This approach ensured that model evaluation was always performed using the original test data distribution.
 
 ---
 
@@ -35,26 +35,31 @@ This approach ensured that model evaluation was always performed using real-worl
 
 The balanced training dataset was used to train the following classification models:
 
-- Random Forest
-- Logistic Regression
+* Random Forest
+* Logistic Regression
 
 Model performance was evaluated using:
 
-- ROC AUC
-- Accuracy
-- Precision
-- Recall
-- F1-Score
+* ROC AUC
+* Accuracy
+* Precision
+* Recall
+* F1-Score
 
 ---
 
 ## Results
 
-Although Undersampling successfully balanced the training data, it did not improve the predictive performance of the models.
+The Undersampling experiment produced the following results:
 
-Compared with the model trained on the original dataset, the Random Forest model achieved lower scores across the main evaluation metrics.
+| Model               | ROC AUC | Accuracy | Precision | Recall | F1-Score |
+| ------------------- | ------: | -------: | --------: | -----: | -------: |
+| Random Forest       |  0.8026 |   0.8671 |    0.4347 | 0.5338 |   0.4792 |
+| Logistic Regression |  0.8940 |        — |         — |      — |        — |
 
-This suggests that removing a large portion of the majority class also removed valuable information that helped the model generalize better.
+Although Undersampling successfully balanced the training data, it did not improve the overall predictive performance of the Random Forest model compared with the original training dataset.
+
+The Random Forest model achieved a ROC AUC of **0.8026**, while the Logistic Regression model achieved a ROC AUC of **0.8940**.
 
 ---
 
@@ -62,4 +67,7 @@ This suggests that removing a large portion of the majority class also removed v
 
 Undersampling proved to be a useful experiment for evaluating the effect of class balancing.
 
-However, for this dataset, reducing the majority class did not produce better results than training the model using the original data distribution.
+However, reducing the majority class did not improve the performance of the Random Forest model.
+
+Removing observations from the majority class also meant removing potentially useful information from the training data, which may have contributed to the lower predictive performance observed in comparison with the original training dataset.
+
