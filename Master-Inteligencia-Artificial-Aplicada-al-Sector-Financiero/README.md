@@ -8,11 +8,15 @@ This section documents the subjects completed and currently studied during my Ma
 
 This subject introduces the role of Artificial Intelligence and Machine Learning in the financial sector. It covers Big Data, the processing of financial data, predictive models and an introduction to generative AI, while examining the opportunities and challenges of applying AI to finance.
 
+**Final grade:** 8.5/10 (B+)
+
 **Status:** Completed
 
 ### ✅ 02 — Visualización y análisis: Inteligencia de datos para decisiones financieras
 
 This subject focuses on turning data into useful information for financial decision-making. It covers data treatment, connections to internal and external data sources, descriptive statistics, hypothesis testing, analysis of statistical relationships, data preparation for analytical modeling and the creation of effective visualizations.
+
+**Final grade:** 8.0/10 (B)
 
 **Status:** Completed
 
