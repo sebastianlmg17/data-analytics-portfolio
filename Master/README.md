@@ -1,4 +1,4 @@
-# Master's Degree — Artificial Intelligence Applied to the Financial Sector
+# Máster en Inteligencia Artificial Aplicada al Sector Financiero
 
 ## Overview
 
