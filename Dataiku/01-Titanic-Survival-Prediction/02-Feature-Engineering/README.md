@@ -2,14 +2,14 @@
 
 ## Objective
 
-Transform the cleaned dataset into a machine learning-ready dataset by converting categorical variables into numerical features.
+Transform the cleaned Titanic dataset into a numerical format suitable for machine learning.
 
 ---
 
 ## Dataset
 
 | Metric | Value |
-|--------|------:|
+|---|---|
 | Input Dataset | train_clean.csv |
 | Output Dataset | feature_engineered_dataset.csv |
 
@@ -17,11 +17,17 @@ Transform the cleaned dataset into a machine learning-ready dataset by convertin
 
 ## Feature Engineering Summary
 
-| Feature | Transformation |
-|----------|----------------|
-| Sex | One-Hot Encoding |
-| Embarked | One-Hot Encoding |
-| Name | Removed |
+| Feature | Transformation | Reason |
+|---|---|---|
+| Sex | One-Hot Encoding | Convert the categorical variable into numerical features |
+| Embarked | One-Hot Encoding | Convert the categorical variable into numerical features |
+| Name | Removed | Not used as a predictive feature in this project |
+| Age | No scaling applied | Values were considered suitable for the selected tree-based model |
+| Fare | No scaling applied | Values were considered suitable for the selected tree-based model |
+| SibSp | No transformation | Kept as provided |
+| Parch | No transformation | Kept as provided |
+
+No oversampling or undersampling was applied during this phase.
 
 ---
 
@@ -43,4 +49,4 @@ Transform the cleaned dataset into a machine learning-ready dataset by convertin
 
 ## Conclusion
 
-The dataset has been transformed into a numerical format suitable for machine learning algorithms and is ready for train-test splitting and model training.
+The cleaned dataset was transformed into a numerical format and prepared for the subsequent train-test split and model training stages.
