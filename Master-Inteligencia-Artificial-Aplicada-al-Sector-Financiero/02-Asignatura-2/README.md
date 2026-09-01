@@ -1,0 +1,12 @@
+# 02 — Asignatura 2
+
+**Status:** ✅ Completed
+
+## Topics and skills
+
+- Foundations covered during the second subject of the Master's program.
+- Practical knowledge acquired through the subject.
+
+## Practical application
+
+The specific practical applications and projects developed in this subject will be documented here as the portfolio evolves.
