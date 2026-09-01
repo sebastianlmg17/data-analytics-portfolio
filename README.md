@@ -1,16 +1,27 @@
-# Dataiku Portfolio
+# Data Analytics Portfolio
 
-This section contains my Dataiku projects developed throughout my Data Analytics learning journey.
+Welcome to my Data Analytics Portfolio.
 
-Each project follows a complete analytics workflow, from raw data to datasets prepared for Machine Learning.
+This repository contains the projects I develop throughout my learning journey in Data Analytics and Machine Learning.
 
-The projects include:
+The portfolio includes practical projects focused on solving real business problems while documenting the methodology, tools used and results obtained.
 
-- Data cleaning
-- Data transformation
-- Feature engineering
-- Exploratory data analysis
-- Machine Learning preparation
-- Model development and evaluation
+## Portfolio Sections
 
-My objective is not only to learn how to use Dataiku, but also to understand the reasoning behind every transformation and apply professional data preparation practices.
+- SQL
+- Dataiku
+- Python
+- Power BI
+- Machine Learning
+- End-to-End Projects
+
+## Technologies
+
+- SQL (MySQL)
+- Dataiku
+- Python
+- Power BI
+  
+## Objective
+
+The goal of this portfolio is to showcase my technical skills, project experience and continuous learning in the field of Data Analytics.
