@@ -15,59 +15,45 @@ The cleaned dataset was divided into:
 - **80% Training Set**
 - **20% Test Set**
 
-The test dataset remained unchanged throughout the entire project to ensure an unbiased evaluation of model performance.
+The test dataset remained unchanged throughout the experiments to ensure a consistent evaluation.
 
 ---
 
 ## Models Evaluated
 
-Two classification algorithms were trained and compared:
+Two classification algorithms were initially evaluated:
 
 - Random Forest
 - Logistic Regression
 
-The models were evaluated using:
+The models were evaluated using ROC AUC, Accuracy, Precision, Recall and F1-Score.
 
-- ROC AUC
-- Accuracy
-- Precision
-- Recall
-- F1-Score
+The Random Forest achieved the strongest baseline performance and was selected for further experimentation.
 
 ---
 
 ## Handling Class Imbalance
 
-The target variable presented an imbalanced class distribution.
+Three training strategies were evaluated:
 
-To evaluate the impact of this imbalance, three different training strategies were implemented:
+- **Original Dataset**
+- **Oversampling**
+- **Undersampling**
 
-### Original Dataset
-
-The model was trained using the original class distribution.
-
-### Oversampling
-
-The minority class was duplicated until both classes contained the same number of observations.
-
-### Undersampling
-
-The majority class was randomly reduced until both classes became balanced.
+Neither sampling technique improved the baseline Random Forest performance.
 
 ---
 
-## Model Comparison
+## Hyperparameter Optimization
 
-After comparing all experiments, the Random Forest model trained on the **original dataset** achieved the best overall performance.
+The baseline Random Forest was subsequently optimized using Grid Search with 5-fold cross-validation.
 
-Neither Oversampling nor Undersampling improved the predictive capability of the model.
+Two optimization experiments were performed. V1 performed worse than the baseline, while V2 improved the model substantially, reaching a test ROC AUC of **0.9535**.
 
-This experiment demonstrated that Random Forest was sufficiently robust to handle the class imbalance present in the dataset.
+The optimized model is documented in **Model-Optimization** and was selected as the strongest model obtained in the project.
 
 ---
 
 ## Key Learning
 
-One of the main objectives of this project was not only to build a predictive model, but also to evaluate whether balancing the training data could improve performance.
-
-The results showed that testing different approaches is more reliable than assuming a balancing technique will always improve model performance.
+The project demonstrates that model development should be based on empirical comparison. Class balancing did not improve the baseline, while targeted hyperparameter optimization produced a stronger Random Forest model.
