@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end machine learning workflow using the Titanic dataset in Dataiku. The objective is to build and evaluate a classification model capable of predicting passenger survival based on demographic and travel-related features.
+This project demonstrates an end-to-end machine learning workflow using the Titanic dataset in Dataiku. The objective is to build a classification model capable of predicting passenger survival based on demographic and travel-related features.
 
-The project follows a structured machine learning pipeline, from data preparation to model evaluation, while documenting every stage of the process.
+The project documents the main stages completed so far, from data cleaning and feature engineering to model training.
 
 ---
 
@@ -12,9 +12,12 @@ The project follows a structured machine learning pipeline, from data preparatio
 
 - Data Cleaning
 - Feature Engineering
+- Train/Test Split
 - Model Training
 - Model Evaluation
 - Final Results
+
+> Model Evaluation and Final Results are prepared as the next stages of the project and are not yet documented as completed phases.
 
 ---
 
@@ -23,7 +26,7 @@ The project follows a structured machine learning pipeline, from data preparatio
 - Dataiku DSS
 - Machine Learning
 - Random Forest
-- Decision Tree
+- Logistic Regression
 - Data Preparation
 - GitHub
 
@@ -45,7 +48,7 @@ Titanic-Survival-Prediction/
 
 ## Project Goal
 
-Develop a complete and reproducible machine learning project following industry best practices, documenting every stage of the workflow from raw data to the final predictive model.
+Develop a complete and reproducible machine learning project, documenting the decisions and results at each stage of the workflow from the original dataset to the final predictive results.
 
 ---
 
