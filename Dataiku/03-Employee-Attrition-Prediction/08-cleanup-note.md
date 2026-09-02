@@ -1,1 +1,0 @@
-This file will be removed during the project folder migration.
