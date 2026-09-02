@@ -1,4 +1,4 @@
-# Employee Attrition Analysis
+# Employee Attrition Prediction
 
 ## Project Overview
 
