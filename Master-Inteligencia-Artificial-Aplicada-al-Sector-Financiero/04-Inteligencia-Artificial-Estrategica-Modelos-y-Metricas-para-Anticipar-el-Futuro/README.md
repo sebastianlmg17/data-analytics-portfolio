@@ -4,15 +4,23 @@
 
 ## Resumen
 
-Esta asignatura aborda el uso estratégico de la Inteligencia Artificial y de modelos y métricas avanzadas para apoyar la toma de decisiones y anticipar escenarios futuros en el entorno financiero. Se profundiza en el análisis, evaluación y aplicación de técnicas algorítmicas, con especial atención a su utilidad para la gestión y anticipación del riesgo crediticio.
+Asignatura centrada en modelos de regresión y métricas para anticipar comportamientos y apoyar la gestión del riesgo crediticio y la toma de decisiones financieras.
 
 ## Contenidos
 
-- Técnicas avanzadas de Inteligencia Artificial
-- Modelos y métricas para el análisis predictivo
-- Evaluación y gestión del riesgo crediticio
-- Herramientas algorítmicas aplicadas al entorno financiero
-- Uso de modelos para anticipar escenarios futuros
-- Aplicación estratégica de la Inteligencia Artificial en la toma de decisiones
+- Introducción a los algoritmos de regresión en el contexto financiero
+- Regresión lineal para la predicción de precios de activos financieros
+- Evaluación de modelos de regresión: métricas y aplicaciones
+- Regularización: Lasso y Ridge
+- Árboles de regresión
+- Regresión logística aplicada a la probabilidad de eventos financieros
 
-> Los contenidos se irán ampliando conforme avance la asignatura y se consoliden los conocimientos.
+## Modelos destacados
+
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- Random Forest Regression
+- Logistic Regression
+
+La asignatura se encuentra actualmente en progreso; los contenidos y aprendizajes se irán documentando conforme avance el curso.
