@@ -9,10 +9,14 @@ The portfolio is built progressively: each section reflects skills learned throu
 ## Portfolio Sections
 
 - **SQL** — Data querying, relational analysis, joins, aggregations and business-oriented analysis.
-- **Dataiku** — End-to-end data preparation, Machine Learning and analytics projects.
-- **Python** — Python programming, Data Wrangling and, progressively, Machine Learning projects.
+- **Machine Learning** — Machine Learning projects using Dataiku and, progressively, Python.
+- **Python** — Python programming and Data Wrangling projects, with additional Python applications added as new skills are developed.
 - **Data Visualization** — Data visualization, dashboards, reporting, KPIs and analytical storytelling using the tools and technologies learned over time.
-- **Master — Artificial Intelligence Applied to the Financial Sector** — Academic progress, subjects, skills acquired and certifications associated with the Master's program.
+- **Deep Learning** — Deep Learning projects, to be added as this area is developed.
+- **NLP** — Natural Language Processing projects, to be added as this area is developed.
+- **LLMs** — Large Language Model applications and projects, to be added as this area is developed.
+- **Master — Artificial Intelligence Applied to the Financial Sector** — Academic progress, subjects, practical work, skills acquired and certifications associated with the Master's program.
+- **Certificaciones** — Professional certifications and course completion credentials.
 
 ## Learning & Development
 
@@ -28,9 +32,21 @@ My learning path currently combines:
 
 Additional technologies and methodologies will be added as they are learned and demonstrated through practical work.
 
-## Certifications
+## Project Structure
 
-Certifications obtained or pursued as part of my professional development will be documented within the Master's section and updated throughout the program.
+Projects are organized primarily by the skill or professional area they demonstrate. Tools are used as supporting technologies rather than defining the entire portfolio structure.
+
+For example, Machine Learning is separated into projects built with **Dataiku** and projects built with **Python**, while Python-specific Data Wrangling work remains under the Python section.
+
+Projects that are part of the Master's program are documented within the Master's section.
+
+## Dependencies & Environment Variables
+
+Projects that require external Python packages will include a `requirements.txt` file to document their dependencies.
+
+Projects that require API keys or other environment-specific configuration will use a `.env.example` file with empty values. Real credentials are kept locally in `.env` and are excluded from version control through `.gitignore`.
+
+No API keys, passwords or other secrets should be committed to this repository.
 
 ## Portfolio Philosophy
 
