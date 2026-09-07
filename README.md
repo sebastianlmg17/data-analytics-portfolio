@@ -16,7 +16,7 @@ The portfolio is built progressively: each section reflects skills learned throu
 - **NLP** — Natural Language Processing projects, to be added as this area is developed.
 - **LLMs** — Large Language Model applications and projects, to be added as this area is developed.
 - **Master — Artificial Intelligence Applied to the Financial Sector** — Academic progress, subjects, practical work, skills acquired and certifications associated with the Master's program.
-- **Certificaciones** — Professional certifications and course completion credentials.
+- **Certifications** — Professional certifications and course completion credentials.
 
 ## Learning & Development
 
