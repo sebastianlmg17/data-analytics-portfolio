@@ -4,7 +4,7 @@ Analysis of residential property prices in Madrid using statistical analysis and
 
 ## Objective
 
-Identify the relationship between property size and sale price, evaluate the impact of data quality on model performance, and determine which property characteristics are most relevant for estimating housing prices.
+Build a data-driven approach to understand residential property prices in Madrid, identify the main factors associated with price, and evaluate regression models for estimating market value.
 
 ## Dataset
 
@@ -12,50 +12,43 @@ The analysis uses a dataset of properties for sale in Madrid obtained from Ideal
 
 Key variables include:
 
-- `price`: sale price in euros
+- `price`: property price in euros
 - `sqft`: built area in square meters
 - `rooms`: number of rooms
 - `baths`: number of bathrooms
-- `typology`: property type
 - `address`: location or area
-- Other property and listing characteristics
+- `typology`: property type
+- `description`: property description
 
-## Analysis
+## Project Workflow
 
-The project follows these steps:
+The project is structured as a progressive data analysis workflow:
 
-1. Dataset exploration and data quality assessment
-2. ANOVA analysis of price and property size
-3. Simple linear regression using `sqft` to predict `price`
-4. Data cleaning and model re-evaluation
-5. Multiple linear regression using relevant property characteristics
-6. Comparison of models and interpretation of results
+1. **Data Wrangling** — review the dataset structure, select relevant variables, remove non-predictive metadata and prepare the modeling dataset.
+2. **Exploratory Analysis & ANOVA** — examine the relationship between property size and price and evaluate whether price differs significantly across size groups.
+3. **Simple Linear Regression** — model `price` using `sqft` as the independent variable and evaluate the statistical significance and explanatory power of the model.
+4. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
+5. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
+6. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
 
-## Data Cleaning & Preparation
+## Project Structure
 
-The initial data quality review identified several columns that do not provide relevant predictive information for estimating property prices.
+```text
+05-Madrid-Housing-Price-Analysis/
+├── README.md
+└── Data-Wrangling/
+    └── README.md
+```
 
-The following columns were excluded from the modeling dataset:
-
-- `index`: record index with no predictive meaning.
-- `url`: property listing URL; the property identifier is already represented by `id`.
-- `listingUrl`: source listing page used to collect the property.
-- `title`: free-text listing title, with information partially duplicated by structured variables such as `address` and `typology`.
-- `id`: Idealista property identifier, used for record identification rather than prediction.
-- `advertiserProfessionalName`: professional, agent, office or commercial team associated with the listing.
-- `advertiserName`: agency or advertiser associated with the listing.
-
-The last two variables were excluded because they describe the advertiser rather than the characteristics of the property. Their values are heterogeneous, including individual professionals, agencies, offices and generic commercial departments.
-
-These variables are excluded from the dataset used for statistical analysis and regression modeling, while the original dataset is preserved for traceability.
+Each phase will document the decisions made, the methodology applied and the relevant results. Additional project artifacts will be added as the analysis progresses.
 
 ## Tools
 
 - Dataiku
 - Statistical analysis
-- Linear regression
 - ANOVA
+- Linear regression
 
-## Results
+## Status
 
-Results and conclusions will be added after completing the analysis.
+**In progress — Data Wrangling phase**
