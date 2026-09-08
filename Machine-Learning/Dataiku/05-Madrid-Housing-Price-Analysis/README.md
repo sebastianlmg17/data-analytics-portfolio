@@ -24,23 +24,26 @@ Key variables include:
 
 The project is structured as a progressive data analysis workflow:
 
-1. **Data Wrangling** — review the dataset structure, select relevant variables, remove non-predictive metadata and prepare the modeling dataset.
-2. **Exploratory Analysis & ANOVA** — examine the relationship between property size and price and evaluate whether price differs significantly across size groups.
-3. **Simple Linear Regression** — model `price` using `sqft` as the independent variable and evaluate the statistical significance and explanatory power of the model.
-4. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
-5. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
-6. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
+1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
+2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
+3. **Exploratory Analysis & ANOVA** — examine the relationship between property size and price and evaluate whether price differs significantly across size groups.
+4. **Simple Linear Regression** — model `price` using `sqft` as the independent variable and evaluate the statistical significance and explanatory power of the model.
+5. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
+6. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
+7. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
 
 ## Project Structure
 
 ```text
 05-Madrid-Housing-Price-Analysis/
 ├── README.md
-└── Data-Wrangling/
+├── Data-Wrangling/
+│   └── README.md
+└── Feature-Engineering/
     └── README.md
 ```
 
-Each phase will document the decisions made, the methodology applied and the relevant results. Additional project artifacts will be added as the analysis progresses.
+Each phase documents the decisions made, the methodology applied and the relevant results. Additional project artifacts will be added as the analysis progresses.
 
 ## Tools
 
@@ -51,4 +54,4 @@ Each phase will document the decisions made, the methodology applied and the rel
 
 ## Status
 
-**In progress — Data Wrangling phase**
+**In progress — Feature Engineering completed**
