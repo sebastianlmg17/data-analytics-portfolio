@@ -24,12 +24,6 @@ Seven columns were excluded from the modeling dataset:
 | `advertiserProfessionalName` | Identifies the professional, agent, office or commercial team associated with the listing rather than a characteristic of the property. Values are heterogeneous and not suitable as structural predictors. |
 | `advertiserName` | Identifies the agency or advertiser. It describes who markets the property rather than the property itself and may introduce advertiser-specific effects or bias. |
 
-### Why remove advertiser information?
-
-`advertiserProfessionalName` and `advertiserName` were reviewed separately because they contain heterogeneous information: individual professionals, agencies, offices and generic commercial departments. These variables describe the **seller/advertiser side of the listing**, not the physical or locational characteristics of the property that should explain its market price.
-
-They are therefore excluded from the initial modeling dataset.
-
 ## Resulting Dataset
 
 After this first variable-selection step:
