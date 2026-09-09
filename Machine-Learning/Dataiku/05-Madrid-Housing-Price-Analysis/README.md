@@ -26,7 +26,7 @@ The project is structured as a progressive data analysis workflow:
 
 1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
 2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
-3. **Exploratory Analysis & ANOVA** — examine the relationship between property size and price and evaluate whether price differs significantly across size groups.
+3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
 4. **Simple Linear Regression** — model `price` using `sqft` as the independent variable and evaluate the statistical significance and explanatory power of the model.
 5. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
 6. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
@@ -39,7 +39,9 @@ The project is structured as a progressive data analysis workflow:
 ├── README.md
 ├── Data-Wrangling/
 │   └── README.md
-└── Feature-Engineering/
+├── Feature-Engineering/
+│   └── README.md
+└── Exploratory-Analysis-ANOVA/
     └── README.md
 ```
 
@@ -54,4 +56,4 @@ Each phase documents the decisions made, the methodology applied and the relevan
 
 ## Status
 
-**In progress — Feature Engineering completed**
+**In progress — Exploratory Analysis & ANOVA completed. Next: Simple Linear Regression.**
