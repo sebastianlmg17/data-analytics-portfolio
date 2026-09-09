@@ -27,9 +27,9 @@ The project is structured as a progressive data analysis workflow:
 1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
 2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
 3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
-4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before any outlier-cleaning decisions.
-5. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
-6. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
+4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before cleaning decisions.
+5. **Data Cleaning & Model Reassessment** — completed. Potential outliers and duplicate listings were reviewed. Four confirmed duplicate property representations were removed, reducing the dataset from 915 to 911 observations. The refitted simple regression produced R² = 0.4973 and RMSE ≈ €716,614.
+6. **Multiple Linear Regression** — next. Incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
 7. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
 
 ## Project Structure
@@ -43,7 +43,9 @@ The project is structured as a progressive data analysis workflow:
 │   └── README.md
 ├── Exploratory-Analysis-ANOVA/
 │   └── README.md
-└── Simple-Linear-Regression/
+├── Simple-Linear-Regression/
+│   └── README.md
+└── Data-Cleaning-Model-Reassessment/
     └── README.md
 ```
 
@@ -58,4 +60,4 @@ Each phase documents the decisions made, the methodology applied and the relevan
 
 ## Status
 
-**In progress — Simple Linear Regression completed. Next: Data Cleaning & Model Reassessment.**
+**In progress — Data Cleaning & Model Reassessment completed. Next: Multiple Linear Regression.**
