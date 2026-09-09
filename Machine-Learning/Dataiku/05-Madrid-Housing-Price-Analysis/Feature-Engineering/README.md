@@ -60,3 +60,9 @@ Records with `rooms = 0` have also been retained. Both potential outliers and th
 ## Result
 
 The feature-engineering stage produces a structured dataset suitable for regression modeling, combining numeric property characteristics with encoded district and property-type information while maintaining a clear and interpretable feature structure.
+
+## Archived datasets
+
+Inputs: [02-cleaned-housing-data.csv](../Data/02-cleaned-housing-data.csv) and the auxiliary lookup [03-address-district-mapping.csv](../Data/03-address-district-mapping.csv). The join produces [04-housing-with-district.csv](../Data/04-housing-with-district.csv) (911 × 8), and district encoding produces [05-model-ready-data.csv](../Data/05-model-ready-data.csv) (911 × 25).
+
+These exports already incorporate the later duplicate review. Their comparison verifies the join and binary encodings, but cannot establish whether missing values existed temporarily during a Dataiku recipe.

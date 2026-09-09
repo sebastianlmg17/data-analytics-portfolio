@@ -65,3 +65,9 @@ The null hypothesis states that mean property price is identical across all four
 The results provide strong statistical evidence that mean property prices differ across property-size groups. Mean price also rises consistently from the smallest to the largest group, showing a clear association between property size and price in this dataset.
 
 ANOVA establishes that the group means are not all equal, but it does not quantify the expected price increase for each additional unit of surface area or establish that the relationship is linear. That relationship will be examined in the next phase using simple linear regression with `sqft` as the predictor and `price` as the target.
+
+## Archived datasets and historical scope
+
+The original 915-row observations are available in [01-raw-idealista-madrid.csv](../Data/01-raw-idealista-madrid.csv). The saved snapshot containing `size_range` is [06-model-ready-data-with-size-groups.csv](../Data/06-model-ready-data-with-size-groups.csv) (911 × 26), after the later duplicate review. Its cut points remain 104, 158 and 264.
+
+The ANOVA counts and statistics reported above describe the original 915-row analysis. File 06 is the cleaned counterpart and must not be presented as the exact input that produced those historical results.

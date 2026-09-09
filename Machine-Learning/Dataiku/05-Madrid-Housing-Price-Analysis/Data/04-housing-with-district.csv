@@ -1,0 +1,912 @@
+address,district,price,baths,rooms,sqft,Pisos,Independientes
+"12 de Octubre-Orcasur, Madrid",Usera,155000,1,2,74,1,0
+"Acacias, Madrid",Arganzuela,560000,2,5,148,1,0
+"Acacias, Madrid",Arganzuela,979000,2,3,154,1,0
+"Acacias, Madrid",Arganzuela,400000,2,3,118,1,0
+"Acacias, Madrid",Arganzuela,500000,1,2,96,1,0
+"Acacias, Madrid",Arganzuela,169000,1,0,36,1,0
+"Almagro, Madrid",Chamberí,2800000,3,4,201,1,0
+"Almagro, Madrid",Chamberí,1049000,2,3,158,1,0
+"Almagro, Madrid",Chamberí,2500000,5,6,306,1,0
+"Almagro, Madrid",Chamberí,1500000,3,3,137,1,0
+"Almagro, Madrid",Chamberí,1650000,3,4,238,1,0
+"Almagro, Madrid",Chamberí,2700000,4,4,304,1,0
+"Almagro, Madrid",Chamberí,950000,2,2,120,1,0
+"Almagro, Madrid",Chamberí,2690000,5,5,270,1,0
+"Almagro, Madrid",Chamberí,2600000,4,4,459,1,0
+"Almagro, Madrid",Chamberí,4200000,4,5,404,1,0
+"Almagro, Madrid",Chamberí,3200000,4,8,596,1,0
+"Almagro, Madrid",Chamberí,2900000,2,3,216,1,0
+"Almagro, Madrid",Chamberí,3200000,4,7,596,1,0
+"Almagro, Madrid",Chamberí,3250000,3,5,300,1,0
+"Almagro, Madrid",Chamberí,2700000,3,3,200,1,0
+"Almagro, Madrid",Chamberí,3195000,5,5,274,1,0
+"Almagro, Madrid",Chamberí,1380000,2,2,120,1,0
+"Almagro, Madrid",Chamberí,3250000,3,6,300,1,0
+"Almagro, Madrid",Chamberí,750000,2,2,105,1,0
+"Almendrales, Madrid",Usera,689000,2,3,161,1,0
+"Almendrales, Madrid",Usera,203000,1,1,47,1,0
+"Almendrales, Madrid",Usera,169000,1,2,74,1,0
+"Amposta, Madrid",San Blas-Canillejas,255900,1,3,93,1,0
+"Arapiles, Madrid",Chamberí,850000,2,3,145,1,0
+"Arapiles, Madrid",Chamberí,319000,1,1,50,1,0
+"Arapiles, Madrid",Chamberí,695000,2,3,120,1,0
+"Arapiles, Madrid",Chamberí,850000,2,2,118,1,0
+"Arapiles, Madrid",Chamberí,2500000,5,6,399,1,0
+"Arapiles, Madrid",Chamberí,349000,1,2,82,1,0
+"Aravaca, Madrid",Moncloa-Aravaca,675000,2,3,153,1,0
+"Aravaca, Madrid",Moncloa-Aravaca,990000,4,5,292,1,0
+"Aravaca, Madrid",Moncloa-Aravaca,958800,4,4,150,1,0
+"Aravaca, Madrid",Moncloa-Aravaca,3950000,8,8,725,0,1
+"Aravaca, Madrid",Moncloa-Aravaca,1250000,5,4,300,0,1
+"Arganzuela, Madrid",Arganzuela,850000,2,4,182,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,1850000,5,5,306,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,750000,3,5,156,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,435000,1,2,82,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,1349000,3,3,183,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,1320000,3,4,255,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,920000,3,5,210,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,560000,2,2,70,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,660000,1,1,58,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,435000,1,2,89,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,940000,2,3,139,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,660000,1,1,58,1,0
+"Argüelles, Madrid",Moncloa-Aravaca,375000,2,2,60,1,0
+"Barajas, Madrid",Barajas,860000,3,6,363,0,1
+"Barajas, Madrid",Barajas,299000,2,3,101,1,0
+"Barajas, Madrid",Barajas,270000,1,1,80,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2300000,3,4,242,1,0
+"Barrio de Salamanca, Madrid",Salamanca,698000,2,2,108,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1050000,4,6,259,1,0
+"Barrio de Salamanca, Madrid",Salamanca,750000,2,2,101,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1750000,3,4,220,1,0
+"Barrio de Salamanca, Madrid",Salamanca,899000,2,3,177,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2000000,3,4,216,1,0
+"Barrio de Salamanca, Madrid",Salamanca,900000,3,3,138,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1490000,3,2,133,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1680000,3,3,150,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1450000,3,3,223,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1950000,3,5,236,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1380000,2,4,145,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2200000,3,4,257,1,0
+"Barrio de Salamanca, Madrid",Salamanca,715000,1,2,117,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1190000,2,3,135,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1700000,4,4,232,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1800000,4,3,150,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1980000,3,3,236,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2450000,4,5,277,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2300000,3,4,242,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1580000,3,3,182,1,0
+"Barrio de Salamanca, Madrid",Salamanca,780000,2,2,74,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1150000,3,3,152,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1705000,3,3,138,1,0
+"Barrio de Salamanca, Madrid",Salamanca,680000,1,2,92,1,0
+"Barrio de Salamanca, Madrid",Salamanca,5900000,4,4,277,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1250000,3,4,182,1,0
+"Barrio de Salamanca, Madrid",Salamanca,3950000,5,4,290,1,0
+"Barrio de Salamanca, Madrid",Salamanca,899000,2,3,177,1,0
+"Barrio de Salamanca, Madrid",Salamanca,799000,2,2,75,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1490000,3,3,144,1,0
+"Barrio de Salamanca, Madrid",Salamanca,698000,2,2,108,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1170000,2,2,117,1,0
+"Barrio de Salamanca, Madrid",Salamanca,780000,2,2,74,1,0
+"Barrio de Salamanca, Madrid",Salamanca,895000,2,3,101,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1250000,4,5,276,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1995000,3,3,174,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1320000,2,3,140,1,0
+"Barrio de Salamanca, Madrid",Salamanca,3490000,3,5,383,1,0
+"Barrio de Salamanca, Madrid",Salamanca,720000,1,2,73,1,0
+"Barrio de Salamanca, Madrid",Salamanca,698000,2,2,108,1,0
+"Barrio de Salamanca, Madrid",Salamanca,3950000,5,4,291,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2500000,4,3,343,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1175000,2,2,118,1,0
+"Barrio de Salamanca, Madrid",Salamanca,560000,2,2,84,1,0
+"Barrio de Salamanca, Madrid",Salamanca,810000,2,3,131,1,0
+"Barrio de Salamanca, Madrid",Salamanca,3950000,5,4,291,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1100000,2,3,100,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1650000,3,3,200,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1695000,3,3,181,1,0
+"Barrio de Salamanca, Madrid",Salamanca,725000,2,5,200,1,0
+"Barrio de Salamanca, Madrid",Salamanca,875000,2,3,101,1,0
+"Barrio de Salamanca, Madrid",Salamanca,799000,2,2,75,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2680000,3,3,199,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2055000,3,2,242,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1195000,3,6,213,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1550000,3,3,156,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1950000,4,5,240,1,0
+"Barrio de Salamanca, Madrid",Salamanca,2650000,2,7,272,1,0
+"Barrio de Salamanca, Madrid",Salamanca,1320000,2,3,140,1,0
+"Barrio de Salamanca, Madrid",Salamanca,3950000,5,4,291,1,0
+"Bellas Vistas, Madrid",Tetuán,325000,1,2,76,1,0
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,995000,3,3,160,0,1
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,1970000,4,4,283,1,0
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,1100000,3,3,160,0,1
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,3000000,5,4,269,0,1
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,1100000,3,5,199,1,0
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,790000,3,3,137,1,0
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,1450000,4,4,258,1,0
+"Bernabéu-Hispanoamérica, Madrid",Chamartín,1160000,3,5,202,1,0
+"Berruguete, Madrid",Tetuán,450000,2,3,105,1,0
+"Berruguete, Madrid",Tetuán,279000,1,2,70,1,0
+"Berruguete, Madrid",Tetuán,339000,2,3,87,1,0
+"Berruguete, Madrid",Tetuán,300000,1,1,75,1,0
+"Buena Vista, Madrid",Carabanchel,230000,2,3,98,1,0
+"Butarque, Madrid",Villaverde,265000,2,2,97,1,0
+"Campamento, Madrid",Latina,388000,2,4,144,1,0
+"Canillas, Madrid",Hortaleza,420000,2,3,73,1,0
+"Canillas, Madrid",Hortaleza,1900000,4,7,370,0,1
+"Canillas, Madrid",Hortaleza,210000,1,0,51,1,0
+"Canillas, Madrid",Hortaleza,1900000,4,6,372,0,1
+"Canillejas, Madrid",San Blas-Canillejas,1950000,7,8,660,0,1
+"Casco Histórico de Barajas, Madrid",Barajas,485000,2,3,180,1,0
+"Castellana, Madrid",Salamanca,1995000,3,3,170,1,0
+"Castellana, Madrid",Salamanca,3900000,5,5,284,1,0
+"Castellana, Madrid",Salamanca,7900000,5,4,473,1,0
+"Castellana, Madrid",Salamanca,1400000,4,3,125,1,0
+"Castellana, Madrid",Salamanca,2990000,3,4,275,1,0
+"Castellana, Madrid",Salamanca,485000,1,1,48,1,0
+"Castellana, Madrid",Salamanca,4300000,3,10,451,1,0
+"Castellana, Madrid",Salamanca,3900000,5,5,284,1,0
+"Castellana, Madrid",Salamanca,1670000,3,4,158,1,0
+"Castellana, Madrid",Salamanca,1400000,4,3,125,1,0
+"Castellana, Madrid",Salamanca,879000,2,2,76,1,0
+"Castellana, Madrid",Salamanca,1500000,3,4,173,1,0
+"Castellana, Madrid",Salamanca,1320000,2,3,140,1,0
+"Castellana, Madrid",Salamanca,2950000,3,4,350,1,0
+"Castellana, Madrid",Salamanca,1680000,4,3,214,1,0
+"Castellana, Madrid",Salamanca,960000,2,4,150,1,0
+"Castellana, Madrid",Salamanca,780000,1,2,74,1,0
+"Castellana, Madrid",Salamanca,1680000,3,3,214,1,0
+"Castilla, Madrid",Chamartín,442327,2,0,91,1,0
+"Castilla, Madrid",Chamartín,999500,3,5,193,1,0
+"Castilla, Madrid",Chamartín,1330000,3,5,238,1,0
+"Castilla, Madrid",Chamartín,1200000,2,3,243,1,0
+"Centro, Madrid",Centro,780000,2,2,117,1,0
+"Centro, Madrid",Centro,1950000,4,3,175,1,0
+"Centro, Madrid",Centro,750000,2,4,146,1,0
+"Centro, Madrid",Centro,529900,1,2,88,1,0
+"Centro, Madrid",Centro,695000,2,2,141,1,0
+"Centro, Madrid",Centro,2575000,4,4,215,1,0
+"Centro, Madrid",Centro,993000,2,4,165,1,0
+"Centro, Madrid",Centro,515000,1,2,78,1,0
+"Centro, Madrid",Centro,1200000,2,4,174,1,0
+"Centro, Madrid",Centro,1200000,2,3,140,1,0
+"Centro, Madrid",Centro,2100000,3,3,315,1,0
+"Centro, Madrid",Centro,680000,1,2,99,1,0
+"Centro, Madrid",Centro,550000,2,2,88,1,0
+"Centro, Madrid",Centro,529900,1,2,88,1,0
+"Centro, Madrid",Centro,720000,2,2,87,1,0
+"Centro, Madrid",Centro,1575000,2,2,189,1,0
+"Centro, Madrid",Centro,1550000,2,7,272,1,0
+"Centro, Madrid",Centro,790000,1,1,62,1,0
+"Centro, Madrid",Centro,3600000,4,5,360,1,0
+"Centro, Madrid",Centro,345000,1,1,55,1,0
+"Centro, Madrid",Centro,260000,1,1,60,1,0
+"Centro, Madrid",Centro,690000,2,3,113,1,0
+"Centro, Madrid",Centro,309000,1,1,45,1,0
+"Centro, Madrid",Centro,1175000,3,4,171,1,0
+"Centro, Madrid",Centro,1575000,2,2,209,1,0
+"Centro, Madrid",Centro,859000,3,3,115,1,0
+"Centro, Madrid",Centro,598000,1,3,112,1,0
+"Centro, Madrid",Centro,520000,3,2,111,1,0
+"Centro, Madrid",Centro,1720000,5,4,221,1,0
+"Centro, Madrid",Centro,2290000,4,3,184,1,0
+"Centro, Madrid",Centro,890000,3,3,118,1,0
+"Centro, Madrid",Centro,1385000,2,2,166,1,0
+"Centro, Madrid",Centro,1760000,2,3,145,1,0
+"Centro, Madrid",Centro,859000,2,3,133,1,0
+"Centro, Madrid",Centro,900000,2,4,173,1,0
+"Centro, Madrid",Centro,1100000,2,2,160,1,0
+"Centro, Madrid",Centro,859000,3,3,133,1,0
+"Centro, Madrid",Centro,1690000,2,3,133,1,0
+"Centro, Madrid",Centro,495000,1,1,98,1,0
+"Centro, Madrid",Centro,2600000,4,3,382,1,0
+"Centro, Madrid",Centro,640000,2,2,100,1,0
+"Centro, Madrid",Centro,580000,1,4,139,1,0
+"Centro, Madrid",Centro,829000,3,3,102,1,0
+"Centro, Madrid",Centro,1145000,2,4,224,1,0
+"Centro, Madrid",Centro,1175000,3,3,165,1,0
+"Centro, Madrid",Centro,859000,2,2,88,1,0
+"Centro, Madrid",Centro,500000,2,2,99,1,0
+"Chamartín, Madrid",Chamartín,1650000,3,3,248,1,0
+"Chamartín, Madrid",Chamartín,950000,3,3,154,1,0
+"Chamartín, Madrid",Chamartín,1500000,2,2,168,1,0
+"Chamartín, Madrid",Chamartín,2100000,7,6,334,0,1
+"Chamartín, Madrid",Chamartín,575000,2,3,105,1,0
+"Chamartín, Madrid",Chamartín,3200000,5,7,410,0,1
+"Chamartín, Madrid",Chamartín,2300000,5,5,265,1,0
+"Chamartín, Madrid",Chamartín,1420000,2,4,185,0,1
+"Chamartín, Madrid",Chamartín,1800000,6,5,440,1,0
+"Chamartín, Madrid",Chamartín,1850000,3,4,297,1,0
+"Chamartín, Madrid",Chamartín,1850000,3,4,297,1,0
+"Chamartín, Madrid",Chamartín,1290000,3,5,166,1,0
+"Chamartín, Madrid",Chamartín,1375000,3,4,247,1,0
+"Chamartín, Madrid",Chamartín,1690000,4,5,252,1,0
+"Chamartín, Madrid",Chamartín,2100000,3,5,392,1,0
+"Chamartín, Madrid",Chamartín,2200000,3,4,235,1,0
+"Chamartín, Madrid",Chamartín,1400000,3,4,173,1,0
+"Chamartín, Madrid",Chamartín,1490000,4,5,240,1,0
+"Chamartín, Madrid",Chamartín,2750000,5,6,300,0,1
+"Chamartín, Madrid",Chamartín,370000,1,3,56,1,0
+"Chamartín, Madrid",Chamartín,475000,2,4,100,1,0
+"Chamartín, Madrid",Chamartín,1445000,3,3,263,1,0
+"Chamartín, Madrid",Chamartín,350000,1,1,79,1,0
+"Chamartín, Madrid",Chamartín,1650000,2,2,181,1,0
+"Chamartín, Madrid",Chamartín,3700000,5,6,430,0,1
+"Chamartín, Madrid",Chamartín,2300000,5,5,256,1,0
+"Chamartín, Madrid",Chamartín,1330000,3,5,234,1,0
+"Chamartín, Madrid",Chamartín,3200000,4,7,573,0,1
+"Chamartín, Madrid",Chamartín,2490000,4,4,593,1,0
+"Chamartín, Madrid",Chamartín,2500000,4,7,212,0,1
+"Chamartín, Madrid",Chamartín,1820000,3,5,380,1,0
+"Chamartín, Madrid",Chamartín,420000,1,1,57,1,0
+"Chamartín, Madrid",Chamartín,1445000,3,3,263,1,0
+"Chamartín, Madrid",Chamartín,3200000,7,7,573,0,1
+"Chamartín, Madrid",Chamartín,1200000,3,4,168,1,0
+"Chamartín, Madrid",Chamartín,3000000,4,4,269,0,1
+"Chamartín, Madrid",Chamartín,3600000,6,5,376,0,1
+"Chamartín, Madrid",Chamartín,1700000,3,3,124,0,1
+"Chamartín, Madrid",Chamartín,1750000,3,4,200,1,0
+"Chamartín, Madrid",Chamartín,3500000,6,5,325,0,1
+"Chamartín, Madrid",Chamartín,4750000,6,5,440,0,1
+"Chamartín, Madrid",Chamartín,1420000,3,5,185,0,1
+"Chamartín, Madrid",Chamartín,1400000,3,4,174,1,0
+"Chamartín, Madrid",Chamartín,1670000,5,4,165,1,0
+"Chamartín, Madrid",Chamartín,1650000,2,4,211,1,0
+"Chamartín, Madrid",Chamartín,1495000,3,4,264,1,0
+"Chamartín, Madrid",Chamartín,730000,2,2,125,1,0
+"Chamartín, Madrid",Chamartín,1430000,3,3,164,1,0
+"Chamartín, Madrid",Chamartín,630000,3,3,132,1,0
+"Chamartín, Madrid",Chamartín,790000,3,3,137,1,0
+"Chamartín, Madrid",Chamartín,830000,3,4,155,1,0
+"Chamartín, Madrid",Chamartín,1495000,3,3,188,1,0
+"Chamartín, Madrid",Chamartín,560000,1,1,88,1,0
+"Chamartín, Madrid",Chamartín,3300000,4,6,399,1,0
+"Chamberí, Madrid",Chamberí,1075000,3,3,169,1,0
+"Chamberí, Madrid",Chamberí,850000,1,4,139,1,0
+"Chamberí, Madrid",Chamberí,1900000,4,3,193,1,0
+"Chamberí, Madrid",Chamberí,1710000,4,3,206,1,0
+"Chamberí, Madrid",Chamberí,1300000,3,4,257,1,0
+"Chamberí, Madrid",Chamberí,795000,2,3,138,1,0
+"Chamberí, Madrid",Chamberí,799000,3,6,143,1,0
+"Chamberí, Madrid",Chamberí,950000,2,4,157,1,0
+"Chamberí, Madrid",Chamberí,945000,2,3,159,1,0
+"Chamberí, Madrid",Chamberí,850000,2,3,128,1,0
+"Chamberí, Madrid",Chamberí,1530000,2,2,133,1,0
+"Chamberí, Madrid",Chamberí,945000,2,3,159,1,0
+"Chamberí, Madrid",Chamberí,390000,1,0,64,1,0
+"Chamberí, Madrid",Chamberí,850000,2,2,115,1,0
+"Chamberí, Madrid",Chamberí,380000,2,2,50,1,0
+"Chamberí, Madrid",Chamberí,649000,1,2,73,1,0
+"Chamberí, Madrid",Chamberí,865000,2,2,104,1,0
+"Chamberí, Madrid",Chamberí,700000,1,3,103,1,0
+"Chamberí, Madrid",Chamberí,1440000,3,5,277,1,0
+"Chamberí, Madrid",Chamberí,3700000,4,5,407,1,0
+"Chamberí, Madrid",Chamberí,865000,2,2,127,1,0
+"Chamberí, Madrid",Chamberí,1400000,3,2,138,1,0
+"Chamberí, Madrid",Chamberí,3100000,4,4,395,1,0
+"Chamberí, Madrid",Chamberí,2500000,4,5,314,1,0
+"Chamberí, Madrid",Chamberí,990000,1,2,104,1,0
+"Chamberí, Madrid",Chamberí,2250000,3,4,256,1,0
+"Chamberí, Madrid",Chamberí,720000,2,4,143,1,0
+"Chamberí, Madrid",Chamberí,4500000,4,7,524,1,0
+"Chamberí, Madrid",Chamberí,4200000,3,5,457,1,0
+"Chamberí, Madrid",Chamberí,2600000,4,4,214,1,0
+"Chamberí, Madrid",Chamberí,1490000,3,3,142,1,0
+"Chamberí, Madrid",Chamberí,2945000,3,3,281,1,0
+"Chamberí, Madrid",Chamberí,2395000,5,4,264,1,0
+"Chamberí, Madrid",Chamberí,2500000,6,6,307,1,0
+"Chopera, Madrid",Arganzuela,310000,1,3,73,1,0
+"Chopera, Madrid",Arganzuela,350000,1,2,76,1,0
+"Chueca-Justicia, Madrid",Centro,2450000,3,4,261,1,0
+"Chueca-Justicia, Madrid",Centro,330000,1,2,60,1,0
+"Chueca-Justicia, Madrid",Centro,780000,2,2,57,1,0
+"Chueca-Justicia, Madrid",Centro,789000,3,3,107,1,0
+"Chueca-Justicia, Madrid",Centro,199000,1,1,14,1,0
+"Chueca-Justicia, Madrid",Centro,789000,3,3,100,1,0
+"Chueca-Justicia, Madrid",Centro,250000,1,1,40,1,0
+"Chueca-Justicia, Madrid",Centro,2290000,3,3,184,1,0
+"Chueca-Justicia, Madrid",Centro,1760000,3,3,145,1,0
+"Chueca-Justicia, Madrid",Centro,299000,1,1,41,1,0
+"Chueca-Justicia, Madrid",Centro,404000,1,1,67,1,0
+"Chueca-Justicia, Madrid",Centro,2190000,3,3,209,1,0
+"Chueca-Justicia, Madrid",Centro,999000,3,3,104,1,0
+"Chueca-Justicia, Madrid",Centro,789000,3,3,107,1,0
+"Chueca-Justicia, Madrid",Centro,750000,2,2,127,1,0
+"Chueca-Justicia, Madrid",Centro,849000,3,3,111,1,0
+"Chueca-Justicia, Madrid",Centro,1499000,4,3,196,1,0
+"Chueca-Justicia, Madrid",Centro,695000,2,3,135,1,0
+"Chueca-Justicia, Madrid",Centro,1250000,2,2,150,1,0
+"Ciudad Jardín, Madrid",Chamartín,1990000,5,4,242,0,1
+"Ciudad Jardín, Madrid",Chamartín,2580000,4,3,300,0,1
+"Ciudad Jardín, Madrid",Chamartín,345000,1,2,50,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1080000,2,4,200,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,233000,1,1,40,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,850000,2,3,135,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,350000,2,4,116,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,799000,4,5,180,0,1
+"Ciudad Lineal, Madrid",Ciudad Lineal,920000,4,5,217,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1150000,2,4,244,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,990000,4,6,293,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,500000,1,1,78,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,950000,2,3,150,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1400000,4,7,413,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1290000,4,5,390,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,920000,4,5,217,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,850000,2,3,164,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1050000,3,4,191,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,970000,4,4,287,0,1
+"Ciudad Lineal, Madrid",Ciudad Lineal,1348000,4,6,427,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,730000,3,4,158,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1450000,4,5,320,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,850000,3,5,184,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,1200000,4,5,375,1,0
+"Ciudad Lineal, Madrid",Ciudad Lineal,990000,4,6,293,1,0
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,3550000,9,8,720,0,1
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,870000,2,3,177,0,1
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,1095000,3,4,270,1,0
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,1450000,4,5,258,1,0
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,2100000,5,8,694,0,1
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,369000,1,1,61,1,0
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,1700000,6,6,540,0,1
+"Ciudad Universitaria, Madrid",Moncloa-Aravaca,2990000,7,5,728,0,1
+"Colina, Madrid",Ciudad Lineal,850000,2,3,131,1,0
+"Colina, Madrid",Ciudad Lineal,329900,2,2,80,1,0
+"Colina, Madrid",Ciudad Lineal,610000,2,2,120,1,0
+"Colina, Madrid",Ciudad Lineal,1450000,4,5,320,1,0
+"Colina, Madrid",Ciudad Lineal,329900,2,2,80,1,0
+"Comillas, Madrid",Carabanchel,475000,2,3,112,1,0
+"Concepción, Madrid",Ciudad Lineal,365900,2,3,105,1,0
+"Conde Orgaz-Piovera, Madrid",Hortaleza,1650000,5,5,367,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,2800000,5,5,452,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,1800000,5,6,276,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,525000,2,2,107,1,0
+"Conde Orgaz-Piovera, Madrid",Hortaleza,2690000,8,5,450,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,3465000,10,12,1380,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,3100000,5,4,750,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,1690000,6,6,530,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,2150000,6,6,575,0,1
+"Conde Orgaz-Piovera, Madrid",Hortaleza,1650000,5,5,360,0,1
+"Costillares, Madrid",Ciudad Lineal,460000,1,4,126,1,0
+"Costillares, Madrid",Ciudad Lineal,595000,2,4,123,1,0
+"Costillares, Madrid",Ciudad Lineal,1400000,4,7,413,1,0
+"Costillares, Madrid",Ciudad Lineal,299000,1,2,76,1,0
+"Cuatro Caminos, Madrid",Tetuán,1590000,4,5,360,1,0
+"Cuatro Caminos, Madrid",Tetuán,599000,2,2,107,1,0
+"Cuatro Caminos, Madrid",Tetuán,475000,1,2,75,1,0
+"Cuatro Caminos, Madrid",Tetuán,320000,1,2,66,1,0
+"Cuatro Caminos, Madrid",Tetuán,1300000,3,3,165,1,0
+"Cuatro Caminos, Madrid",Tetuán,345000,1,2,42,1,0
+"Cuatro Caminos, Madrid",Tetuán,379000,1,1,61,1,0
+"Cuatro Caminos, Madrid",Tetuán,860000,3,4,191,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,369000,2,2,75,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,950000,3,3,120,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,1349000,3,3,137,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,1499000,3,3,187,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,2200000,4,4,279,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,1850000,4,5,256,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,950000,3,3,127,1,0
+"Cuzco-Castillejos, Madrid",Tetuán,1475000,4,5,376,1,0
+"Delicias, Madrid",Arganzuela,569000,2,3,104,1,0
+"El Cañaveral, Madrid",Vicálvaro,648000,2,4,216,1,0
+"El Plantío, Madrid",Moncloa-Aravaca,1700000,7,6,595,0,1
+"El Viso, Madrid",Chamartín,675000,2,1,91,1,0
+"El Viso, Madrid",Chamartín,2275000,4,5,399,1,0
+"El Viso, Madrid",Chamartín,2300000,3,3,237,1,0
+"El Viso, Madrid",Chamartín,1129500,2,3,188,1,0
+"El Viso, Madrid",Chamartín,3600000,4,5,336,0,1
+"El Viso, Madrid",Chamartín,1950000,3,4,283,1,0
+"El Viso, Madrid",Chamartín,2500000,5,4,463,1,0
+"El Viso, Madrid",Chamartín,1890000,3,4,234,1,0
+"El Viso, Madrid",Chamartín,1740000,2,4,172,1,0
+"El Viso, Madrid",Chamartín,785000,2,3,120,1,0
+"Ensanche de Vallecas - La Gavia, Madrid",Villa de Vallecas,179000,1,1,71,1,0
+"Estrella, Madrid",Retiro,629900,2,4,133,1,0
+"Estrella, Madrid",Retiro,499900,2,4,126,1,0
+"Estrella, Madrid",Retiro,565000,2,3,108,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,470000,2,3,95,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,1395000,6,5,368,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,1435000,6,6,388,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,2200000,4,4,450,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,820000,4,5,287,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,850000,3,4,238,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,1050000,3,5,265,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,995000,4,4,240,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,535000,2,4,150,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,675000,2,3,152,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,850000,3,4,238,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,3000000,7,5,881,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,2500000,7,8,862,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,1300000,4,4,247,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,3500000,2,4,738,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,975000,4,7,484,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,1050000,3,5,265,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,460000,2,2,104,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,1950000,7,6,650,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,2075000,4,4,284,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,1700000,4,4,387,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,2095000,6,5,388,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,1240000,5,9,601,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,1250000,5,4,275,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,485000,2,3,161,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,3000000,8,5,881,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,650000,2,3,150,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,430000,2,3,91,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,675000,3,6,195,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,975000,4,7,484,0,1
+"Fuencarral, Madrid",Fuencarral-El Pardo,995000,4,4,240,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,415000,1,1,94,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,995000,4,4,240,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,1350000,4,4,264,1,0
+"Fuencarral, Madrid",Fuencarral-El Pardo,650000,2,3,153,1,0
+"Fuente del Berro, Madrid",Salamanca,795000,3,4,175,1,0
+"Fuente del Berro, Madrid",Salamanca,590000,2,3,143,1,0
+"Fuente del Berro, Madrid",Salamanca,399000,1,2,75,1,0
+"Fuente del Berro, Madrid",Salamanca,610000,2,2,113,1,0
+"Fuente del Berro, Madrid",Salamanca,515000,2,3,79,1,0
+"Fuente del Berro, Madrid",Salamanca,795000,2,3,128,1,0
+"Fuentelarreina, Madrid",Fuencarral-El Pardo,875000,4,3,215,1,0
+"Fuentelarreina, Madrid",Fuencarral-El Pardo,1300000,3,5,305,1,0
+"Gaztambide, Madrid",Chamberí,425000,1,2,69,1,0
+"Gaztambide, Madrid",Chamberí,1300000,3,4,235,1,0
+"Gaztambide, Madrid",Chamberí,940500,2,3,168,1,0
+"Gaztambide, Madrid",Chamberí,1100000,2,2,112,1,0
+"Gaztambide, Madrid",Chamberí,1025000,3,4,224,1,0
+"Gaztambide, Madrid",Chamberí,690000,2,3,138,1,0
+"Gaztambide, Madrid",Chamberí,445000,3,3,111,1,0
+"Gaztambide, Madrid",Chamberí,1200000,2,3,178,1,0
+"Gaztambide, Madrid",Chamberí,1060000,4,5,276,1,0
+"Gaztambide, Madrid",Chamberí,1300000,2,4,236,1,0
+"Goya, Madrid",Salamanca,2190000,4,4,183,1,0
+"Goya, Madrid",Salamanca,1190000,2,2,112,1,0
+"Goya, Madrid",Salamanca,1490000,3,2,133,1,0
+"Goya, Madrid",Salamanca,649000,2,2,73,1,0
+"Goya, Madrid",Salamanca,315000,1,1,65,1,0
+"Goya, Madrid",Salamanca,3600000,5,5,379,1,0
+"Goya, Madrid",Salamanca,1190000,3,2,110,1,0
+"Goya, Madrid",Salamanca,685000,3,2,166,1,0
+"Goya, Madrid",Salamanca,949000,2,2,111,1,0
+"Goya, Madrid",Salamanca,1410000,2,3,118,1,0
+"Goya, Madrid",Salamanca,1400000,2,3,150,1,0
+"Goya, Madrid",Salamanca,1685000,4,4,222,1,0
+"Goya, Madrid",Salamanca,1190000,3,2,86,1,0
+"Goya, Madrid",Salamanca,1299000,2,5,210,1,0
+"Goya, Madrid",Salamanca,3195000,4,6,460,1,0
+"Goya, Madrid",Salamanca,895000,2,2,102,1,0
+"Goya, Madrid",Salamanca,1339000,4,3,158,1,0
+"Goya, Madrid",Salamanca,719000,2,2,71,1,0
+"Goya, Madrid",Salamanca,850000,2,2,101,1,0
+"Goya, Madrid",Salamanca,1195000,2,2,90,1,0
+"Goya, Madrid",Salamanca,650000,2,3,120,1,0
+"Goya, Madrid",Salamanca,840000,2,2,81,1,0
+"Guindalera, Madrid",Salamanca,800000,3,5,213,1,0
+"Guindalera, Madrid",Salamanca,410000,2,2,68,1,0
+"Guindalera, Madrid",Salamanca,250000,1,1,45,1,0
+"Guindalera, Madrid",Salamanca,410000,1,0,146,1,0
+"Guindalera, Madrid",Salamanca,510000,1,3,83,1,0
+"Guindalera, Madrid",Salamanca,450000,1,3,78,1,0
+"Guindalera, Madrid",Salamanca,560000,2,2,84,1,0
+"Guindalera, Madrid",Salamanca,900000,2,5,155,1,0
+"Guindalera, Madrid",Salamanca,299000,1,2,59,1,0
+"Guindalera, Madrid",Salamanca,620000,2,3,138,1,0
+"Guindalera, Madrid",Salamanca,609000,2,2,89,1,0
+"Hortaleza, Madrid",Hortaleza,1300000,3,4,270,1,0
+"Hortaleza, Madrid",Hortaleza,1850000,5,5,438,0,1
+"Hortaleza, Madrid",Hortaleza,5500000,6,7,1150,0,1
+"Hortaleza, Madrid",Hortaleza,1900000,4,6,372,0,1
+"Hortaleza, Madrid",Hortaleza,1650000,5,5,300,0,1
+"Hortaleza, Madrid",Hortaleza,1538000,6,8,605,0,1
+"Hortaleza, Madrid",Hortaleza,1095000,3,3,188,1,0
+"Hortaleza, Madrid",Hortaleza,1650000,5,4,360,0,1
+"Hortaleza, Madrid",Hortaleza,3500000,6,5,890,0,1
+"Hortaleza, Madrid",Hortaleza,1300000,3,3,179,1,0
+"Hortaleza, Madrid",Hortaleza,2190000,5,5,352,0,1
+"Hortaleza, Madrid",Hortaleza,1500000,4,5,400,0,1
+"Hortaleza, Madrid",Hortaleza,2150000,5,4,400,0,1
+"Hortaleza, Madrid",Hortaleza,1850000,5,5,302,1,0
+"Hortaleza, Madrid",Hortaleza,1495000,6,5,481,0,1
+"Hortaleza, Madrid",Hortaleza,680000,2,3,137,1,0
+"Hortaleza, Madrid",Hortaleza,1300000,3,3,179,1,0
+"Hortaleza, Madrid",Hortaleza,475000,1,1,72,1,0
+"Hortaleza, Madrid",Hortaleza,2500000,6,5,800,0,1
+"Hortaleza, Madrid",Hortaleza,4200000,7,7,875,0,1
+"Hortaleza, Madrid",Hortaleza,2690000,7,5,745,0,1
+"Hortaleza, Madrid",Hortaleza,3000000,6,5,746,0,1
+"Hortaleza, Madrid",Hortaleza,880000,3,4,239,1,0
+"Hortaleza, Madrid",Hortaleza,1650000,3,4,290,1,0
+"Hortaleza, Madrid",Hortaleza,5500000,8,8,1150,0,1
+"Hortaleza, Madrid",Hortaleza,1290000,4,5,346,0,1
+"Hortaleza, Madrid",Hortaleza,1650000,5,5,360,0,1
+"Hortaleza, Madrid",Hortaleza,860000,2,2,252,1,0
+"Hortaleza, Madrid",Hortaleza,1690000,6,6,533,0,1
+"Hortaleza, Madrid",Hortaleza,430000,1,1,82,1,0
+"Hortaleza, Madrid",Hortaleza,1850000,5,5,302,1,0
+"Hortaleza, Madrid",Hortaleza,875000,2,3,134,1,0
+"Hortaleza, Madrid",Hortaleza,900000,2,3,150,1,0
+"Hortaleza, Madrid",Hortaleza,1590000,4,4,307,0,1
+"Hortaleza, Madrid",Hortaleza,1490000,3,4,216,1,0
+"Hortaleza, Madrid",Hortaleza,2150000,5,5,407,1,0
+"Hortaleza, Madrid",Hortaleza,1690000,6,6,530,0,1
+"Hortaleza, Madrid",Hortaleza,2060000,5,5,334,0,1
+"Hortaleza, Madrid",Hortaleza,719000,2,3,120,1,0
+"Hortaleza, Madrid",Hortaleza,470000,2,3,121,1,0
+"Hortaleza, Madrid",Hortaleza,1850000,5,7,302,1,0
+"Hortaleza, Madrid",Hortaleza,1300000,5,6,230,0,1
+"Hortaleza, Madrid",Hortaleza,2800000,6,5,452,0,1
+"Hortaleza, Madrid",Hortaleza,980000,2,4,130,1,0
+"Hortaleza, Madrid",Hortaleza,1725000,5,4,540,0,1
+"Hortaleza, Madrid",Hortaleza,3500000,6,6,489,0,1
+"Hortaleza, Madrid",Hortaleza,399000,1,1,70,1,0
+"Hortaleza, Madrid",Hortaleza,825000,3,2,144,1,0
+"Hortaleza, Madrid",Hortaleza,2000000,5,6,305,0,1
+"Hortaleza, Madrid",Hortaleza,1100000,4,4,263,0,1
+"Hortaleza, Madrid",Hortaleza,4000000,6,6,969,0,1
+"Hortaleza, Madrid",Hortaleza,1690000,6,6,533,0,1
+"Hortaleza, Madrid",Hortaleza,358000,2,3,100,1,0
+"Hortaleza, Madrid",Hortaleza,595000,2,4,140,1,0
+"Hortaleza, Madrid",Hortaleza,475000,2,4,98,1,0
+"Hortaleza, Madrid",Hortaleza,1050000,4,5,337,1,0
+"Hortaleza, Madrid",Hortaleza,2060000,5,5,334,0,1
+"Hortaleza, Madrid",Hortaleza,1050000,6,6,420,0,1
+"Hortaleza, Madrid",Hortaleza,1495000,6,6,482,0,1
+"Hortaleza, Madrid",Hortaleza,870000,3,3,314,0,1
+"Huertas-Cortes, Madrid",Centro,1175000,3,3,178,1,0
+"Huertas-Cortes, Madrid",Centro,1800000,4,3,214,1,0
+"Huertas-Cortes, Madrid",Centro,839000,2,2,106,1,0
+"Huertas-Cortes, Madrid",Centro,1660000,3,3,228,1,0
+"Huertas-Cortes, Madrid",Centro,1715000,2,4,130,1,0
+"Huertas-Cortes, Madrid",Centro,650000,2,2,68,1,0
+"Huertas-Cortes, Madrid",Centro,790000,2,6,167,1,0
+"Huertas-Cortes, Madrid",Centro,425000,1,2,62,1,0
+"Ibiza, Madrid",Retiro,530000,1,2,78,1,0
+"Ibiza, Madrid",Retiro,1050000,2,3,133,1,0
+"Ibiza, Madrid",Retiro,1125000,3,4,173,1,0
+"Ibiza, Madrid",Retiro,760000,2,2,101,1,0
+"Ibiza, Madrid",Retiro,1140000,2,3,126,1,0
+"Ibiza, Madrid",Retiro,1100000,4,5,224,1,0
+"Ibiza, Madrid",Retiro,1150000,3,4,174,1,0
+"Ibiza, Madrid",Retiro,699000,2,4,126,1,0
+"Ibiza, Madrid",Retiro,625000,2,5,117,1,0
+"Imperial, Madrid",Arganzuela,850000,3,3,151,1,0
+"Imperial, Madrid",Arganzuela,385000,1,3,97,1,0
+"Imperial, Madrid",Arganzuela,498000,2,5,139,1,0
+"Imperial, Madrid",Arganzuela,245000,1,1,70,1,0
+"Imperial, Madrid",Arganzuela,520000,2,3,102,1,0
+"Jerónimos, Madrid",Retiro,1129000,3,2,98,1,0
+"Jerónimos, Madrid",Retiro,550000,1,2,97,1,0
+"Jerónimos, Madrid",Retiro,2700000,3,3,227,1,0
+"Jerónimos, Madrid",Retiro,1200000,2,2,124,1,0
+"La Paz, Madrid",Fuencarral-El Pardo,517000,2,3,109,1,0
+"La Paz, Madrid",Fuencarral-El Pardo,549000,2,3,127,1,0
+"La Paz, Madrid",Fuencarral-El Pardo,439000,2,2,103,1,0
+"Latina, Madrid",Latina,270000,1,2,53,1,0
+"Lavapiés-Embajadores, Madrid",Centro,238000,1,2,51,1,0
+"Lavapiés-Embajadores, Madrid",Centro,859000,3,3,133,1,0
+"Lavapiés-Embajadores, Madrid",Centro,695000,2,2,262,1,0
+"Lavapiés-Embajadores, Madrid",Centro,960000,2,6,204,1,0
+"Lavapiés-Embajadores, Madrid",Centro,525000,1,4,131,1,0
+"Lavapiés-Embajadores, Madrid",Centro,317000,1,2,60,1,0
+"Lavapiés-Embajadores, Madrid",Centro,385000,1,1,56,1,0
+"Lavapiés-Embajadores, Madrid",Centro,779000,3,3,176,1,0
+"Lavapiés-Embajadores, Madrid",Centro,654000,2,2,159,1,0
+"Lavapiés-Embajadores, Madrid",Centro,288000,1,1,52,1,0
+"Lavapiés-Embajadores, Madrid",Centro,150000,1,1,24,1,0
+"Lavapiés-Embajadores, Madrid",Centro,425000,1,3,80,1,0
+"Lavapiés-Embajadores, Madrid",Centro,435000,2,2,102,1,0
+"Lavapiés-Embajadores, Madrid",Centro,695000,2,2,262,1,0
+"Lavapiés-Embajadores, Madrid",Centro,314000,1,3,76,1,0
+"Lavapiés-Embajadores, Madrid",Centro,160000,1,1,25,1,0
+"Lavapiés-Embajadores, Madrid",Centro,235000,1,2,64,1,0
+"Lavapiés-Embajadores, Madrid",Centro,290000,2,2,62,1,0
+"Legazpi, Madrid",Arganzuela,1250000,4,5,302,0,1
+"Lista, Madrid",Salamanca,780000,1,2,102,1,0
+"Lista, Madrid",Salamanca,1550000,3,3,156,1,0
+"Lista, Madrid",Salamanca,995000,2,2,106,1,0
+"Lista, Madrid",Salamanca,849000,2,2,83,1,0
+"Lista, Madrid",Salamanca,1049000,3,2,115,1,0
+"Lista, Madrid",Salamanca,675000,1,2,139,1,0
+"Lista, Madrid",Salamanca,569000,1,1,46,1,0
+"Lista, Madrid",Salamanca,1375000,3,5,197,1,0
+"Lista, Madrid",Salamanca,550000,2,2,69,1,0
+"Lista, Madrid",Salamanca,1495000,3,4,224,1,0
+"Lista, Madrid",Salamanca,698000,2,2,108,1,0
+"Lista, Madrid",Salamanca,800000,2,3,124,1,0
+"Lista, Madrid",Salamanca,1625000,4,3,192,1,0
+"Lista, Madrid",Salamanca,1495000,3,4,224,1,0
+"Lista, Madrid",Salamanca,850000,2,2,100,1,0
+"Lista, Madrid",Salamanca,1000000,2,5,186,1,0
+"Lista, Madrid",Salamanca,679000,3,2,75,1,0
+"Lista, Madrid",Salamanca,1000000,2,5,186,1,0
+"Lista, Madrid",Salamanca,550000,2,2,69,1,0
+"Lista, Madrid",Salamanca,2055000,3,2,245,1,0
+"Lista, Madrid",Salamanca,1074000,2,5,179,1,0
+"Lista, Madrid",Salamanca,1950000,3,4,175,1,0
+"Los Ángeles, Madrid",Villaverde,145000,1,3,54,1,0
+"Los Ángeles, Madrid",Villaverde,299000,2,3,154,1,0
+"Malasaña-Universidad, Madrid",Centro,710000,2,3,127,1,0
+"Malasaña-Universidad, Madrid",Centro,1420000,2,2,107,1,0
+"Malasaña-Universidad, Madrid",Centro,330000,2,2,80,1,0
+"Malasaña-Universidad, Madrid",Centro,719000,3,3,87,1,0
+"Malasaña-Universidad, Madrid",Centro,950000,3,3,119,1,0
+"Malasaña-Universidad, Madrid",Centro,1099000,4,4,166,1,0
+"Malasaña-Universidad, Madrid",Centro,499000,1,3,88,1,0
+"Malasaña-Universidad, Madrid",Centro,710000,2,3,127,1,0
+"Malasaña-Universidad, Madrid",Centro,995000,2,2,125,1,0
+"Malasaña-Universidad, Madrid",Centro,795000,2,4,200,1,0
+"Malasaña-Universidad, Madrid",Centro,660000,1,2,107,1,0
+"Malasaña-Universidad, Madrid",Centro,770000,2,4,123,1,0
+"Malasaña-Universidad, Madrid",Centro,548000,1,2,75,1,0
+"Malasaña-Universidad, Madrid",Centro,464000,2,3,53,1,0
+"Malasaña-Universidad, Madrid",Centro,299000,1,2,61,1,0
+"Malasaña-Universidad, Madrid",Centro,570000,2,4,160,1,0
+"Malasaña-Universidad, Madrid",Centro,660000,2,1,120,1,0
+"Malasaña-Universidad, Madrid",Centro,825000,4,4,164,1,0
+"Malasaña-Universidad, Madrid",Centro,575500,1,2,70,1,0
+"Malasaña-Universidad, Madrid",Centro,2600000,6,4,500,1,0
+"Malasaña-Universidad, Madrid",Centro,240000,1,1,38,1,0
+"Malasaña-Universidad, Madrid",Centro,899000,3,3,107,1,0
+"Malasaña-Universidad, Madrid",Centro,590000,2,2,93,1,0
+"Malasaña-Universidad, Madrid",Centro,660000,2,2,121,1,0
+"Malasaña-Universidad, Madrid",Centro,1150000,3,3,133,1,0
+"Mirasierra, Madrid",Fuencarral-El Pardo,1625000,5,6,450,0,1
+"Mirasierra, Madrid",Fuencarral-El Pardo,1625000,5,6,443,0,1
+"Mirasierra, Madrid",Fuencarral-El Pardo,2395000,5,5,781,0,1
+"Mirasierra, Madrid",Fuencarral-El Pardo,2395000,4,4,700,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1200000,4,4,300,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1200000,4,5,240,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,930000,4,5,265,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1370000,5,4,248,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1950000,6,6,488,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,875000,5,7,348,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,3500000,6,5,1525,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2950000,8,7,580,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2800000,5,5,780,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1450000,4,5,258,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1290000,4,4,234,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1190000,4,5,231,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,840000,3,4,254,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,2390000,6,6,400,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1097000,3,3,150,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,950000,5,6,430,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1450000,4,5,340,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,999000,5,5,308,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2500000,7,6,510,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1450000,3,4,218,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,2500000,11,11,500,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2950000,5,6,700,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,949000,2,3,240,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,5900000,8,5,730,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,640000,2,3,115,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,720000,2,2,125,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,895000,4,6,272,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2500000,6,5,510,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2280000,3,4,268,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,750000,2,2,149,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1890000,3,4,316,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,1150000,3,3,143,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,990000,4,5,292,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,2950000,6,6,555,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1190000,6,5,400,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2800000,8,7,780,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,5500000,9,7,1200,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,3500000,10,7,749,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,595000,2,4,140,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,349000,1,1,51,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,835000,5,4,302,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,2900000,12,7,1768,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1450000,5,5,340,1,0
+"Moncloa, Madrid",Moncloa-Aravaca,950000,3,3,205,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,795000,3,2,201,0,1
+"Moncloa, Madrid",Moncloa-Aravaca,1540000,3,4,345,1,0
+"Moratalaz, Madrid",Moratalaz,300000,2,4,98,1,0
+"Niño Jesús, Madrid",Retiro,550000,1,2,97,1,0
+"Niño Jesús, Madrid",Retiro,2450000,4,6,430,1,0
+"Nueva España, Madrid",Chamartín,4950000,7,6,886,0,1
+"Nueva España, Madrid",Chamartín,730000,2,2,125,1,0
+"Nueva España, Madrid",Chamartín,2770000,5,4,370,1,0
+"Nueva España, Madrid",Chamartín,2225000,6,5,268,0,1
+"Nueva España, Madrid",Chamartín,3700000,6,6,430,0,1
+"Nueva España, Madrid",Chamartín,670000,2,4,126,1,0
+"Nueva España, Madrid",Chamartín,2300000,5,4,310,1,0
+"Nueva España, Madrid",Chamartín,1395000,2,3,177,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,1255000,3,3,153,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,560000,2,3,74,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,2395000,5,4,264,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,697000,1,2,122,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,595000,1,3,89,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,2395000,5,4,264,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,697000,1,2,122,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,1312500,3,4,215,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,1075000,2,3,169,1,0
+"Nuevos Ministerios-Ríos Rosas, Madrid",Chamberí,950000,2,4,157,1,0
+"Opañel, Madrid",Carabanchel,260000,1,0,78,1,0
+"Pacífico, Madrid",Retiro,450000,2,3,94,1,0
+"Pacífico, Madrid",Retiro,375000,1,3,92,1,0
+"Pacífico, Madrid",Retiro,579000,2,3,145,1,0
+"Pacífico, Madrid",Retiro,370000,1,4,86,1,0
+"Pacífico, Madrid",Retiro,579000,2,3,118,1,0
+"Palacio, Madrid",Centro,320000,1,2,52,1,0
+"Palacio, Madrid",Centro,550000,2,3,112,1,0
+"Palacio, Madrid",Centro,1080000,2,2,101,1,0
+"Palacio, Madrid",Centro,267000,1,0,39,1,0
+"Palacio, Madrid",Centro,3600000,3,5,358,1,0
+"Palacio, Madrid",Centro,777000,1,2,111,1,0
+"Palacio, Madrid",Centro,777000,1,2,111,1,0
+"Palacio, Madrid",Centro,777000,1,2,111,1,0
+"Palacio, Madrid",Centro,2575000,4,4,215,1,0
+"Palacio, Madrid",Centro,1356000,2,2,122,1,0
+"Palacio, Madrid",Centro,375000,1,1,66,1,0
+"Palacio, Madrid",Centro,1175000,3,4,173,1,0
+"Palomas, Madrid",Hortaleza,860000,2,2,195,1,0
+"Palomas, Madrid",Hortaleza,470000,1,2,91,1,0
+"Palomas, Madrid",Hortaleza,2060000,5,5,334,0,1
+"Palomas, Madrid",Hortaleza,795000,2,3,146,1,0
+"Palos de Moguer, Madrid",Arganzuela,380000,1,3,75,1,0
+"Palos de Moguer, Madrid",Arganzuela,530000,2,3,93,1,0
+"Palos de Moguer, Madrid",Arganzuela,525000,2,3,104,1,0
+"Pau de Carabanchel, Madrid",Carabanchel,378000,2,3,104,1,0
+"Peñagrande, Madrid",Fuencarral-El Pardo,1237000,7,8,485,0,1
+"Peñagrande, Madrid",Fuencarral-El Pardo,1790000,4,5,414,0,1
+"Peñagrande, Madrid",Fuencarral-El Pardo,480000,2,3,100,1,0
+"Pinar del Rey, Madrid",Hortaleza,345000,2,3,98,1,0
+"Prosperidad, Madrid",Chamartín,1400000,2,4,236,1,0
+"Prosperidad, Madrid",Chamartín,430000,2,2,76,1,0
+"Prosperidad, Madrid",Chamartín,1329000,5,5,442,1,0
+"Prosperidad, Madrid",Chamartín,699000,3,5,160,1,0
+"Prosperidad, Madrid",Chamartín,290000,1,2,42,1,0
+"Prosperidad, Madrid",Chamartín,399000,1,2,81,1,0
+"Prosperidad, Madrid",Chamartín,1200000,3,3,236,1,0
+"Pueblo Nuevo, Madrid",Ciudad Lineal,214900,1,2,70,1,0
+"Pueblo Nuevo, Madrid",Ciudad Lineal,334740,2,2,102,1,0
+"Pueblo Nuevo, Madrid",Ciudad Lineal,229900,1,2,75,1,0
+"Puente de Vallecas, Madrid",Puente de Vallecas,240000,1,2,100,1,0
+"Puente de Vallecas, Madrid",Puente de Vallecas,210000,3,3,153,1,0
+"Puerta del Ángel, Madrid",Latina,880000,2,5,164,1,0
+"Puerta del Ángel, Madrid",Latina,660000,3,5,202,1,0
+"Puerta del Ángel, Madrid",Latina,625000,2,3,125,1,0
+"Puerta del Ángel, Madrid",Latina,199000,1,2,66,1,0
+"Quintana, Madrid",Ciudad Lineal,249900,1,2,70,1,0
+"Quintana, Madrid",Ciudad Lineal,259000,1,2,54,1,0
+"Quintana, Madrid",Ciudad Lineal,449900,2,3,105,1,0
+"Recoletos, Madrid",Salamanca,1920000,3,3,183,1,0
+"Recoletos, Madrid",Salamanca,1590750,3,3,116,1,0
+"Recoletos, Madrid",Salamanca,5700000,5,4,305,1,0
+"Recoletos, Madrid",Salamanca,3950000,5,4,291,1,0
+"Recoletos, Madrid",Salamanca,1300000,4,3,133,1,0
+"Recoletos, Madrid",Salamanca,2600000,3,4,247,1,0
+"Recoletos, Madrid",Salamanca,1300000,4,3,121,1,0
+"Recoletos, Madrid",Salamanca,1750000,3,2,150,1,0
+"Recoletos, Madrid",Salamanca,5500000,4,4,299,1,0
+"Recoletos, Madrid",Salamanca,1920000,3,3,211,1,0
+"Recoletos, Madrid",Salamanca,1650000,2,2,137,1,0
+"Recoletos, Madrid",Salamanca,5000000,4,3,447,1,0
+"Recoletos, Madrid",Salamanca,2390000,4,4,200,1,0
+"Recoletos, Madrid",Salamanca,1598000,3,3,116,1,0
+"Recoletos, Madrid",Salamanca,1200000,2,2,114,1,0
+"Recoletos, Madrid",Salamanca,1750000,3,2,143,1,0
+"Recoletos, Madrid",Salamanca,8900000,6,5,713,1,0
+"Recoletos, Madrid",Salamanca,990000,2,3,102,1,0
+"Recoletos, Madrid",Salamanca,1490000,2,3,120,1,0
+"Recoletos, Madrid",Salamanca,730000,1,1,81,1,0
+"Rejas, Madrid",San Blas-Canillejas,359000,1,1,86,1,0
+"Rejas, Madrid",San Blas-Canillejas,262500,1,1,63,1,0
+"Retiro, Madrid",Retiro,1125000,3,3,173,1,0
+"Retiro, Madrid",Retiro,1200000,2,2,124,1,0
+"Retiro, Madrid",Retiro,557000,2,3,91,1,0
+"Retiro, Madrid",Retiro,695000,2,4,125,1,0
+"Retiro, Madrid",Retiro,1230000,4,3,225,1,0
+"Retiro, Madrid",Retiro,990000,2,3,146,1,0
+"Retiro, Madrid",Retiro,1150000,3,4,158,1,0
+"Retiro, Madrid",Retiro,735000,2,2,107,1,0
+"Retiro, Madrid",Retiro,599000,2,3,106,1,0
+"Retiro, Madrid",Retiro,670000,2,3,140,1,0
+"Retiro, Madrid",Retiro,769000,2,2,198,1,0
+"Retiro, Madrid",Retiro,1360000,3,2,210,1,0
+"Retiro, Madrid",Retiro,880000,3,3,167,1,0
+"Retiro, Madrid",Retiro,800000,2,3,158,1,0
+"Retiro, Madrid",Retiro,660000,2,2,88,1,0
+"Retiro, Madrid",Retiro,1125000,2,4,142,1,0
+"Retiro, Madrid",Retiro,1050000,2,2,180,1,0
+"Retiro, Madrid",Retiro,2100000,2,2,131,1,0
+"Retiro, Madrid",Retiro,750000,3,2,109,1,0
+"Retiro, Madrid",Retiro,670000,2,3,105,1,0
+"Retiro, Madrid",Retiro,635000,3,4,151,1,0
+"Salvador, Madrid",San Blas-Canillejas,1175000,5,5,360,0,1
+"Salvador, Madrid",San Blas-Canillejas,379900,1,3,116,1,0
+"San Blas, Madrid",San Blas-Canillejas,720000,2,3,212,1,0
+"San Blas, Madrid",San Blas-Canillejas,1250000,5,4,367,0,1
+"San Blas, Madrid",San Blas-Canillejas,535000,3,4,133,1,0
+"San Blas, Madrid",San Blas-Canillejas,970000,4,4,279,0,1
+"San Blas, Madrid",San Blas-Canillejas,720000,2,3,212,1,0
+"San Blas, Madrid",San Blas-Canillejas,375000,2,1,313,1,0
+"San Blas, Madrid",San Blas-Canillejas,990000,4,3,320,0,1
+"San Blas, Madrid",San Blas-Canillejas,1150000,5,4,370,0,1
+"San Blas, Madrid",San Blas-Canillejas,1250000,4,4,367,0,1
+"San Diego, Madrid",Puente de Vallecas,180000,1,2,92,1,0
+"San Diego, Madrid",Puente de Vallecas,125000,1,1,62,1,0
+"San Fermín, Madrid",Usera,179000,1,3,84,1,0
+"San Isidro, Madrid",Carabanchel,229000,2,3,118,1,0
+"San Isidro, Madrid",Carabanchel,335000,2,2,70,1,0
+"San Isidro, Madrid",Carabanchel,285000,2,2,91,1,0
+"San Isidro, Madrid",Carabanchel,140000,1,2,56,1,0
+"San Juan Bautista, Madrid",Ciudad Lineal,1150000,4,5,254,1,0
+"Sanchinarro, Madrid",Hortaleza,555000,2,3,110,1,0
+"Simancas, Madrid",San Blas-Canillejas,132000,1,1,46,1,0
+"Simancas, Madrid",San Blas-Canillejas,269900,2,3,85,1,0
+"Simancas, Madrid",San Blas-Canillejas,290000,1,1,96,1,0
+"Simancas, Madrid",San Blas-Canillejas,1097900,3,4,203,0,1
+"Simancas, Madrid",San Blas-Canillejas,1078900,3,4,239,0,1
+"Simancas, Madrid",San Blas-Canillejas,389000,2,2,96,1,0
+"Simancas, Madrid",San Blas-Canillejas,122000,1,2,48,1,0
+"Sol, Madrid",Centro,752248,2,3,132,1,0
+"Sol, Madrid",Centro,899000,1,5,144,1,0
+"Sol, Madrid",Centro,859000,2,2,88,1,0
+"Sol, Madrid",Centro,749000,2,2,104,1,0
+"Sol, Madrid",Centro,2000000,1,3,142,1,0
+"Sol, Madrid",Centro,919000,3,3,112,1,0
+"Sol, Madrid",Centro,989000,3,3,112,1,0
+"Sol, Madrid",Centro,350000,1,0,61,1,0
+"Sol, Madrid",Centro,450000,1,2,60,1,0
+"Sol, Madrid",Centro,690000,2,4,163,1,0
+"Tetuán, Madrid",Tetuán,675000,2,2,102,1,0
+"Tetuán, Madrid",Tetuán,1250000,3,4,230,1,0
+"Tetuán, Madrid",Tetuán,1200000,3,4,209,1,0
+"Tetuán, Madrid",Tetuán,1100000,2,3,247,1,0
+"Tetuán, Madrid",Tetuán,1290000,3,3,211,1,0
+"Tetuán, Madrid",Tetuán,1090000,3,4,208,1,0
+"Tetuán, Madrid",Tetuán,585000,2,2,154,1,0
+"Tetuán, Madrid",Tetuán,1600000,4,4,249,1,0
+"Tetuán, Madrid",Tetuán,1080000,2,4,270,1,0
+"Timón, Madrid",Barajas,253000,1,3,80,1,0
+"Timón, Madrid",Barajas,830000,3,4,232,0,1
+"Trafalgar, Madrid",Chamberí,338000,1,1,67,1,0
+"Trafalgar, Madrid",Chamberí,950000,2,4,169,1,0
+"Trafalgar, Madrid",Chamberí,1400000,3,2,138,1,0
+"Trafalgar, Madrid",Chamberí,870000,2,4,169,1,0
+"Trafalgar, Madrid",Chamberí,1175000,2,2,153,1,0
+"Trafalgar, Madrid",Chamberí,1490000,3,3,145,1,0
+"Trafalgar, Madrid",Chamberí,1259000,3,3,157,1,0
+"Trafalgar, Madrid",Chamberí,870000,2,2,91,1,0
+"Trafalgar, Madrid",Chamberí,565000,1,2,62,1,0
+"Trafalgar, Madrid",Chamberí,308000,1,2,54,1,0
+"Trafalgar, Madrid",Chamberí,785000,2,2,116,1,0
+"Trafalgar, Madrid",Chamberí,950000,2,3,125,1,0
+"Trafalgar, Madrid",Chamberí,865000,2,2,127,1,0
+"Valdeacederas, Madrid",Tetuán,260000,1,2,66,1,0
+"Valdeacederas, Madrid",Tetuán,475000,1,1,79,1,0
+"Valdeacederas, Madrid",Tetuán,349000,1,1,80,1,0
+"Valdeacederas, Madrid",Tetuán,388000,1,1,61,1,0
+"Valdeacederas, Madrid",Tetuán,388000,1,1,61,1,0
+"Valdeacederas, Madrid",Tetuán,445000,2,3,104,1,0
+"Valdeacederas, Madrid",Tetuán,758500,2,3,170,1,0
+"Valdeacederas, Madrid",Tetuán,417500,2,2,96,1,0
+"Valdeacederas, Madrid",Tetuán,391000,2,2,104,1,0
+"Valdeacederas, Madrid",Tetuán,447500,2,2,96,1,0
+"Valdeacederas, Madrid",Tetuán,465000,2,2,104,1,0
+"Valdebebas - Valdefuentes, Madrid",Hortaleza,875000,2,3,140,1,0
+"Valdebebas - Valdefuentes, Madrid",Hortaleza,749700,2,3,143,1,0
+"Valdebebas - Valdefuentes, Madrid",Hortaleza,782300,2,3,193,1,0
+"Valdebebas - Valdefuentes, Madrid",Hortaleza,735000,2,3,120,1,0
+"Valdebebas - Valdefuentes, Madrid",Hortaleza,880000,3,4,180,1,0
+"Valdemarín, Madrid",Moncloa-Aravaca,1038800,3,3,205,1,0
+"Valdemarín, Madrid",Moncloa-Aravaca,1200000,4,4,421,1,0
+"Valdemarín, Madrid",Moncloa-Aravaca,2500000,10,11,761,0,1
+"Valdezarza, Madrid",Moncloa-Aravaca,490000,2,3,108,1,0
+"Valdezarza, Madrid",Moncloa-Aravaca,385000,2,3,92,1,0
+"Valdezarza, Madrid",Moncloa-Aravaca,675000,2,3,151,1,0
+"Vallehermoso, Madrid",Chamberí,1295000,3,4,229,1,0
+"Vallehermoso, Madrid",Chamberí,890000,2,3,121,1,0
+"Vallehermoso, Madrid",Chamberí,745000,3,4,153,1,0
+"Vallehermoso, Madrid",Chamberí,1225000,3,5,229,1,0
+"Vallehermoso, Madrid",Chamberí,1220000,3,5,194,1,0
+"Vallehermoso, Madrid",Chamberí,990000,3,5,194,1,0
+"Ventas, Madrid",Ciudad Lineal,137000,1,2,68,1,0
+"Ventas, Madrid",Ciudad Lineal,310000,1,2,89,1,0
+"Ventas, Madrid",Ciudad Lineal,198000,1,3,70,1,0
+"Ventas, Madrid",Ciudad Lineal,259900,1,2,61,1,0
+"Ventilla-Almenara, Madrid",Tetuán,910000,4,5,207,1,0
+"Ventilla-Almenara, Madrid",Tetuán,910000,4,5,207,1,0
+"Virgen del Cortijo - Manoteras, Madrid",Hortaleza,899000,2,3,204,1,0
+"Vista Alegre, Madrid",Carabanchel,239900,2,4,157,1,0
+"Vista Alegre, Madrid",Carabanchel,155000,1,1,43,1,0
+"Zofío, Madrid",Usera,164000,1,3,67,1,0

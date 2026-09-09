@@ -39,3 +39,7 @@ These observations have not been classified as errors or removed at this stage. 
 ## Next step
 
 Review potential extreme or inconsistent values in `price` and `sqft`, justify any cleaning decisions, refit the simple linear regression and compare its metrics with this baseline model.
+
+## Archived dataset
+
+The baseline uses `price` and `sqft` from [01-raw-idealista-madrid.csv](../Data/01-raw-idealista-madrid.csv) (915 observations). The later cleaned observations are available in [02-cleaned-housing-data.csv](../Data/02-cleaned-housing-data.csv) (911 observations); their reassessment is documented in [Data Cleaning & Model Reassessment](../Data-Cleaning-Model-Reassessment/README.md).

@@ -6,17 +6,16 @@ Prepare the Madrid housing dataset for statistical analysis and regression model
 
 ## Initial Dataset
 
-The original dataset contains **14 columns**.
+The archived original CSV contains **915 rows and 13 columns**. It has no `index` column.
 
 The initial review focused on the meaning and usefulness of each variable for a property-price model. The objective was to distinguish actual property characteristics from identifiers, source metadata and advertiser information.
 
 ## Columns Removed
 
-Seven columns were excluded from the modeling dataset:
+Six source metadata columns were excluded during the documented initial variable selection:
 
 | Column | Reason for removal |
 |---|---|
-| `index` | Record index with no predictive meaning. It identifies the row position rather than a characteristic of the property. |
 | `url` | Listing URL. It is metadata from the source and contains the property identifier already represented by `id`. |
 | `listingUrl` | Source/search-results page used to collect the listing. It describes the data-collection source rather than the property. |
 | `title` | Free-text listing title. Its information is partially duplicated by structured variables such as `address` and `typology`. It is not used in this initial structured modeling approach. |
@@ -28,8 +27,8 @@ Seven columns were excluded from the modeling dataset:
 
 After this first variable-selection step:
 
-- **Original columns:** 14
-- **Removed columns:** 7
+- **Original columns:** 13
+- **Removed columns:** 6
 - **Remaining columns:** 7
 
 The variables retained for the next stages are:
@@ -51,3 +50,9 @@ The original dataset is preserved. The variables described above are excluded fr
 ## Scope of This Phase
 
 This phase covers the **initial variable selection** only. It does not yet include the treatment of missing values, outliers or other inconsistent records. Those data-quality issues will be assessed in the following analysis stages before the final models are built.
+
+## Archived datasets
+
+Source: [01-raw-idealista-madrid.csv](../Data/01-raw-idealista-madrid.csv) (915 × 13). Later cleaned export: [02-cleaned-housing-data.csv](../Data/02-cleaned-housing-data.csv) (911 × 7).
+
+The seven-variable intermediate described above is not a separate supplied snapshot. File 02 also omits `description`, replaces `typology` with `Pisos` and `Independientes`, and includes the four-row reduction from the subsequent duplicate review. It should not be interpreted as the immediate output of initial variable selection alone.

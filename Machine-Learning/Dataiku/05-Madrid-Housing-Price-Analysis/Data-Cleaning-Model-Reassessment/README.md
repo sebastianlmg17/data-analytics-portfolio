@@ -52,3 +52,11 @@ These changes are interpreted as the result of removing repeated representations
 ## Result
 
 The cleaned dataset contains 911 observations and provides the dataset used for the next modeling stage. The next phase will extend the analysis with multiple linear regression using additional property characteristics.
+
+## Archived datasets
+
+Before review: [01-raw-idealista-madrid.csv](../Data/01-raw-idealista-madrid.csv) (915 rows). After review: [02-cleaned-housing-data.csv](../Data/02-cleaned-housing-data.csv) (911 rows). The same cleaned observations with encoded predictors are available in [05-model-ready-data.csv](../Data/05-model-ready-data.csv), and with the additional ANOVA grouping in [06-model-ready-data-with-size-groups.csv](../Data/06-model-ready-data-with-size-groups.csv).
+
+File 06 differs from file 05 only by `size_range`; it does not represent another round of row removal. Reduced-column duplicate rows are retained because matching model features alone do not establish duplicate properties.
+
+The [Multiple Linear Regression](../Multiple-Linear-Regression/README.md) phase is now completed. Model Comparison & Conclusions is next.

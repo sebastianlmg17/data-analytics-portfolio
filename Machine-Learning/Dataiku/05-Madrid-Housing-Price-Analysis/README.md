@@ -10,6 +10,8 @@ Build a data-driven approach to understand residential property prices in Madrid
 
 The analysis uses a dataset of properties for sale in Madrid obtained from Idealista.
 
+The six verified CSV snapshots are stored once in [Data](Data/README.md), from the 915 × 13 raw export to the 911-row cleaned modeling exports. Each phase links to the relevant dataset. Snapshot numbering follows data dependencies; the existing phase order records the analytical workflow.
+
 Key variables include:
 
 - `price`: property price in euros
@@ -29,8 +31,8 @@ The project is structured as a progressive data analysis workflow:
 3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
 4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before cleaning decisions.
 5. **Data Cleaning & Model Reassessment** — completed. Potential outliers and duplicate listings were reviewed. Four confirmed duplicate property representations were removed, reducing the dataset from 915 to 911 observations. The refitted simple regression produced R² = 0.4973 and RMSE ≈ €716,614.
-6. **Multiple Linear Regression** — next. Incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
-7. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
+6. **[Multiple Linear Regression](Multiple-Linear-Regression/README.md)** — completed. Dataiku OLS achieved R² = 0.7141 and RMSE ≈ €538,900. The phase separately documents statistical inference from a full-dataset OLS fit.
+7. **Model Comparison & Conclusions** — next. Compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
 
 ## Project Structure
 
@@ -45,7 +47,17 @@ The project is structured as a progressive data analysis workflow:
 │   └── README.md
 ├── Simple-Linear-Regression/
 │   └── README.md
-└── Data-Cleaning-Model-Reassessment/
+├── Data-Cleaning-Model-Reassessment/
+│   └── README.md
+├── Data/
+│   ├── README.md
+│   ├── 01-raw-idealista-madrid.csv
+│   ├── 02-cleaned-housing-data.csv
+│   ├── 03-address-district-mapping.csv
+│   ├── 04-housing-with-district.csv
+│   ├── 05-model-ready-data.csv
+│   └── 06-model-ready-data-with-size-groups.csv
+└── Multiple-Linear-Regression/
     └── README.md
 ```
 
@@ -60,4 +72,4 @@ Each phase documents the decisions made, the methodology applied and the relevan
 
 ## Status
 
-**In progress — Data Cleaning & Model Reassessment completed. Next: Multiple Linear Regression.**
+**In progress — Multiple Linear Regression completed. Next: Model Comparison & Conclusions.**
