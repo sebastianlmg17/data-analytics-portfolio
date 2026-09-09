@@ -13,7 +13,7 @@ The analysis uses a dataset of properties for sale in Madrid obtained from Ideal
 Key variables include:
 
 - `price`: property price in euros
-- `sqft`: built area in square meters
+- `sqft`: built area
 - `rooms`: number of rooms
 - `baths`: number of bathrooms
 - `address`: location or area
@@ -27,7 +27,7 @@ The project is structured as a progressive data analysis workflow:
 1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
 2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
 3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
-4. **Simple Linear Regression** — model `price` using `sqft` as the independent variable and evaluate the statistical significance and explanatory power of the model.
+4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before any outlier-cleaning decisions.
 5. **Data Cleaning & Model Reassessment** — identify and address relevant data-quality issues, refit the simple regression model and compare the results with the initial model.
 6. **Multiple Linear Regression** — incorporate relevant numeric and categorical property characteristics to evaluate a more complete pricing model.
 7. **Model Comparison & Conclusions** — compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
@@ -41,7 +41,9 @@ The project is structured as a progressive data analysis workflow:
 │   └── README.md
 ├── Feature-Engineering/
 │   └── README.md
-└── Exploratory-Analysis-ANOVA/
+├── Exploratory-Analysis-ANOVA/
+│   └── README.md
+└── Simple-Linear-Regression/
     └── README.md
 ```
 
@@ -56,4 +58,4 @@ Each phase documents the decisions made, the methodology applied and the relevan
 
 ## Status
 
-**In progress — Exploratory Analysis & ANOVA completed. Next: Simple Linear Regression.**
+**In progress — Simple Linear Regression completed. Next: Data Cleaning & Model Reassessment.**
