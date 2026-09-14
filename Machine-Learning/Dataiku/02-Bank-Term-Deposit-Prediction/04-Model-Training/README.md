@@ -54,6 +54,3 @@ The optimized model is documented in **Model-Optimization** and was selected as 
 
 ---
 
-## Key Learning
-
-The project demonstrates that model development should be based on empirical comparison. Class balancing did not improve the baseline, while targeted hyperparameter optimization produced a stronger Random Forest model.
