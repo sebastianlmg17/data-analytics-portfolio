@@ -26,7 +26,7 @@ Keep `cuenta_nueva` as a binary 0/1 variable and `es_fraude` as the target.
 | `cuenta_nueva` | Input, ON | No rescaling |
 | `es_fraude` | Target | Not a predictor |
 
-This is the final KNN configuration; preprocessing decisions for the next model have not yet been documented.
+For **Gaussian Naive Bayes**, use **No rescaling for every feature**, including the four numerical variables. Keep the same One-Hot variables and `cuenta_nueva` as active inputs.
 
 ## 3. Verify the Effective Inputs
 
@@ -47,4 +47,4 @@ The correction was to restore the dummy variables as **Input/ON**, change only t
 
 ## Next Stage
 
-[03 - KNN](../03-KNN/) documents the split, hyperparameter search and final evaluation.
+[03 - KNN](../03-KNN-Model/) documents the split, hyperparameter search and final evaluation.

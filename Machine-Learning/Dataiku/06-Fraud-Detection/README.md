@@ -8,20 +8,22 @@ The dataset contains 10,000 transactions described by numerical and categorical 
 
 ## Objective
 
-The objective is to build and compare two classification models required by the academic case study:
+The objective is to build and compare two classification models:
 
 - Naive Bayes
 - K-Nearest Neighbors (KNN)
 
-The workflow will cover data preparation, train/test splitting, parameters and hyperparameters, model evaluation and final model comparison.
+The workflow covers data preparation, train/test splitting, parameters and hyperparameters, model evaluation and final model comparison.
 
 ## Current Project Structure
 
-- [01-Data-Cleaning](01-Data-Cleaning/) - Initial data-quality review and cleaning decisions.
-- [02-Feature-Engineering](02-Feature-Engineering/) - One-Hot encoding, KNN preprocessing and input-role correction.
-- [03-KNN](03-KNN/) - Training configuration, hyperparameter selection and final results.
+- [01-Data-Cleaning](01-Data-Cleaning/) - Data quality and cleaning decisions.
+- [02-Feature-Engineering](02-Feature-Engineering/) - One-Hot encoding and model-specific preprocessing.
+- [03-KNN-Model](03-KNN-Model/) - Final configuration, hyperparameter selection and evaluation.
+- [04-Naive-Bayes-Model](04-Naive-Bayes-Model/) - GaussianNB implementation, configuration and evaluation.
+- [05-Model-Comparison](05-Model-Comparison/) - Final comparison and model selection.
 
-Data cleaning, feature engineering and KNN evaluation are documented. Naive Bayes is the next phase; its results and the final comparison remain pending.
+All five stages are documented. **Gaussian Naive Bayes is the selected model for this dataset.**
 
 ## Initial Dataset
 
@@ -45,15 +47,30 @@ There are 131 records with negative `distancia_ip` and 56 with negative `monto`.
 Statistical outliers are retained because unusual transaction behavior may contain relevant fraud signals. Scaling, categorical encoding and any class-imbalance treatment are intentionally deferred to the feature-engineering/model-preprocessing stage.
 
 
-## Final KNN Summary
+## Final Model Comparison
 
-The corrected KNN uses 27 features after preprocessing, an 80/20 random split with seed 1337, and 5-fold cross-validation. Grid search over K = {3, 5, 7, 9, 11} selected K = 11 using ROC AUC. The F1-optimized threshold is 0.100.
+Both models use 27 predictors, an 80/20 random split with seed 1337, 7,869 training rows and 1,945 test rows.
 
-| ROC AUC | Accuracy | Precision | Recall | F1 |
-| ---: | ---: | ---: | ---: | ---: |
-| 0.9897 | 0.9861 | 0.9829 | 0.9712 | 0.9770 |
+| Metric | KNN | Gaussian Naive Bayes |
+| --- | ---: | ---: |
+| ROC AUC | 0.9897 | 0.9980 |
+| Accuracy | 0.9861 | 0.9882 |
+| Precision | 0.9829 | 0.9880 |
+| Recall | 0.9712 | 0.9729 |
+| F1-score | 0.9770 | 0.9804 |
+| Average Precision | 0.9853 | 0.9968 |
+| MCC | 0.9671 | 0.9720 |
+| Threshold | 0.100 | 0.825 |
+| TP | 574 | 575 |
+| FN | 17 | 16 |
+| FP | 10 | 7 |
+| TN | 1344 | 1347 |
 
-The final confusion matrix is TP = 574, FN = 17, FP = 10 and TN = 1,344. See [03-KNN](03-KNN/) for the full configuration and metrics.
+Gaussian Naive Bayes slightly outperforms KNN across all principal metrics and makes fewer false-negative and false-positive errors. Its greater simplicity and speed also support its selection. See [05-Model-Comparison](05-Model-Comparison/) for configuration and interpretation.
+
+## Interpretation Limits
+
+Dataiku displayed **“AUC=0.998, too good to be true?”**. This flags exceptional performance and possible leakage; it does not confirm an error. The evident leakage from `id_transaccion` was already removed. This dataset shows strong class separation in amount, distance, transaction frequency and elapsed time, so performance must be interpreted cautiously beyond this dataset.
 
 ## Tool
 
