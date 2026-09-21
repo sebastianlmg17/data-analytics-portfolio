@@ -6,10 +6,10 @@ Both models use 27 predictors and the same 80/20 random-split configuration, see
 
 KNN applies standard scaling only to `monto`, `tiempo_transcurrido`, `cantidad_transacciones_24h` and `distancia_ip`; dummies and `cuenta_nueva` have no rescaling. GaussianNB has no rescaling on any feature.
 
-| Model | Final configuration | F1-optimized threshold |
+| Model | Final configuration | Final threshold |
 | --- | --- | ---: |
 | KNN | K = 11; p = 2; no distance weighting | 0.100 |
-| Gaussian Naive Bayes | Custom Python Model; `GaussianNB()` | 0.825 |
+| Gaussian Naive Bayes | Custom Python Model; `sklearn.naive_bayes.GaussianNB` | 0.825 |
 
 ## Final Results
 
@@ -30,11 +30,11 @@ KNN applies standard scaling only to `monto`, `tiempo_transcurrido`, `cantidad_t
 
 ## Selected Model
 
-**Gaussian Naive Bayes is selected for this dataset.** It slightly outperforms KNN across all principal metrics, reduces false negatives from 17 to 16 and false positives from 10 to 7. Its greater simplicity and speed also support the selection; no measured runtime figures are claimed.
+**Gaussian Naive Bayes is selected for this dataset.** It slightly outperforms KNN across all principal metrics, reduces false negatives from 17 to 16 and false positives from 10 to 7.
 
 ## Interpretation Limits
 
-Dataiku displayed **“AUC=0.998, too good to be true?”**. This flags exceptional performance and possible leakage; it does not confirm an error. The evident leakage from `id_transaccion` was already removed. This dataset shows strong class separation in amount, distance, transaction frequency and elapsed time, so performance must be interpreted cautiously beyond this dataset.
+Dataiku flagged the exceptional ROC AUC of 0.998. Although `id_transaccion` was removed for leakage, these results should be interpreted cautiously beyond this dataset.
 
 ## Model Documentation
 

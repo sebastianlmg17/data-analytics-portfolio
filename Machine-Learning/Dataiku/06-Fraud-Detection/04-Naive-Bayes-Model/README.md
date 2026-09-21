@@ -2,20 +2,13 @@
 
 ## 1. Implementation
 
-Create a **Custom Python Model** in Dataiku using `sklearn.naive_bayes.GaussianNB`:
-
-```python
-from sklearn.naive_bayes import GaussianNB
-
-clf = GaussianNB()
-```
+Gaussian Naive Bayes was implemented as a **Custom Python Model** in Dataiku using `sklearn.naive_bayes.GaussianNB`.
 
 ## 2. Configuration
 
 | Setting | Final value |
 | --- | --- |
 | Target | `es_fraude` (1 = fraud; 0 = legitimate) |
-| Prepared columns, including target | 28 |
 | Predictors after preprocessing | 27 |
 | Inputs | Same numerical features, One-Hot variables and binary `cuenta_nueva` as KNN |
 | Rescaling | No rescaling on any feature |
@@ -23,8 +16,7 @@ clf = GaussianNB()
 | Seed | 1337 |
 | Training rows | 7,869 |
 | Test rows | 1,945 |
-| Threshold optimization | F1-score |
-| Optimal threshold | 0.825 |
+| Final threshold | 0.825 |
 
 All 27 features remain **Input/ON**. See [02 - Feature Engineering](../02-Feature-Engineering/) for the encoding workflow.
 
@@ -51,7 +43,7 @@ At threshold **0.825**, the model detects 575 of 591 frauds, misses 16 and gener
 
 ## 5. Performance Interpretation
 
-Dataiku displayed **“AUC=0.998, too good to be true?”**. This flags exceptional performance and possible leakage; it does not confirm an error. The evident leakage from `id_transaccion` was already removed. This dataset shows strong class separation in amount, distance, transaction frequency and elapsed time, so performance must be interpreted cautiously beyond this dataset.
+See [interpretation limits](../05-Model-Comparison/#interpretation-limits).
 
 ## Next Stage
 

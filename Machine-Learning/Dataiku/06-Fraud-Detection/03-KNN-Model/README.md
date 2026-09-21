@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Train and evaluate the KNN fraud classifier using the corrected feature configuration from [02 - Feature Engineering](../02-Feature-Engineering/).
+The KNN fraud classifier was trained and evaluated using the feature configuration from [02 - Feature Engineering](../02-Feature-Engineering/).
 
 ## 1. Configure the Training and Test Split
 
@@ -16,7 +16,7 @@ Train and evaluate the KNN fraud classifier using the corrected feature configur
 | Test rows | 1,945 |
 | Features after preprocessing | 27 |
 
-Apply standard scaling only to `monto`, `tiempo_transcurrido`, `cantidad_transacciones_24h` and `distancia_ip`. Keep all One-Hot dummies and `cuenta_nueva` as active inputs with **No rescaling**.
+Standard scaling was applied only to `monto`, `tiempo_transcurrido`, `cantidad_transacciones_24h` and `distancia_ip`. All One-Hot dummies and `cuenta_nueva` remained active inputs with **No rescaling**.
 
 ## 2. Search and Select Hyperparameters
 
@@ -29,17 +29,11 @@ Apply standard scaling only to `monto`, `tiempo_transcurrido`, `cantidad_transac
 | Selected K | 11 |
 | Distance parameter | `p = 2` (Euclidean) |
 | Distance weighting | No |
-| Neighbor finding algorithm | Automatic |
-| Threshold optimization metric | F1-score |
 | Final threshold | 0.100 |
 
-K = 11 was selected within the evaluated grid. Hyperparameter selection by ROC AUC and threshold selection by F1 are separate decisions.
+K = 11 was selected within the evaluated grid using ROC AUC. The final classification threshold was 0.100.
 
-## 3. Verify the Trained Model
-
-The final Algorithm screen reports 28 columns before preprocessing and 27 features after preprocessing. The earlier run with only 5 features is superseded: the dummy variables must remain **Input/ON**, with only their scaling changed to **No rescaling**.
-
-## 4. Final Test Metrics
+## 3. Final Test Metrics
 
 | Metric | Result |
 | --- | ---: |
@@ -53,7 +47,7 @@ The final Algorithm screen reports 28 columns before preprocessing and 27 featur
 
 Classification results use the final threshold of **0.100**.
 
-## 5. Confusion Matrix
+## 4. Confusion Matrix
 
 | Actual class | Predicted fraud | Predicted legitimate |
 | --- | ---: | ---: |

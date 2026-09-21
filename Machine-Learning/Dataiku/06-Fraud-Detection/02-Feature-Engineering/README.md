@@ -2,20 +2,20 @@
 
 ## Purpose
 
-Prepare the cleaned transaction data for modeling while retaining the documented cleaning decisions: remove the identifier and invalid negative values, and retain statistical outliers.
+The cleaned transaction data was prepared for modeling while retaining the documented cleaning decisions: remove the identifier and invalid negative values, and retain statistical outliers.
 
 ## 1. Encode Categorical Variables
 
-Apply One-Hot Encoding to:
+One-Hot Encoding was applied to:
 
 - `dispositivo`
 - `pais_origen`
 - `tipo_transaccion`
 - `metodo_pago`
 
-These categories have no natural numerical ordering. Fill empty cells created by the encoding with `0`, then remove the four original categorical columns to avoid duplicating the same information.
+These categories have no natural numerical ordering. Empty cells created by the encoding were filled with `0`, and the four original categorical columns were removed.
 
-Keep `cuenta_nueva` as a binary 0/1 variable and `es_fraude` as the target.
+`cuenta_nueva` was retained as a binary 0/1 variable and `es_fraude` as the target.
 
 ## 2. Configure KNN Preprocessing
 
@@ -26,24 +26,11 @@ Keep `cuenta_nueva` as a binary 0/1 variable and `es_fraude` as the target.
 | `cuenta_nueva` | Input, ON | No rescaling |
 | `es_fraude` | Target | Not a predictor |
 
-For **Gaussian Naive Bayes**, use **No rescaling for every feature**, including the four numerical variables. Keep the same One-Hot variables and `cuenta_nueva` as active inputs.
+For **Gaussian Naive Bayes**, rescaling was disabled for all features, including the four numerical variables. The same One-Hot variables and `cuenta_nueva` remained active inputs.
 
-## 3. Verify the Effective Inputs
+## Final Inputs
 
-In Dataiku, check **Model Information → Algorithm** after training:
-
-| Check | Final result |
-| --- | ---: |
-| Columns before preprocessing | 28 |
-| Features after preprocessing | 27 |
-
-The target is not used as an input feature.
-
-## Methodological Correction
-
-The initial KNN execution retained only 5 features because the One-Hot inputs had been disabled. The ON/OFF switch controls whether a feature enters the model; it does not control scaling.
-
-The correction was to restore the dummy variables as **Input/ON**, change only their rescaling setting to **No rescaling**, and retrain. The final run confirmed 27 features. Results from the incomplete run are superseded and must not be used as the final KNN benchmark.
+Both models used the same 27 predictors, excluding the target.
 
 ## Next Stage
 

@@ -15,7 +15,7 @@ The objective is to build and compare two classification models:
 
 The workflow covers data preparation, train/test splitting, parameters and hyperparameters, model evaluation and final model comparison.
 
-## Current Project Structure
+## Project Structure
 
 - [01-Data-Cleaning](01-Data-Cleaning/) - Data quality and cleaning decisions.
 - [02-Feature-Engineering](02-Feature-Engineering/) - One-Hot encoding and model-specific preprocessing.
@@ -44,7 +44,7 @@ The initial review identified three cleaning actions:
 
 There are 131 records with negative `distancia_ip` and 56 with negative `monto`. One record has both anomalies, so 186 unique rows are removed. The cleaned dataset therefore contains 9,814 transactions.
 
-Statistical outliers are retained because unusual transaction behavior may contain relevant fraud signals. Scaling, categorical encoding and any class-imbalance treatment are intentionally deferred to the feature-engineering/model-preprocessing stage.
+Statistical outliers are retained because unusual transaction behavior may contain relevant fraud signals. Categorical encoding and model-specific scaling are documented in [02-Feature-Engineering](02-Feature-Engineering/).
 
 
 ## Final Model Comparison
@@ -66,11 +66,11 @@ Both models use 27 predictors, an 80/20 random split with seed 1337, 7,869 train
 | FP | 10 | 7 |
 | TN | 1344 | 1347 |
 
-Gaussian Naive Bayes slightly outperforms KNN across all principal metrics and makes fewer false-negative and false-positive errors. Its greater simplicity and speed also support its selection. See [05-Model-Comparison](05-Model-Comparison/) for configuration and interpretation.
+Gaussian Naive Bayes slightly outperforms KNN across all principal metrics and makes fewer false-negative and false-positive errors. See [05-Model-Comparison](05-Model-Comparison/) for configuration and interpretation.
 
 ## Interpretation Limits
 
-Dataiku displayed **“AUC=0.998, too good to be true?”**. This flags exceptional performance and possible leakage; it does not confirm an error. The evident leakage from `id_transaccion` was already removed. This dataset shows strong class separation in amount, distance, transaction frequency and elapsed time, so performance must be interpreted cautiously beyond this dataset.
+See [interpretation limits](05-Model-Comparison/#interpretation-limits).
 
 ## Tool
 

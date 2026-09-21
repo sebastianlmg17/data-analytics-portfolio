@@ -31,7 +31,7 @@ The case-study documentation defines `distancia_ip` as the estimated geographic 
 - Negative records: 131
 - Share of original dataset: 1.31%
 
-Because the affected proportion is small and there is no reliable information with which to reconstruct the true distance, these values will not be imputed using a mean or median.
+Because the affected proportion is small and there is no reliable information with which to reconstruct the true distance, these values were not imputed using a mean or median.
 
 **Decision:** remove rows where `distancia_ip < 0`.
 
@@ -59,13 +59,6 @@ One transaction contains both a negative amount and a negative IP distance. Ther
 
 Statistical outliers are intentionally retained. In fraud detection, unusually high amounts, transaction frequencies, elapsed times or geographic distances may represent meaningful fraud behavior rather than data errors. Removing them solely because they are statistically extreme could discard valuable predictive information.
 
-## Not Part of This Stage
+## Next Stage
 
-The following actions are deferred to feature engineering/model preprocessing:
-
-- Feature scaling or normalization
-- Encoding categorical variables
-- Treatment of class imbalance
-- Model-specific transformations
-
-This separation keeps data cleaning focused on clear data-quality inconsistencies rather than predictive transformations.
+[02 - Feature Engineering](../02-Feature-Engineering/) documents categorical encoding and model-specific preprocessing.
