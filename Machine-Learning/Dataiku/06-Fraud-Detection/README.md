@@ -17,9 +17,11 @@ The workflow will cover data preparation, train/test splitting, parameters and h
 
 ## Current Project Structure
 
-- `01-Data-Cleaning/` - Initial data-quality review and cleaning decisions.
+- [01-Data-Cleaning](01-Data-Cleaning/) - Initial data-quality review and cleaning decisions.
+- [02-Feature-Engineering](02-Feature-Engineering/) - One-Hot encoding, KNN preprocessing and input-role correction.
+- [03-KNN](03-KNN/) - Training configuration, hyperparameter selection and final results.
 
-Additional stages will be documented as the project progresses.
+Data cleaning, feature engineering and KNN evaluation are documented. Naive Bayes is the next phase; its results and the final comparison remain pending.
 
 ## Initial Dataset
 
@@ -41,6 +43,17 @@ The initial review identified three cleaning actions:
 There are 131 records with negative `distancia_ip` and 56 with negative `monto`. One record has both anomalies, so 186 unique rows are removed. The cleaned dataset therefore contains 9,814 transactions.
 
 Statistical outliers are retained because unusual transaction behavior may contain relevant fraud signals. Scaling, categorical encoding and any class-imbalance treatment are intentionally deferred to the feature-engineering/model-preprocessing stage.
+
+
+## Final KNN Summary
+
+The corrected KNN uses 27 features after preprocessing, an 80/20 random split with seed 1337, and 5-fold cross-validation. Grid search over K = {3, 5, 7, 9, 11} selected K = 11 using ROC AUC. The F1-optimized threshold is 0.100.
+
+| ROC AUC | Accuracy | Precision | Recall | F1 |
+| ---: | ---: | ---: | ---: | ---: |
+| 0.9897 | 0.9861 | 0.9829 | 0.9712 | 0.9770 |
+
+The final confusion matrix is TP = 574, FN = 17, FP = 10 and TN = 1,344. See [03-KNN](03-KNN/) for the full configuration and metrics.
 
 ## Tool
 
