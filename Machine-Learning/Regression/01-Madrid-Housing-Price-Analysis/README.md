@@ -37,7 +37,7 @@ The project is structured as a progressive data analysis workflow:
 ## Project Structure
 
 ```text
-05-Madrid-Housing-Price-Analysis/
+01-Madrid-Housing-Price-Analysis/
 ├── README.md
 ├── Data-Wrangling/
 │   └── README.md
