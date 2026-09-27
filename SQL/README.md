@@ -1,51 +1,38 @@
-# SQL Practice — Sakila Database
+# SQL
 
 ## Overview
 
-This section contains practical SQL exercises using the MySQL Sakila sample database.
+This section documents both my SQL learning progression and portfolio projects focused on solving practical data and business problems.
 
-The exercises are organized by concept and increase progressively in difficulty, moving from individual SQL clauses to combinations of concepts used in business analysis.
+SQL work is separated into two areas: **Exercises** for progressive learning and practice, and **Projects** for end-to-end analyses built around realistic datasets and business questions.
 
-## Learning Approach
+## Exercises
 
-Each exercise is based on a business scenario. The objective is to translate a business question into a SQL query, select the appropriate tables and operations, and validate that the result answers the question correctly.
+The `Exercises/` section contains practice completed while learning SQL. Exercises progress from individual concepts toward combinations commonly used in data analysis.
 
-The focus is on practical problem solving rather than memorizing syntax.
-
-## Exercise Structure
-
-Exercises are organized into concept-based folders, with individual exercises numbered in order of increasing difficulty.
-
-Each exercise includes:
-
-- Objective
-- Query
-- Concepts
-- Business Insight
-- Skills Demonstrated
-
-## Concepts Covered
-
-The SQL practice roadmap includes:
+Current topics include:
 
 - Basic Queries
 - Filtering
 - JOINs
 - GROUP BY
 - HAVING
-- CASE
-- Date Functions
-- Subqueries
-- Advanced SQL concepts as the learning progresses
+- DISTINCT
 
-## Database Used
+Additional concepts will be incorporated as the learning process progresses.
 
-**MySQL — Sakila Sample Database**
+The practice work uses the MySQL Sakila sample database.
 
-Sakila simulates a DVD rental business and contains entities such as customers, films, actors, categories, stores, rentals, and payments.
+## Projects
 
-## Progression
+### 01 — Banking Transaction Analysis
 
-Difficulty is increased progressively by combining concepts already learned. New concepts are introduced and practiced separately before being incorporated into more complex exercises.
+An evolving SQL analysis of a retail banking dataset covering customers, accounts, transactions, branches, and merchants.
 
-The goal is to demonstrate consistent practical mastery of each concept before moving to the next stage.
+The project begins with the SQL concepts currently mastered and will expand as more advanced SQL techniques are learned.
+
+Current skills applied include `SELECT`, `WHERE`, aggregate functions, `JOIN`, `GROUP BY`, `HAVING`, `ORDER BY`, and `DISTINCT`.
+
+## Learning approach
+
+The focus is on translating business questions into SQL queries, selecting the appropriate tables and operations, validating results, and extracting useful insights rather than memorizing syntax.
