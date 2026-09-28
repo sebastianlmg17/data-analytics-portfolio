@@ -16,13 +16,16 @@ The objective is to build and compare three linear regression approaches:
 
 The workflow covers data exploration, train/test splitting, model training, regularization, automatic feature selection, model evaluation and final comparison.
 
-## Project Structure
+## Project Workflow
 
-- **Data Exploration** — review data quality and the main relationships with `MEDV`.
-- **OLS Regression** — establish the baseline linear regression model.
-- **Ridge Regression** — evaluate L2 regularization while retaining all predictors.
-- **Lasso Regression** — evaluate L1 regularization and automatic feature selection.
-- **Model Comparison** — compare predictive performance and select the most useful model.
+1. **[Data Exploration](01-Data-Exploration/)** — review data quality and the main relationships with `MEDV`.
+2. **[Train / Test Split](02-Train-Test-Split/)** — define the common 399/107 partition used to compare all models.
+3. **[OLS Regression](03-OLS-Regression/)** — establish the baseline linear regression model.
+4. **[Ridge Regression](04-Ridge-Regression/)** — evaluate L2 regularization while retaining all predictors.
+5. **[Lasso Regression & Feature Selection](05-Lasso-Regression-Feature-Selection/)** — evaluate L1 regularization and reduce the model from 13 to 11 predictors.
+6. **[Model Comparison](06-Model-Comparison/)** — compare predictive performance and select the final model.
+
+No separate Data Cleaning or Feature Engineering folders are included because those stages were not required in this project. The dataset review did not identify cleaning actions that justified changing the observations, and no engineered predictors were created.
 
 ## Dataset
 
@@ -36,14 +39,6 @@ No observations were removed. Statistical extreme values were retained because t
 
 Among the relationships highlighted during exploration, `LSTAT` showed the strongest linear association with `MEDV` (r = -0.738), followed by `RM` (r = +0.695). `RAD` and `TAX` were also strongly correlated with each other (r = 0.910), which is relevant when interpreting linear-model coefficients and motivates the comparison with regularized regression.
 
-## Modeling Approach
-
-All models use `MEDV` as the target and the same train/test partition: 399 observations for training and 107 for testing, approximately 79% / 21% of the dataset. Keeping the same test set allows the models to be compared under equivalent conditions.
-
-OLS is used as the baseline. Ridge applies L2 regularization to reduce coefficient magnitude while retaining every predictor. Lasso applies L1 regularization and can reduce some coefficients to zero, allowing automatic feature selection.
-
-For the final Lasso feature-reduction step, Dataiku selected **alpha = 0.1**. The model retained **11 of the original 13 predictors**, excluding `AGE` and `INDUS`.
-
 ## Final Model Comparison
 
 | Model | R² | MAE | MSE |
@@ -55,22 +50,11 @@ For the final Lasso feature-reduction step, Dataiku selected **alpha = 0.1**. Th
 
 Regularization only produced a small predictive improvement over OLS. Ridge and the initial Lasso model achieved very similar results, while the reduced Lasso model obtained the best metrics of the evaluated approaches.
 
-The most relevant result is therefore not a large increase in predictive accuracy, but the ability to simplify the model. Removing `AGE` and `INDUS` reduced the number of predictors from 13 to 11 while slightly improving performance on the test set.
-
 ## Final Model
 
-**Lasso with automatic feature reduction** is selected as the final model.
+**Lasso with automatic feature reduction** is selected as the final model. Dataiku selected **alpha = 0.1**, retaining **11 of the original 13 predictors** and excluding `AGE` and `INDUS`.
 
-It provides the best balance between predictive performance, simplicity and interpretability among the evaluated linear models:
-
-- R²: **0.7244**
-- MAE: **3.395**
-- MSE: **18.949**
-- Selected predictors: **11**
-- Removed predictors: `AGE`, `INDUS`
-- Feature-selection alpha: **0.1**
-
-The differences between the models are small, so the selection is based not only on the slightly better metrics but also on the simpler final specification.
+The reduced model provides the best balance between predictive performance, simplicity and interpretability among the evaluated linear models.
 
 ## Tools
 
