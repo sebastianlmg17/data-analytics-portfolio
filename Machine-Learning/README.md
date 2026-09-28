@@ -12,5 +12,6 @@ Projects are organized by the type of problem they solve. Each project documents
 ## Regression
 
 - [Madrid Housing Price Analysis](Regression/01-Madrid-Housing-Price-Analysis/) — property prices.
+- [Boston Housing — Regularized Regression](Regression/02-Boston-Housing-Regularized-Regression/) — OLS, Ridge, Lasso and feature selection for housing-value prediction.
 
 New problem types will be added when completed projects demonstrate them.
