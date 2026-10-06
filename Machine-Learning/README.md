@@ -1,17 +1,16 @@
 # Machine Learning
 
-Projects are organized by the type of problem they solve. Each project documents its tools and workflow; future Python implementations can be added to the same project.
+Projects are organized by the main tool used to build them.
 
-## Classification
+- [Dataiku](Dataiku/) — six existing projects, with classification and regression categories.
+- [Python](Python/) — reserved for standalone projects developed programmatically in Python.
 
-- [Titanic Survival Prediction](Classification/01-Titanic-Survival-Prediction/) — passenger survival.
-- [Bank Term Deposit Prediction](Classification/02-Bank-Term-Deposit-Prediction/) — campaign subscription.
-- [Employee Attrition Prediction](Classification/03-Employee-Attrition-Prediction/) — employee departure.
-- [Fraud Detection](Classification/04-Fraud-Detection/) — suspicious transactions.
+```text
+Machine-Learning/
+├── Dataiku/
+│   ├── Classification/
+│   └── Regression/
+└── Python/
+```
 
-## Regression
-
-- [Madrid Housing Price Analysis](Regression/01-Madrid-Housing-Price-Analysis/) — property prices.
-- [Boston Housing — Regularized Regression](Regression/02-Boston-Housing-Regularized-Regression/) — OLS, Ridge, Lasso and feature selection for housing-value prediction.
-
-New problem types will be added when completed projects demonstrate them.
+Each project is stored once. Python recipes supporting a Dataiku workflow remain inside that project. A separate Python implementation should add a clear technical contribution rather than copy the Dataiku project.

@@ -9,7 +9,7 @@ The portfolio is built progressively: each section reflects skills learned throu
 ## Portfolio Sections
 
 - **SQL** — Data querying, relational analysis, joins, aggregations and business-oriented analysis.
-- **Machine Learning** — [Classification and regression projects](Machine-Learning/README.md), organized by problem type and built with Dataiku and, progressively, Python.
+- **Machine Learning** — [Dataiku and Python projects](Machine-Learning/README.md), organized by their main development tool.
 - **Python** — Python programming and Data Wrangling projects, with additional Python applications added as new skills are developed.
 - **Data Visualization** — [Dashboards, reporting, KPIs and analytical storytelling](Data-Visualization/README.md), including the Hotel Booking Analysis.
 - **Deep Learning** — Deep Learning projects, to be added as this area is developed.
@@ -34,9 +34,9 @@ Additional technologies and methodologies will be added as they are learned and 
 
 ## Project Structure
 
-Projects are organized primarily by the skill or professional area they demonstrate. Tools are used as supporting technologies rather than defining the entire portfolio structure.
+Projects are organized primarily by the skill or professional area they demonstrate. Within Machine Learning, projects are separated by their main development tool.
 
-Machine Learning projects are grouped by problem type, such as classification and regression. Each project documents the tools used. Python-specific Data Wrangling work remains under the Python section.
+Machine Learning contains separate Dataiku and Python folders. Existing Dataiku projects retain classification and regression categories within Dataiku. Supporting Python recipes stay with their Dataiku projects; standalone Python ML projects belong in Machine-Learning/Python. Python-specific Data Wrangling work remains under the Python section.
 
 Projects that are part of the Master's program are documented within the Master's section.
 
