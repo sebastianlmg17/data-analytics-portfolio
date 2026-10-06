@@ -2,7 +2,7 @@
 
 Projects are organized by the main tool used to build them.
 
-- [Dataiku](Dataiku/) — six existing projects, with classification and regression categories.
+- [Dataiku](Dataiku/) — seven projects, grouped into classification and regression.
 - [Python](Python/) — reserved for standalone projects developed programmatically in Python.
 
 ```text
