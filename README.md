@@ -1,32 +1,30 @@
-# Sebastián Leo Martínez · Data Analytics & Applied AI
+# Sebastián Leo Martínez · Machine Learning & Financial Analytics
 
-Business Administration graduate developing data analysis and Machine Learning projects, with a growing focus on financial decisions. Currently studying Artificial Intelligence Applied to the Financial Sector.
+Business Administration graduate studying Artificial Intelligence Applied to the Financial Sector. This portfolio focuses on Machine Learning applied to financial and business decisions, with documented data preparation, model comparisons and evaluation limits.
 
-My work combines business questions, data preparation, statistical analysis and model evaluation. The projects below show the evidence published so far, with unfinished work clearly identified.
+## Featured projects
 
-## Selected projects
+Open a project to see its objective, dataset, methodology, results and conclusions directly in its folder.
 
-| Project | Business question and contribution | Tools | Published result |
+| Project | Business problem | Main contribution | Reported result |
 | --- | --- | --- | --- |
-| [Credit Risk Evaluation](Machine-Learning/Dataiku/Credit-Risk-Evaluation/) | How do a single tree, bagging and boosting compare when identifying high-risk applications? | Dataiku | Gradient Boosted Trees: test ROC AUC **0.9674**; 432 high-risk cases classified as low risk. |
-| [Bank Term Deposit](Machine-Learning/Dataiku/Bank-Term-Deposit/) | Can campaign targeting be improved while avoiding post-call information leakage? | Dataiku, Python recipes | Optimized Random Forest: test ROC AUC **0.9535**; sampling and tuning comparisons documented. |
-| [Madrid Housing](Machine-Learning/Dataiku/Madrid-Housing/) | How are property characteristics and district associated with asking price? | Dataiku, statistical analysis | Data preparation and multiple regression documented; final comparison is pending. |
-| [Tourism Activity Analysis](Data-Analysis/Tourism-Activity-Analysis/) | How can tourism trends and country-level indicators be communicated through a dashboard? | Dataiku | Dashboard workflow documented; visual export and numerical findings are not yet published. |
+| [Credit Risk Evaluation](Machine-Learning/Dataiku/Credit-Risk-Evaluation/) | Identify high-risk loan applications | Single tree vs bagging vs boosting, with credit-risk error interpretation | Gradient Boosted Trees: test ROC AUC **0.9674**; 432 high-risk cases classified as low risk. |
+| [Fraud Detection](Machine-Learning/Dataiku/Fraud-Detection/) | Identify potentially fraudulent transactions | KNN vs GaussianNB, scaling and threshold analysis | GaussianNB: test ROC AUC **0.9980**. Exceptional performance requires caution; dataset provenance and external generalization are not established. |
+| [Bank Term Deposit](Machine-Learning/Dataiku/Bank-Term-Deposit/) | Predict campaign subscription | Post-call leakage prevention, sampling experiments and Random Forest tuning | Optimized Random Forest: test ROC AUC **0.9535**. |
 
-These results describe the documented datasets and evaluations. They do not establish production performance or measured business impact.
+Results describe the documented evaluations, not measured production performance or business impact.
 
-## Explore the portfolio
+## Explore
 
-- **[Data Analysis](Data-Analysis/)** — business analysis with SQL, data preparation and dashboards.
-- **[Machine Learning](Machine-Learning/)** — seven Dataiku projects, their results, methods and limitations.
-- **[About & credentials](About/)** — business background, current studies and verified course evidence.
+- **[Machine Learning catalogue](Machine-Learning/)** — all seven projects, including Madrid Housing as the main statistical regression case, and complementary work in regularization and HR classification.
+- **[About & credentials](About/)** — business background, Master's studies and course evidence.
 
-Projects are stored once. SQL, Python and dashboard work can be combined within the same business case. Standalone Python ML projects will be added when there is an implementation to inspect.
+The current projects were developed in Dataiku, with supporting Python recipes where needed. A standalone Python ML section will be added with its first implementation.
 
-## Current priorities
+## Portfolio direction
 
-Complete the remaining project conclusions, publish visual evidence for the tourism dashboard, and develop the banking SQL case into a reproducible analysis. Future Python work will add reproducible pipelines or a new analytical problem rather than repeat each Dataiku project.
+Future work will add reproducible Python pipelines and new problem families as the Master's program progresses. Complete SQL analysis and Power BI projects will receive their own sections when published. Each project is stored once, even when it combines several tools.
 
-## Contact
+The portfolio is a selection that evolves: stronger projects can replace earlier ones while their history is preserved.
 
 [GitHub profile](https://github.com/sebastianlmg17)

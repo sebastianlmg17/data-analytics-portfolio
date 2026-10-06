@@ -34,11 +34,22 @@ The project is structured as a progressive data analysis workflow:
 6. **[Multiple Linear Regression](docs/methodology.md#multiple-linear-regression)** — completed. Dataiku OLS achieved R² = 0.7141 and RMSE ≈ €538,900. The phase separately documents statistical inference from a full-dataset OLS fit.
 7. **Model Comparison & Conclusions** — next. Compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
 
-## Project Structure
+## Multiple-regression results
 
-Project artifacts are linked below.
+The reported Dataiku multiple OLS evaluation obtained:
 
-Each phase documents the decisions made, the methodology applied and the relevant results. Additional project artifacts will be added as the analysis progresses.
+| Metric | Result |
+| --- | ---: |
+| R² | 0.7141 |
+| RMSE | approximately €538,900 |
+| MAE | approximately €339,300 |
+| MAPE | 34.40% |
+
+## Interpretation and limitations
+
+Property size, bathrooms and district are important parts of the documented price analysis. The multiple model describes conditional relationships; these are not causal effects.
+
+A separate full-dataset OLS fit on 911 observations obtained R² = 0.6626 and supplies the inferential statistics in the detailed notes. Those statistics must not be attached to the Dataiku coefficients. The archived CSVs do not preserve the exact Dataiku split and preprocessing, so the evaluation cannot be independently reproduced from those files alone. Simple and multiple results should not be treated as a controlled model comparison until their evaluation setups are aligned. Final Model Comparison & Conclusions remains pending.
 
 ## Tools
 

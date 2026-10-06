@@ -78,6 +78,12 @@ It achieved the highest:
 
 Although the Decision Tree with Oversampling achieved higher Recall, Logistic Regression provided the best overall balance among the evaluated models, particularly in Precision, F1-Score and ROC AUC.
 
+## Interpretation and limitations
+
+Logistic Regression provides the strongest overall reported balance, while its recall of 53.45% leaves many departures undetected. Sampling experiments illustrate the tradeoff between detecting more departures and producing more false positives. This comparison does not establish the causes of employee departures or measured retention impact.
+
+The data snapshots and sampling scripts are published; the complete Dataiku training configuration is not exported as an executable project. Final variable interpretation remains pending.
+
 ## Next Step
 
 A final interpretative analysis of employee characteristics and their relationship with attrition will be performed in Dataiku before the project is considered complete.

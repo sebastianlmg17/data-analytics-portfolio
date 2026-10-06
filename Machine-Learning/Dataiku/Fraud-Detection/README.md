@@ -70,7 +70,9 @@ Gaussian Naive Bayes slightly outperforms KNN across all principal metrics and m
 
 ## Interpretation Limits
 
-See [interpretation limits](docs/methodology.md#05-model-comparison).
+Dataiku flagged the exceptional ROC AUC of 0.998. Although the identifier `id_transaccion` was removed for leakage, the results do not establish generalization to new real-world transactions. The source/provenance of the dataset is not specified in the published project overview.
+
+GaussianNB made 16 false negatives and 7 false positives, compared with 17 and 10 for KNN, on the reported test set. Its small advantage supports selection within this evaluation rather than a claim of universal superiority. See [full comparison](docs/methodology.md#05-model-comparison).
 
 ## Tool
 

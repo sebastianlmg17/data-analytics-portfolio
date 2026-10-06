@@ -82,6 +82,12 @@ Final results:
 | Recall | **0.8284** |
 | F1-Score | **0.6627** |
 
+## Interpretation and limitations
+
+Random Forest V2 offers the strongest documented result after the sampling and tuning experiments. Recall of 0.8284 is accompanied by precision of 0.5522, so many predicted subscribers still do not subscribe. Removing `duration` avoids using information unavailable before a call.
+
+The reported metrics describe the project test set. Campaign savings, production performance and generalization to another bank have not been measured. The repository includes data snapshots and sampling scripts, but no executable Dataiku project export preserving the complete training configuration.
+
 ## Key Learning Outcomes
 
 - Data preparation in Dataiku.

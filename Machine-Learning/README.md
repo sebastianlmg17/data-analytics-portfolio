@@ -1,5 +1,7 @@
 # Machine Learning
 
+The core of this portfolio is Machine Learning applied to financial and business problems. Open any project folder to read its complete overview directly; the methodology document provides optional technical depth.
+
 Predictive projects with a business objective, documented evaluation and explicit limitations. The current implementations were developed in Dataiku; supporting Python recipes remain with the projects they serve.
 
 ## Project catalogue

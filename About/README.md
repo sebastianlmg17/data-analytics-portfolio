@@ -1,6 +1,6 @@
 # About Sebastián Leo Martínez
 
-My direction is data analysis and Machine Learning applied to business decisions, with a growing focus on finance. A background in Business Administration supports the business interpretation of the technical work presented in this portfolio.
+My direction is Machine Learning applied to financial and business decisions. A background in Business Administration supports the business interpretation of the technical work presented in this portfolio.
 
 ## Education
 
@@ -15,7 +15,6 @@ The program covers financial analytics, classification and regression, followed 
 - [Credit risk](../Machine-Learning/Dataiku/Credit-Risk-Evaluation/) — comparison of tree-based classifiers.
 - [Fraud detection](../Machine-Learning/Dataiku/Fraud-Detection/) — comparison of KNN and GaussianNB.
 - [Madrid housing](../Machine-Learning/Dataiku/Madrid-Housing/) and [Boston housing](../Machine-Learning/Dataiku/Boston-Housing-Regularization/) — statistical regression and regularization.
-- [Tourism activity](../Data-Analysis/Tourism-Activity-Analysis/) — integration, KPIs and dashboard workflow.
 
 Projects are documented in their analytical area rather than copied into an academic folder.
 
@@ -30,7 +29,7 @@ The former SQL and Azure AI-900 pages described topics but did not publish an is
 
 ## Skills demonstrated in the portfolio
 
-SQL practice, Dataiku preparation and modeling, supporting Python sampling scripts, classification evaluation, statistical regression and documentation of analytical decisions. The project catalogue distinguishes current evidence from planned work.
+Dataiku preparation and modeling, supporting Python sampling scripts, classification evaluation, statistical regression and documentation of analytical decisions. The project catalogue distinguishes current evidence from planned work.
 
 ## Contact
 

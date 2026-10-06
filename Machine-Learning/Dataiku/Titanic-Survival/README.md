@@ -32,9 +32,26 @@ The project documents the main stages completed so far, from data cleaning and f
 
 ---
 
-## Repository Structure
+## Dataset and evaluation
 
-Project artifacts are linked below.
+The target is `Survived`. The feature-engineered passenger dataset was split into 713 training observations and 178 test observations (approximately 80/20). Random Forest and Logistic Regression were compared; no oversampling or undersampling was applied.
+
+## Results obtained so far
+
+Random Forest was selected as the strongest model at the documented training stage.
+
+| Metric | Random Forest |
+| --- | ---: |
+| ROC AUC | 0.8564 |
+| Accuracy | 0.8258 |
+| Precision | 0.7714 |
+| Recall | 0.7826 |
+| F1-score | 0.7770 |
+
+## Conclusion and current limits
+
+This introductory project demonstrates passenger feature preparation and comparison of two binary classifiers. These are the reported training-stage evaluation results; the later evaluation and final-results phases remain unfinished. Published data snapshots and images support the documentation, but an executable Dataiku project export is not included.
+
 
 ---
 

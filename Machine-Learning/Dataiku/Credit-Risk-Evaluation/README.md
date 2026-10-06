@@ -71,6 +71,10 @@ It achieved the strongest overall performance and produced the lowest number of 
 
 Because class `1` represents high credit risk, a false negative corresponds to a high-risk applicant being classified as low risk.
 
+## Interpretation and limitations
+
+The selected boosted model improves the documented comparison, but still misses 432 high-risk applicants. Model errors should be considered in terms of the business decision; no financial savings or production impact have been measured here. The dataset provenance is not specified in the published overview, and a common test-set comparison alone does not establish performance on future loan applications.
+
 ## Tool
 
 Dataiku DSS
