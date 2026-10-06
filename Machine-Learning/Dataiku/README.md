@@ -1,21 +1,20 @@
 # Machine Learning with Dataiku
 
-Projects developed in Dataiku DSS, grouped by problem type. Supporting Python recipes stay with their Dataiku workflows and are not duplicated as standalone Python projects.
+Projects developed in Dataiku DSS, grouped by problem type.
 
 ## Classification
 
-- [Titanic Survival Prediction](Classification/01-Titanic-Survival-Prediction/) — passenger survival.
-- [Bank Term Deposit Prediction](Classification/02-Bank-Term-Deposit-Prediction/) — campaign subscription.
-- [Employee Attrition Prediction](Classification/03-Employee-Attrition-Prediction/) — employee departure.
-- [Fraud Detection](Classification/04-Fraud-Detection/) — suspicious transactions.
+- [Titanic Survival Prediction](Classification/01-Titanic-Survival-Prediction/)
+- [Bank Term Deposit Prediction](Classification/02-Bank-Term-Deposit-Prediction/)
+- [Employee Attrition Prediction](Classification/03-Employee-Attrition-Prediction/)
+- [Fraud Detection](Classification/04-Fraud-Detection/)
+- [Credit Risk Evaluation](Classification/05-Credit-Risk-Evaluation/)
 
 ## Regression
 
-- [Madrid Housing Price Analysis](Regression/01-Madrid-Housing-Price-Analysis/) — property prices.
-- [Boston Housing — Regularized Regression](Regression/02-Boston-Housing-Regularized-Regression/) — OLS, Ridge, Lasso and feature selection for housing-value prediction.
+- [Madrid Housing Price Analysis](Regression/01-Madrid-Housing-Price-Analysis/)
+- [Boston Housing — Regularized Regression](Regression/02-Boston-Housing-Regularized-Regression/)
 
-New problem types will be added when completed projects demonstrate them.
+Supporting Python recipes stay with their Dataiku workflows. Standalone Python ML projects are kept in the separate Python section.
 
-## Portfolio review
-
-See the [overlap review and recommendations](PORTFOLIO-REVIEW.md) for the distinct contribution of each project and potential redundancies.
+See the [portfolio overlap review](PORTFOLIO-REVIEW.md) for redundancy notes and recommendations.
