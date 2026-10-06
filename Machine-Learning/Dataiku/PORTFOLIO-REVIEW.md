@@ -1,56 +1,67 @@
 # Dataiku portfolio overlap review
 
-Reviewed on 6 October 2026 against the six ML projects in the repository. This is a review of committed documentation and available artifacts, not a rerun of Dataiku models. Repeated algorithms do not establish identical fitted models; different datasets and targets can justify using the same algorithm.
+Reviewed on 6 October 2026 against the seven Dataiku ML projects currently in the repository.
+
+Repeated algorithms do not make two projects duplicates by themselves. The key question is whether the projects demonstrate a different business problem, dataset, modeling lesson or validation challenge.
 
 ## Project inventory
 
-| Project | Problem and dataset | Documented algorithms | Distinct contribution |
+| Project | Main problem | Main algorithms | Distinct contribution |
 | --- | --- | --- | --- |
-| [Titanic](Classification/01-Titanic-Survival-Prediction/) | Binary survival classification; Titanic passenger data | Random Forest, Logistic Regression | Introductory workflow and passenger feature engineering; no resampling. Evaluation and final-results stages remain pending. |
-| [Bank Term Deposit](Classification/02-Bank-Term-Deposit-Prediction/) | Binary campaign-subscription classification; UCI Bank Marketing | Random Forest, Logistic Regression; optimized RF selected | Marketing decisions, removal of post-call `duration` to prevent leakage, original/over/undersampling comparison and RF tuning. |
-| [Employee Attrition](Classification/03-Employee-Attrition-Prediction/) | Binary employee-departure classification; IBM HR, 1,470 records | Decision Tree, Logistic Regression, Random Forest; LR selected | HR retention, recall/false-positive tradeoffs, and recognition of leakage when oversampling before cross-validation. Final interpretation remains pending. |
-| [Fraud Detection](Classification/04-Fraud-Detection/) | Binary transaction-fraud classification; 10,000 initial transactions, `es_fraude`; source provenance is not specified in the overview | KNN, Gaussian Naive Bayes; GaussianNB selected | Different algorithm families, scaling decisions, thresholds, Average Precision/MCC, and identifier-leakage detection. |
-| [Madrid Housing](Regression/01-Madrid-Housing-Price-Analysis/) | Price regression; Idealista Madrid listings, 915 raw / 911 cleaned | Simple and multiple OLS | Local property analysis, district encoding, joins, duplicate review, ANOVA and separate statistical inference. Final comparison remains pending. |
-| [Boston Housing](Regression/02-Boston-Housing-Regularized-Regression/) | Housing-value regression; Boston Housing, 506 observations, `MEDV` | OLS, Ridge, Lasso, Lasso feature reduction | Regularization and simplification from 13 to 11 predictors; final selected model is reduced Lasso. |
+| Titanic Survival Prediction | Binary classification | Logistic Regression, Random Forest | Introductory classification workflow and passenger feature engineering. |
+| Bank Term Deposit Prediction | Binary classification | Logistic Regression, Random Forest | Marketing response, leakage prevention, imbalance experiments and RF optimization. |
+| Employee Attrition Prediction | Binary classification | Decision Tree, Logistic Regression, Random Forest | HR retention, error tradeoffs and leakage awareness around resampling and CV. |
+| Fraud Detection | Binary classification | KNN, Gaussian Naive Bayes | Different algorithm families, scaling, threshold analysis and fraud-specific errors. |
+| Credit Risk Evaluation | Binary classification | Decision Tree, Random Forest, Gradient Boosted Trees | Tree ensembles, bagging vs boosting and credit-risk false-negative analysis. |
+| Madrid Housing Price Analysis | Regression | Simple and Multiple Linear Regression | Local property analysis, district feature engineering, ANOVA and regression interpretation. |
+| Boston Housing — Regularized Regression | Regression | OLS, Ridge, Lasso | Regularization, feature reduction and model simplification. |
 
-## Main overlaps and recommendations
+## Main overlaps
 
-### Bank Term Deposit and Employee Attrition: strongest workflow overlap
+### Titanic, Bank Term Deposit and Employee Attrition
 
-Both compare original, oversampled and undersampled training data, then optimize classifiers and report similar metrics. They also share Logistic Regression and Random Forest. This is methodological repetition, not the same business problem or dataset.
+These projects share Logistic Regression and Random Forest, and all are binary classification problems. The strongest algorithm overlap is between Bank Term Deposit and Employee Attrition.
 
-Keep both, but make their different lessons prominent: Bank Marketing demonstrates leakage prevention and optimized Random Forest; Attrition demonstrates HR error tradeoffs, cross-validation leakage awareness and a Logistic Regression winner. Avoid expanding both with the same additional experiments solely to increase portfolio size.
+They are not whole-project duplicates because they solve different business problems and emphasize different lessons. Bank Term Deposit is strongest on leakage prevention, imbalance experiments and Random Forest optimization; Employee Attrition is strongest on HR error tradeoffs and resampling/CV methodology.
 
-### Madrid Housing and Boston Housing: strongest business/problem overlap
+Titanic is the most introductory of the three. Once a stronger Python Titanic project exists, the Dataiku version should remain a secondary learning milestone rather than a flagship project.
 
-Both predict housing values and use OLS. Their datasets, geographical context and technical emphasis differ. Madrid contributes data integration, feature engineering, statistical analysis and interpretation; Boston contributes Ridge/Lasso regularization and feature selection.
+### Employee Attrition and Credit Risk Evaluation
 
-Keep Madrid as the richer property-analysis case and Boston as a compact regularization case. OLS, Ridge and Lasso are justified comparison baselines within one project; the small performance differences do not make them redundant projects. A further housing-price project would need a clear additional contribution to justify the repetition.
+Both use Decision Trees and Random Forest. However, Credit Risk adds Gradient Boosting and directly compares a single tree, bagging and boosting. It also introduces a different business decision where false negatives have a clear credit-risk interpretation.
 
-### Titanic: introductory overlap with the classification projects
+Keep both. Avoid adding the same boosting comparison to Attrition unless it serves a specific analytical purpose.
 
-Titanic repeats binary classification and the Random Forest/Logistic Regression pairing seen in Bank Marketing and Attrition. It contributes a different dataset and feature engineering, but its current modeling scope is more introductory.
+### Bank Term Deposit and Credit Risk Evaluation
 
-Retain it as an early learning milestone and give more portfolio prominence to the more complete projects. If implemented later in Python, make the added value explicit through a reproducible preprocessing/model pipeline and a documented validation procedure rather than duplicating the same write-up.
+Both are financial binary-classification projects and both use Random Forest. The business objectives are different: campaign conversion versus credit-risk assessment. Credit Risk also adds Gradient Boosting and a different evaluation focus.
 
-### Fraud Detection: complementary algorithms
+They are complementary rather than redundant.
 
-Fraud shares the classification task and financial setting with Bank Marketing, but fraud detection and campaign response are different business decisions. KNN and GaussianNB add algorithm diversity. There is no documented evidence that its dataset duplicates another project's data.
+### Madrid Housing and Boston Housing
 
-Keep it. Document dataset provenance and retain the existing limitation about unusually high AUC and identifier leakage. The current metrics alone do not demonstrate performance on new real transactions.
+These have the strongest problem-domain overlap because both predict housing values and use OLS-style regression.
 
-## Internal documentation overlap
+Keep both because their technical emphasis is different: Madrid focuses on data preparation, location engineering, ANOVA and multiple regression; Boston focuses on Ridge/Lasso regularization and feature selection.
 
-- Fraud's [03-KNN](Classification/04-Fraud-Detection/03-KNN/) is only a pointer to [03-KNN-Model](Classification/04-Fraud-Detection/03-KNN-Model/). It is not a second trained model. It can remain as a compatibility pointer; optional removal would be a separate approved cleanup.
-- Bank Marketing's [Original-Model](Classification/02-Bank-Term-Deposit-Prediction/04-Model-Training/Original-Model/) contains two conclusion sections, and the later one calls the original model the final project model. The current project overview and final-selection stage instead select optimized RF V2. A future documentation cleanup should label the original model as the baseline/stage winner.
-- Bank Marketing reports Logistic Regression AUC = 0.8940 in original, oversampling and undersampling pages. Equal rounded values do not prove duplication. Check the Dataiku experiment outputs before treating these as copied results.
-- Madrid's data snapshots 05 and 06 share the same model values, with 06 adding `size_range` for ANOVA. They have documented separate purposes and should not be deleted merely because much of their content overlaps.
-- Supporting Python sampling scripts inside Bank Marketing and Attrition belong to their Dataiku workflows. They are not standalone Python ML projects and have not been copied into the new Python section.
+A third conventional housing-price regression project would be redundant unless it adds a clearly different technique or business question.
 
-## Portfolio direction
+### Fraud Detection
 
-No whole project is an established duplicate of another dataset/target combination. The main repetition is four binary classifiers and two housing regressions, with shared algorithms and sampling workflows. Keep all six and emphasize each project's distinct lesson. For future Python work, prioritize a new problem family or materially deeper validation/reproducibility rather than systematically recreating every Dataiku project.
+Fraud is the least redundant classification project from an algorithm perspective because it contributes KNN and Gaussian Naive Bayes rather than another tree/logistic comparison.
 
-Hotel Booking Analysis remains under Data Visualization: its documented contribution is analysis, integration, dashboards and KPIs. A separate credit-risk ML project is not present among these six; the Master's credit-risk subject page is academic context, not an additional completed ML implementation.
+Keep it. Its very high metrics should be interpreted carefully and dataset provenance should remain documented when available.
 
-No projects, models, datasets or supporting scripts were removed as a result of this review.
+## Internal redundancy
+
+- Fraud contains both `03-KNN` and `03-KNN-Model`; the former is a pointer rather than a second trained model. This is documentation duplication, not model duplication.
+- Bank Term Deposit contains repeated workflow stages around baseline/optimized models. They are useful if clearly labeled as progression rather than separate final models.
+- Supporting Python recipes inside Dataiku projects should remain inside those projects and should not be counted as standalone Python ML projects.
+
+## Recommendation
+
+No current Dataiku project needs to be removed.
+
+The main portfolio repetition is the use of Logistic Regression and Random Forest across several binary-classification projects, plus the two housing-regression projects. The projects remain defensible because each contributes a distinct modeling lesson.
+
+For future Python projects, prioritize either new problem families or clearly deeper implementations. Do not systematically recreate every Dataiku project in Python.
