@@ -1,20 +1,18 @@
-# Machine Learning with Dataiku
+# Dataiku projects
 
-Projects developed in Dataiku DSS, grouped by problem type.
+Each project includes an overview and, where available, a consolidated methodology document, data snapshots, scripts and images. Reported Dataiku evaluations are distinguished from independently reproducible artifacts.
 
-## Classification
+## Financial decisions
 
-- [Titanic Survival Prediction](Classification/01-Titanic-Survival-Prediction/)
-- [Bank Term Deposit Prediction](Classification/02-Bank-Term-Deposit-Prediction/)
-- [Employee Attrition Prediction](Classification/03-Employee-Attrition-Prediction/)
-- [Fraud Detection](Classification/04-Fraud-Detection/)
-- [Credit Risk Evaluation](Classification/05-Credit-Risk-Evaluation/)
+- [Credit Risk Evaluation](Credit-Risk-Evaluation/) — Decision Tree, Random Forest and Gradient Boosting.
+- [Bank Term Deposit](Bank-Term-Deposit/) — campaign response, leakage prevention and Random Forest tuning.
+- [Fraud Detection](Fraud-Detection/) — KNN and Gaussian Naive Bayes, with evaluation limitations documented.
 
-## Regression
+## Statistical analysis and other applications
 
-- [Madrid Housing Price Analysis](Regression/01-Madrid-Housing-Price-Analysis/)
-- [Boston Housing — Regularized Regression](Regression/02-Boston-Housing-Regularized-Regression/)
+- [Madrid Housing](Madrid-Housing/) — property preparation, statistical analysis and regression.
+- [Employee Attrition](Employee-Attrition/) — HR classification and error tradeoffs.
+- [Boston Housing](Boston-Housing-Regularization/) — linear-model regularization and feature selection.
+- [Titanic Survival](Titanic-Survival/) — introductory classification workflow.
 
-Supporting Python recipes stay with their Dataiku workflows. Standalone Python ML projects are kept in the separate Python section.
-
-See the [portfolio overlap review](PORTFOLIO-REVIEW.md) for redundancy notes and recommendations.
+[Full catalogue and statuses](../README.md) · [Portfolio](../../README.md)

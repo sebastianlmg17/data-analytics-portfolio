@@ -1,59 +1,32 @@
-# Data Analytics Portfolio
+# Sebastián Leo Martínez · Data Analytics & Applied AI
 
-Welcome to my Data Analytics Portfolio.
+Business Administration graduate developing data analysis and Machine Learning projects, with a growing focus on financial decisions. Currently studying Artificial Intelligence Applied to the Financial Sector.
 
-This repository documents my progression from foundational data analysis skills to Machine Learning and AI applied to real-world business and financial problems.
+My work combines business questions, data preparation, statistical analysis and model evaluation. The projects below show the evidence published so far, with unfinished work clearly identified.
 
-The portfolio is built progressively: each section reflects skills learned through coursework, certifications and practical projects. The objective is to demonstrate not only what I have studied, but what I can apply in practice.
+## Selected projects
 
-## Portfolio Sections
+| Project | Business question and contribution | Tools | Published result |
+| --- | --- | --- | --- |
+| [Credit Risk Evaluation](Machine-Learning/Dataiku/Credit-Risk-Evaluation/) | How do a single tree, bagging and boosting compare when identifying high-risk applications? | Dataiku | Gradient Boosted Trees: test ROC AUC **0.9674**; 432 high-risk cases classified as low risk. |
+| [Bank Term Deposit](Machine-Learning/Dataiku/Bank-Term-Deposit/) | Can campaign targeting be improved while avoiding post-call information leakage? | Dataiku, Python recipes | Optimized Random Forest: test ROC AUC **0.9535**; sampling and tuning comparisons documented. |
+| [Madrid Housing](Machine-Learning/Dataiku/Madrid-Housing/) | How are property characteristics and district associated with asking price? | Dataiku, statistical analysis | Data preparation and multiple regression documented; final comparison is pending. |
+| [Tourism Activity Analysis](Data-Analysis/Tourism-Activity-Analysis/) | How can tourism trends and country-level indicators be communicated through a dashboard? | Dataiku | Dashboard workflow documented; visual export and numerical findings are not yet published. |
 
-- **SQL** — Data querying, relational analysis, joins, aggregations and business-oriented analysis.
-- **Machine Learning** — [Dataiku and Python projects](Machine-Learning/README.md), organized by their main development tool.
-- **Python** — Python programming and Data Wrangling projects, with additional Python applications added as new skills are developed.
-- **Data Visualization** — [Dashboards, reporting, KPIs and analytical storytelling](Data-Visualization/README.md), including the Hotel Booking Analysis.
-- **Deep Learning** — Deep Learning projects, to be added as this area is developed.
-- **NLP** — Natural Language Processing projects, to be added as this area is developed.
-- **LLMs** — Large Language Model applications and projects, to be added as this area is developed.
-- **Master — Artificial Intelligence Applied to the Financial Sector** — Academic progress, subjects, practical work, skills acquired and certifications associated with the Master's program.
-- **Certifications** — Professional certifications and course completion credentials.
+These results describe the documented datasets and evaluations. They do not establish production performance or measured business impact.
 
-## Learning & Development
+## Explore the portfolio
 
-My learning path currently combines:
+- **[Data Analysis](Data-Analysis/)** — business analysis with SQL, data preparation and dashboards.
+- **[Machine Learning](Machine-Learning/)** — seven Dataiku projects, their results, methods and limitations.
+- **[About & credentials](About/)** — business background, current studies and verified course evidence.
 
-- Python
-- SQL (MySQL)
-- Dataiku
-- Machine Learning
-- Data Visualization
-- Artificial Intelligence
-- Financial Analytics
+Projects are stored once. SQL, Python and dashboard work can be combined within the same business case. Standalone Python ML projects will be added when there is an implementation to inspect.
 
-Additional technologies and methodologies will be added as they are learned and demonstrated through practical work.
+## Current priorities
 
-## Project Structure
+Complete the remaining project conclusions, publish visual evidence for the tourism dashboard, and develop the banking SQL case into a reproducible analysis. Future Python work will add reproducible pipelines or a new analytical problem rather than repeat each Dataiku project.
 
-Projects are organized primarily by the skill or professional area they demonstrate. Within Machine Learning, projects are separated by their main development tool.
+## Contact
 
-Machine Learning contains separate Dataiku and Python folders. Existing Dataiku projects retain classification and regression categories within Dataiku. Supporting Python recipes stay with their Dataiku projects; standalone Python ML projects belong in Machine-Learning/Python. Python-specific Data Wrangling work remains under the Python section.
-
-Projects that are part of the Master's program are documented within the Master's section.
-
-## Dependencies & Environment Variables
-
-Projects that require external Python packages will include a `requirements.txt` file to document their dependencies.
-
-Projects that require API keys or other environment-specific configuration will use a `.env.example` file with empty values. Real credentials are kept locally in `.env` and are excluded from version control through `.gitignore`.
-
-No API keys, passwords or other secrets should be committed to this repository.
-
-## Portfolio Philosophy
-
-The portfolio is intentionally kept structured and progressive rather than divided into excessive categories.
-
-Projects are added as new skills are acquired, allowing the repository to show the evolution from foundational analysis to increasingly complete Machine Learning and AI solutions.
-
-## Objective
-
-The goal of this portfolio is to showcase my technical skills, practical project experience and continuous development toward a career in Data Analytics, Machine Learning and Artificial Intelligence, with a growing focus on financial applications.
+[GitHub profile](https://github.com/sebastianlmg17)
