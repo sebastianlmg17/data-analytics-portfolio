@@ -1,4 +1,4 @@
-# Methodology and experiment notes
+# Project Documentation
 
 [Project overview](../README.md)
 
@@ -73,11 +73,11 @@ The cleaned dataset contains 911 observations and provides the dataset used for 
 
 ### Archived datasets
 
-Before review: [01-raw-idealista-madrid.csv](../data/01-raw-idealista-madrid.csv) (915 rows). After review: [02-cleaned-housing-data.csv](../data/02-cleaned-housing-data.csv) (911 rows). The same cleaned observations with encoded predictors are available in [05-model-ready-data.csv](../data/05-model-ready-data.csv), and with the additional ANOVA grouping in [06-model-ready-data-with-size-groups.csv](../data/06-model-ready-data-with-size-groups.csv).
+Before review: [01-raw-idealista-madrid.csv](../Datasets/01-raw-idealista-madrid.csv) (915 rows). After review: [02-cleaned-housing-data.csv](../Datasets/02-cleaned-housing-data.csv) (911 rows). The same cleaned observations with encoded predictors are available in [05-model-ready-data.csv](../Datasets/05-model-ready-data.csv), and with the additional ANOVA grouping in [06-model-ready-data-with-size-groups.csv](../Datasets/06-model-ready-data-with-size-groups.csv).
 
 File 06 differs from file 05 only by `size_range`; it does not represent another round of row removal. Reduced-column duplicate rows are retained because matching model features alone do not establish duplicate properties.
 
-The [Multiple Linear Regression](methodology.md#multiple-linear-regression) phase is now completed. Model Comparison & Conclusions is next.
+The [Multiple Linear Regression](README.md#multiple-linear-regression) phase is now completed. Model Comparison & Conclusions is next.
 
 ---
 
@@ -138,7 +138,7 @@ This phase covers the **initial variable selection** only. It does not yet inclu
 
 ### Archived datasets
 
-Source: [01-raw-idealista-madrid.csv](../data/01-raw-idealista-madrid.csv) (915 × 13). Later cleaned export: [02-cleaned-housing-data.csv](../data/02-cleaned-housing-data.csv) (911 × 7).
+Source: [01-raw-idealista-madrid.csv](../Datasets/01-raw-idealista-madrid.csv) (915 × 13). Later cleaned export: [02-cleaned-housing-data.csv](../Datasets/02-cleaned-housing-data.csv) (911 × 7).
 
 The seven-variable intermediate described above is not a separate supplied snapshot. File 02 also omits `description`, replaces `typology` with `Pisos` and `Independientes`, and includes the four-row reduction from the subsequent duplicate review. It should not be interpreted as the immediate output of initial variable selection alone.
 
@@ -154,12 +154,12 @@ The six source CSV exports are preserved byte for byte under descriptive names. 
 
 | Snapshot | Original export | Rows × columns | Verified content or relationship |
 | --- | --- | ---: | --- |
-| [01-raw-idealista-madrid.csv](../data/01-raw-idealista-madrid.csv) | `idealista_madrid.csv` | 915 × 13 | Original listings, identifiers, descriptions, location and typology. |
-| [02-cleaned-housing-data.csv](../data/02-cleaned-housing-data.csv) | `idealista_madrid_Clean.csv` | 911 × 7 | Retains price, baths, rooms, sqft and address; replaces typology with Pisos and Independientes. Four fewer row occurrences than the projected raw data. |
-| [03-address-district-mapping.csv](../data/03-address-district-mapping.csv) | `address_to_district.csv` | 105 × 2 | Auxiliary address-to-district lookup with 105 unique addresses. This is not a housing observation snapshot derived from file 02. |
-| [04-housing-with-district.csv](../data/04-housing-with-district.csv) | `address_to_district_joined.csv` | 911 × 8 | Exactly the result of joining 02 to 03 on address; all 911 observations retained, with 21 districts. |
-| [05-model-ready-data.csv](../data/05-model-ready-data.csv) | `address_to_district_joined_prepared-2.csv` | 911 × 25 | Replaces district with 20 binary columns; omits address and Pisos. Arganzuela and Pisos are the reference categories. Numeric values are unchanged. |
-| [06-model-ready-data-with-size-groups.csv](../data/06-model-ready-data-with-size-groups.csv) | `address_to_district_joined_prepared_prepared_cleaned.csv` | 911 × 26 | Exactly the same 25 columns and row order as 05, plus size_range; no further rows removed. |
+| [01-raw-idealista-madrid.csv](../Datasets/01-raw-idealista-madrid.csv) | `idealista_madrid.csv` | 915 × 13 | Original listings, identifiers, descriptions, location and typology. |
+| [02-cleaned-housing-data.csv](../Datasets/02-cleaned-housing-data.csv) | `idealista_madrid_Clean.csv` | 911 × 7 | Retains price, baths, rooms, sqft and address; replaces typology with Pisos and Independientes. Four fewer row occurrences than the projected raw data. |
+| [03-address-district-mapping.csv](../Datasets/03-address-district-mapping.csv) | `address_to_district.csv` | 105 × 2 | Auxiliary address-to-district lookup with 105 unique addresses. This is not a housing observation snapshot derived from file 02. |
+| [04-housing-with-district.csv](../Datasets/04-housing-with-district.csv) | `address_to_district_joined.csv` | 911 × 8 | Exactly the result of joining 02 to 03 on address; all 911 observations retained, with 21 districts. |
+| [05-model-ready-data.csv](../Datasets/05-model-ready-data.csv) | `address_to_district_joined_prepared-2.csv` | 911 × 25 | Replaces district with 20 binary columns; omits address and Pisos. Arganzuela and Pisos are the reference categories. Numeric values are unchanged. |
+| [06-model-ready-data-with-size-groups.csv](../Datasets/06-model-ready-data-with-size-groups.csv) | `address_to_district_joined_prepared_prepared_cleaned.csv` | 911 × 26 | Exactly the same 25 columns and row order as 05, plus size_range; no further rows removed. |
 
 ### Schema and data-quality checks
 
@@ -256,7 +256,7 @@ ANOVA establishes that the group means are not all equal, but it does not quanti
 
 ### Archived datasets and historical scope
 
-The original 915-row observations are available in [01-raw-idealista-madrid.csv](../data/01-raw-idealista-madrid.csv). The saved snapshot containing `size_range` is [06-model-ready-data-with-size-groups.csv](../data/06-model-ready-data-with-size-groups.csv) (911 × 26), after the later duplicate review. Its cut points remain 104, 158 and 264.
+The original 915-row observations are available in [01-raw-idealista-madrid.csv](../Datasets/01-raw-idealista-madrid.csv). The saved snapshot containing `size_range` is [06-model-ready-data-with-size-groups.csv](../Datasets/06-model-ready-data-with-size-groups.csv) (911 × 26), after the later duplicate review. Its cut points remain 104, 158 and 264.
 
 The ANOVA counts and statistics reported above describe the original 915-row analysis. File 06 is the cleaned counterpart and must not be presented as the exact input that produced those historical results.
 
@@ -329,7 +329,7 @@ The feature-engineering stage produces a structured dataset suitable for regress
 
 ### Archived datasets
 
-Inputs: [02-cleaned-housing-data.csv](../data/02-cleaned-housing-data.csv) and the auxiliary lookup [03-address-district-mapping.csv](../data/03-address-district-mapping.csv). The join produces [04-housing-with-district.csv](../data/04-housing-with-district.csv) (911 × 8), and district encoding produces [05-model-ready-data.csv](../data/05-model-ready-data.csv) (911 × 25).
+Inputs: [02-cleaned-housing-data.csv](../Datasets/02-cleaned-housing-data.csv) and the auxiliary lookup [03-address-district-mapping.csv](../Datasets/03-address-district-mapping.csv). The join produces [04-housing-with-district.csv](../Datasets/04-housing-with-district.csv) (911 × 8), and district encoding produces [05-model-ready-data.csv](../Datasets/05-model-ready-data.csv) (911 × 25).
 
 These exports already incorporate the later duplicate review. Their comparison verifies the join and binary encodings, but cannot establish whether missing values existed temporarily during a Dataiku recipe.
 
@@ -349,7 +349,7 @@ Model Madrid property prices with ordinary least squares (OLS), controlling simu
 - Excluded: `size_range`, which is used for ANOVA only. The redundant `Pisos` indicator, raw location labels and listing metadata are also excluded.
 - An intercept is included.
 
-Dataset: [05-model-ready-data.csv](../data/05-model-ready-data.csv) (911 × 25). Alternatively, [06-model-ready-data-with-size-groups.csv](../data/06-model-ready-data-with-size-groups.csv) contains the identical model values plus `size_range`, which must be excluded before fitting.
+Dataset: [05-model-ready-data.csv](../Datasets/05-model-ready-data.csv) (911 × 25). Alternatively, [06-model-ready-data-with-size-groups.csv](../Datasets/06-model-ready-data-with-size-groups.csv) contains the identical model values plus `size_range`, which must be excluded before fitting.
 
 ### Dataiku predictive evaluation
 
@@ -467,4 +467,79 @@ Review potential extreme or inconsistent values in `price` and `sqft`, justify a
 
 ### Archived dataset
 
-The baseline uses `price` and `sqft` from [01-raw-idealista-madrid.csv](../data/01-raw-idealista-madrid.csv) (915 observations). The later cleaned observations are available in [02-cleaned-housing-data.csv](../data/02-cleaned-housing-data.csv) (911 observations); their reassessment is documented in [Data Cleaning & Model Reassessment](methodology.md#data-cleaning-model-reassessment).
+The baseline uses `price` and `sqft` from [01-raw-idealista-madrid.csv](../Datasets/01-raw-idealista-madrid.csv) (915 observations). The later cleaned observations are available in [02-cleaned-housing-data.csv](../Datasets/02-cleaned-housing-data.csv) (911 observations); their reassessment is documented in [Data Cleaning & Model Reassessment](README.md#data-cleaning-model-reassessment).
+
+
+---
+
+## Extended project overview
+
+# Madrid Housing Price Analysis
+
+Analysis of residential property prices in Madrid using statistical analysis and regression models in Dataiku.
+
+## Objective
+
+Build a data-driven approach to understand residential property prices in Madrid, identify the main factors associated with price, and evaluate regression models for estimating market value.
+
+## Dataset
+
+The analysis uses a dataset of properties for sale in Madrid obtained from Idealista.
+
+The six verified CSV snapshots are stored once in [Data](README.md#data), from the 915 × 13 raw export to the 911-row cleaned modeling exports. Each phase links to the relevant dataset. Snapshot numbering follows data dependencies; the existing phase order records the analytical workflow.
+
+Key variables include:
+
+- `price`: property price in euros
+- `sqft`: built area
+- `rooms`: number of rooms
+- `baths`: number of bathrooms
+- `address`: location or area
+- `typology`: property type
+- `description`: property description
+
+## Project Workflow
+
+The project is structured as a progressive data analysis workflow:
+
+1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
+2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
+3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
+4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before cleaning decisions.
+5. **Data Cleaning & Model Reassessment** — completed. Potential outliers and duplicate listings were reviewed. Four confirmed duplicate property representations were removed, reducing the dataset from 915 to 911 observations. The refitted simple regression produced R² = 0.4973 and RMSE ≈ €716,614.
+6. **[Multiple Linear Regression](README.md#multiple-linear-regression)** — completed. Dataiku OLS achieved R² = 0.7141 and RMSE ≈ €538,900. The phase separately documents statistical inference from a full-dataset OLS fit.
+7. **Model Comparison & Conclusions** — next. Compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
+
+## Multiple-regression results
+
+The reported Dataiku multiple OLS evaluation obtained:
+
+| Metric | Result |
+| --- | ---: |
+| R² | 0.7141 |
+| RMSE | approximately €538,900 |
+| MAE | approximately €339,300 |
+| MAPE | 34.40% |
+
+## Interpretation and limitations
+
+Property size, bathrooms and district are important parts of the documented price analysis. The multiple model describes conditional relationships; these are not causal effects.
+
+A separate full-dataset OLS fit on 911 observations obtained R² = 0.6626 and supplies the inferential statistics in the detailed notes. Those statistics must not be attached to the Dataiku coefficients. The archived CSVs do not preserve the exact Dataiku split and preprocessing, so the evaluation cannot be independently reproduced from those files alone. Simple and multiple results should not be treated as a controlled model comparison until their evaluation setups are aligned. Final Model Comparison & Conclusions remains pending.
+
+## Tools
+
+- Dataiku
+- Statistical analysis
+- ANOVA
+- Linear regression
+
+## Status
+
+**In progress — Multiple Linear Regression completed. Next: Model Comparison & Conclusions.**
+
+## Explore this project
+
+- [Detailed methodology and experiment notes](README.md)
+- [Archived datasets](../Datasets/)
+- [Project catalogue](../../../README.md)

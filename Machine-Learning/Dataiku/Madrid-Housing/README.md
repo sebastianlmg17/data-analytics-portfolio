@@ -1,69 +1,27 @@
 # Madrid Housing Price Analysis
 
-Analysis of residential property prices in Madrid using statistical analysis and regression models in Dataiku.
+## Overview
+
+Analyze Madrid property listings from Idealista with statistical regression.
 
 ## Objective
 
-Build a data-driven approach to understand residential property prices in Madrid, identify the main factors associated with price, and evaluate regression models for estimating market value.
-
-## Dataset
-
-The analysis uses a dataset of properties for sale in Madrid obtained from Idealista.
-
-The six verified CSV snapshots are stored once in [Data](docs/methodology.md#data), from the 915 × 13 raw export to the 911-row cleaned modeling exports. Each phase links to the relevant dataset. Snapshot numbering follows data dependencies; the existing phase order records the analytical workflow.
-
-Key variables include:
-
-- `price`: property price in euros
-- `sqft`: built area
-- `rooms`: number of rooms
-- `baths`: number of bathrooms
-- `address`: location or area
-- `typology`: property type
-- `description`: property description
-
-## Project Workflow
-
-The project is structured as a progressive data analysis workflow:
-
-1. **Data Wrangling** — review the dataset structure, select relevant variables and remove non-predictive metadata.
-2. **Feature Engineering** — prepare numeric and categorical predictors, engineer district-level location information and encode categorical variables for regression modeling.
-3. **Exploratory Analysis & ANOVA** — completed. Property size was divided into four quartile-based groups and a one-way ANOVA confirmed statistically significant differences in mean price across the groups.
-4. **Simple Linear Regression** — completed. A baseline `price ~ sqft` model produced R² = 0.4648 and RMSE ≈ €757,964 before cleaning decisions.
-5. **Data Cleaning & Model Reassessment** — completed. Potential outliers and duplicate listings were reviewed. Four confirmed duplicate property representations were removed, reducing the dataset from 915 to 911 observations. The refitted simple regression produced R² = 0.4973 and RMSE ≈ €716,614.
-6. **[Multiple Linear Regression](docs/methodology.md#multiple-linear-regression)** — completed. Dataiku OLS achieved R² = 0.7141 and RMSE ≈ €538,900. The phase separately documents statistical inference from a full-dataset OLS fit.
-7. **Model Comparison & Conclusions** — next. Compare the models, interpret the results and determine which approach is most useful for estimating Madrid housing prices.
-
-## Multiple-regression results
-
-The reported Dataiku multiple OLS evaluation obtained:
-
-| Metric | Result |
-| --- | ---: |
-| R² | 0.7141 |
-| RMSE | approximately €538,900 |
-| MAE | approximately €339,300 |
-| MAPE | 34.40% |
-
-## Interpretation and limitations
-
-Property size, bathrooms and district are important parts of the documented price analysis. The multiple model describes conditional relationships; these are not causal effects.
-
-A separate full-dataset OLS fit on 911 observations obtained R² = 0.6626 and supplies the inferential statistics in the detailed notes. Those statistics must not be attached to the Dataiku coefficients. The archived CSVs do not preserve the exact Dataiku split and preprocessing, so the evaluation cannot be independently reproduced from those files alone. Simple and multiple results should not be treated as a controlled model comparison until their evaluation setups are aligned. Final Model Comparison & Conclusions remains pending.
+Explore price associations and estimate residential property prices.
 
 ## Tools
 
-- Dataiku
-- Statistical analysis
-- ANOVA
-- Linear regression
+Dataiku DSS.
 
-## Status
+## Methodology at a glance
 
-**In progress — Multiple Linear Regression completed. Next: Model Comparison & Conclusions.**
+Prepare variables and district encoding, perform size-group ANOVA, review duplicates (915 to 911 observations), and fit simple and multiple OLS models. Six dataset snapshots support the documented workflow.
+
+## Results and current limits
+
+Dataiku multiple OLS: R² **0.7141**, RMSE approximately **€538,900**, MAE approximately **€339,300**, MAPE **34.40%**. Final model comparison remains pending. Separate full-dataset inferential statistics are not the Dataiku evaluation; exact split and preprocessing are not preserved in the CSVs.
 
 ## Explore this project
 
-- [Detailed methodology and experiment notes](docs/methodology.md)
-- [Archived datasets](data/)
-- [Project catalogue](../../README.md)
+- [Project Documentation — full explanation, experiments and conclusions](Project%20Documentation/)
+- [Datasets — published snapshots](Datasets/)
+- [Machine Learning catalogue](../../README.md)

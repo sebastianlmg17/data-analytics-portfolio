@@ -1,6 +1,6 @@
 # Dataiku projects
 
-Each project includes an overview and, where available, a consolidated methodology document, data snapshots, scripts and images. Reported Dataiku evaluations are distinguished from independently reproducible artifacts.
+Each project includes an overview and, where available, a Project Documentation folder with the full explanation, data snapshots, scripts and images. Reported Dataiku evaluations are distinguished from independently reproducible artifacts.
 
 ## Financial decisions
 
