@@ -1,25 +1,31 @@
-# Titanic Survival Prediction · Python
+# Titanic Survival Prediction
 
-A Python classification project using 891 Titanic passenger records. Two notebooks cover exploratory analysis, feature engineering, Logistic Regression, Decision Tree and Random Forest experiments.
+## Overview
 
-- [Analysis and pipeline baselines](titanic_analysis.ipynb): imputation and encoding inside scikit-learn pipelines.
-- [Tree experiments](titanic_survival_prediction.ipynb): regularization comparisons and cross-validation searches.
-- [Project Documentation](Project%20Documentation/README.md): methodology, execution checks and evaluation limits.
-- [Dataset and provenance](Data/README.md) · [Dependencies](requirements.txt) · [Dataiku counterpart](../../Dataiku/Titanic-Survival/)
+Compare passenger-survival classifiers using 891 Titanic records and two Python notebooks.
 
-The experiments are exploratory. Full-dataset EDA precedes splitting, and the tree notebook reuses its evaluation subset during model comparison and preprocesses before CV. The notebooks use different row-filtering orders, so their scores are not directly comparable. See the documentation before interpreting results.
+## Objective
 
-Run from this project directory (tested with Python 3.14.6):
+Predict `Survived` and assess feature preparation, tree regularization and model-selection tradeoffs.
 
-```bash
-python3.14 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python -m ipykernel install --sys-prefix --name titanic-portfolio
-jupyter execute titanic_analysis.ipynb --kernel_name=titanic-portfolio --timeout=1800 --output=executed_{notebook_name}
-jupyter execute titanic_survival_prediction.ipynb --kernel_name=titanic-portfolio --timeout=7200 --output=executed_{notebook_name}
-```
+## Tools
 
-These commands save executed copies alongside the source notebooks. The tree notebook's 900-fit Random Forest search can take tens of minutes, depending on hardware.
+Python · Pandas · NumPy · Matplotlib · Scikit-learn · Jupyter notebooks. The code was developed with assistance from **CODEX**.
 
-**Code assistance:** The code was developed with assistance from **CODEX**.
+## Methodology at a glance
+
+Explore passenger data, engineer family-size and title features, and compare Logistic Regression, Decision Tree and Random Forest with stratified 80/20 splits and cross-validation searches. The notebooks preserve separate preparation and evaluation workflows.
+
+## Results and current limits
+
+Analysis-notebook Logistic Regression: accuracy **0.8315**, precision **0.8276**, recall **0.7059**, F1 **0.7619** and ROC AUC **0.8720**. These are exploratory results: full-dataset EDA precedes splitting, the tree notebook reuses its evaluation subset and preprocesses before CV, and different row-filtering orders prevent direct comparison between notebooks. No independent final evaluation is claimed.
+
+## Explore this project
+
+- [Project Documentation — full explanation, experiments and conclusions](Project%20Documentation/)
+- [Analysis and pipeline baselines](titanic_analysis.ipynb)
+- [Tree experiments](titanic_survival_prediction.ipynb)
+- [Dataset and provenance](Data/README.md)
+- [Dependencies](requirements.txt)
+- [Dataiku counterpart](../../Dataiku/Titanic-Survival/)
+- [Machine Learning catalogue](../../README.md)

@@ -1,36 +1,32 @@
-# Customer Churn Prediction · Python
+# Customer Churn Prediction
 
-Compare Logistic Regression and Random Forest on **IBM Telco Customer Churn** (7,043 customers), including random oversampling and Logistic Regression tuning.
+## Overview
 
-| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Logistic Regression | 0.8055 | 0.6572 | 0.5588 | 0.6040 | 0.8420 |
-| Random Forest | 0.7857 | 0.6233 | 0.4866 | 0.5465 | 0.8212 |
-| Logistic Regression + OS | 0.7331 | 0.4983 | 0.7861 | 0.6100 | 0.8421 |
-| Random Forest + OS | 0.7708 | 0.5684 | 0.5668 | 0.5676 | 0.8179 |
-| Tuned Logistic Regression | 0.7544 | 0.5261 | 0.7540 | 0.6198 | 0.8408 |
+Compare customer-churn classifiers using the 7,043-record IBM Telco Customer Churn dataset.
 
-Tuned LR (`C=0.1`, `class_weight="balanced"`, threshold `0.55`) captures more churn cases, with lower precision and accuracy than baseline LR. OS means random oversampling; positive class is churn.
+## Objective
 
-**Exploratory evaluation:** these experiments reused the same test split. OHE was fitted before cross-validation. The figures are not an independent final evaluation.
+Identify potential churn cases and assess the tradeoff between detecting departures and unnecessary retention outreach.
 
-## Reproduce
+## Tools
 
-From this project folder, using **Python 3.14.6**:
+Python · Pandas · NumPy · Scikit-learn · Imbalanced-learn · Matplotlib · Jupyter.
 
-```bash
-python3.14 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/execute_notebook.py
-```
+The code was developed with assistance from **CODEX**.
 
-On Windows, create the environment with `python` and activate with `.venv\Scripts\Activate.ps1`. The included CSV is checked by SHA-256. The runner executes all cells and writes recomputed tables and a notebook with outputs to `reports/`.
+## Methodology at a glance
 
-- [Implementation notebook](notebooks/customer_churn_prediction.ipynb)
-- [Project Documentation](Project%20Documentation/README.md) — preparation, experiments, provenance and evaluation limits
-- [Verified metric table](reports/metrics.csv)
+Clean `TotalCharges`, exclude the customer identifier, use a stratified 80/20 split, encode categorical predictors, scale continuous features for Logistic Regression, and compare Logistic Regression, Random Forest, random oversampling and LR tuning.
 
-Code in this project was developed with assistance from **CODEX**.
+## Results and current limits
 
-[Back to Python projects](../README.md)
+Tuned Logistic Regression (`C=0.1`, `class_weight="balanced"`, threshold **0.55**): accuracy **0.7544**, precision **0.5261**, recall **0.7540**, F1 **0.6198** and ROC AUC **0.8408**. Recall and F1 improve over baseline LR, with lower precision and accuracy. This is an exploratory comparison: the test set was reused and One-Hot Encoding was fitted before cross-validation, so these are not independent final results.
+
+## Explore this project
+
+- [Project Documentation — full explanation, experiments and conclusions](Project%20Documentation/)
+- [Dataset — published IBM snapshot](data/raw/)
+- [Python notebook — implementation and experiments](notebooks/customer_churn_prediction.ipynb)
+- [Reports — computed model and selection tables](reports/)
+- [Dependencies](requirements.txt)
+- [Machine Learning catalogue](../../README.md)
