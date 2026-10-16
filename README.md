@@ -4,10 +4,10 @@ Business Administration graduate studying Artificial Intelligence Applied to the
 
 ## Explore
 
-- **[Machine Learning catalogue](Machine-Learning/)** — all seven projects, including Madrid Housing as the main statistical regression case, and complementary work in regularization and HR classification.
+- **[Machine Learning catalogue](Machine-Learning/)** — seven Dataiku projects and a standalone Python implementation, including Madrid Housing as the main statistical regression case, and complementary work in regularization and HR classification.
 - **[About & credentials](About/)** — business background, Master's studies and course evidence.
 
-The current projects were developed in Dataiku, with supporting Python recipes where needed. The [Python section](Machine-Learning/Python/) is reserved for future standalone implementations.
+The portfolio includes Dataiku projects, with supporting Python recipes where needed, and a [standalone Python Titanic implementation](Machine-Learning/Python/Titanic-Survival/). The Python notebooks are published as exploratory work; methodological revision and final evaluation remain pending.
 
 ## Portfolio direction
 
