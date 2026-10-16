@@ -7,7 +7,7 @@ Predictive projects with a business objective, documented evaluation and explici
 ## Browse by tool
 
 - [Dataiku](Dataiku/) — current projects, including those with supporting Python.
-- [Python](Python/) — standalone implementations, starting with exploratory Titanic notebooks.
+- [Python](Python/) — Customer Churn Prediction and Titanic Survival, with executable code and evaluation limits.
 
 ## Project catalogue
 
@@ -21,10 +21,11 @@ Predictive projects with a business objective, documented evaluation and explici
 | [Boston Housing](Dataiku/Boston-Housing-Regularization/) | Housing-value regression | OLS, Ridge, Lasso and feature reduction | Dataiku | Final model documented |
 | [Titanic Survival](Dataiku/Titanic-Survival/) | Passenger-survival classification | Introductory feature engineering and classifier comparison | Dataiku | Further evaluation and final results pending |
 | [Titanic Survival · Python](Python/Titanic-Survival/) | Passenger-survival classification | Executable EDA and pipeline baselines; explicit validation review | Python | Exploratory notebooks published; methodological revision and final evaluation pending |
+| [Customer Churn Prediction · Python](Python/Customer-Churn-Prediction/) | Customer-churn classification | Logistic Regression vs Random Forest, oversampling and LR threshold tuning | Python | Reproduced exploratory comparison; independent final evaluation pending |
 
 ## Tools and future implementations
 
-[Dataiku projects](Dataiku/) are grouped in one accessible list rather than nested by problem type. [Python](Python/) contains the standalone Titanic implementation. It adds executable notebooks and documents the validation work still needed; it does not claim an improved score over the Dataiku workflow. The Tools column reflects published scripts or explicit implementation notes. Fraud Detection documents a custom Python GaussianNB model; its standalone code is not published. Python components stay with their Dataiku project.
+[Dataiku projects](Dataiku/) are grouped in one accessible list. [Python](Python/) contains standalone churn and Titanic implementations with dependencies and reproduction instructions. Their exploratory status and remaining validation work are documented. The Tools column reflects published scripts or explicit implementation notes. Fraud Detection documents a custom Python GaussianNB model; its standalone code is not published. Supporting Python components stay with their Dataiku project.
 
 New work should add a different problem family or a substantial contribution in reproducibility and validation. Repeated algorithms can be useful baselines; they do not justify duplicating a complete project.
 
