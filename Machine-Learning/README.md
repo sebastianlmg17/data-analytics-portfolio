@@ -1,8 +1,8 @@
 # Machine Learning
 
-The core of this portfolio is Machine Learning applied to financial and business problems. Each project has a brief README linking to its full documentation or implementation notebooks.
+Predictive projects in Dataiku and Python, with results and evaluation limits.
 
-Predictive projects with a business objective, documented evaluation and explicit limitations. Implementations include Dataiku workflows and standalone Python notebooks; supporting Python recipes remain with the Dataiku projects they serve.
+**Open Python code:** [Churn](Python/Customer-Churn-Prediction/notebooks/customer_churn_prediction.ipynb) · [Titanic](Python/Titanic-Survival/titanic_analysis.ipynb) · [Titanic tree experiments](Python/Titanic-Survival/titanic_survival_prediction.ipynb)
 
 ## Browse by tool
 
@@ -22,11 +22,5 @@ Predictive projects with a business objective, documented evaluation and explici
 | [Titanic Survival](Dataiku/Titanic-Survival/) | Passenger-survival classification | Introductory feature engineering and classifier comparison | Dataiku | Further evaluation and final results pending |
 | [Titanic Survival · Python](Python/Titanic-Survival/) | Passenger-survival classification | Executable EDA and pipeline baselines; explicit validation review | Python | Exploratory notebooks published; methodological revision and final evaluation pending |
 | [Customer Churn Prediction · Python](Python/Customer-Churn-Prediction/) | Customer-churn classification | Logistic Regression vs Random Forest, oversampling and LR threshold tuning | Python | Reproduced exploratory comparison; independent final evaluation pending |
-
-## Tools and future implementations
-
-[Dataiku projects](Dataiku/) are grouped in one accessible list. [Python](Python/) contains standalone churn and Titanic implementations with dependencies and reproduction instructions. Their exploratory status and remaining validation work are documented. The Tools column reflects published scripts or explicit implementation notes. Fraud Detection documents a custom Python GaussianNB model; its standalone code is not published. Supporting Python components stay with their Dataiku project.
-
-New work should add a different problem family or a substantial contribution in reproducibility and validation. Repeated algorithms can be useful baselines; they do not justify duplicating a complete project.
 
 [Back to portfolio](../README.md)

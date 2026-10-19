@@ -1,12 +1,12 @@
 # Python projects
 
-Standalone Python Machine Learning implementations, with explicit evaluation limits.
+Open the model code directly, or select a project for its results and reproduction instructions.
 
-| Project | Focus | Status |
+| Project | Code | Focus |
 | --- | --- | --- |
-| [Titanic Survival Prediction](Titanic-Survival/) | Exploratory analysis, pipeline baselines and tree experiments | Notebooks published without saved outputs; methodological revision and final evaluation pending |
-| [Customer Churn Prediction](Customer-Churn-Prediction/) | Logistic Regression, Random Forest, random oversampling and LR tuning | Exploratory comparison reproduced; reused test and OHE-before-CV limits documented |
+| [Customer Churn Prediction](Customer-Churn-Prediction/) | **[Open notebook](Customer-Churn-Prediction/notebooks/customer_churn_prediction.ipynb)** | Logistic Regression, Random Forest, oversampling and threshold tuning |
+| [Titanic Survival](Titanic-Survival/) | **[Open main notebook](Titanic-Survival/titanic_analysis.ipynb)** · [Tree experiments](Titanic-Survival/titanic_survival_prediction.ipynb) | Feature preparation and classifier comparison |
 
-Titanic complements the existing Dataiku workflow with executable Python experiments. Churn adds an imbalanced classification comparison with verified metric tables. Both projects include dependencies, reproduction instructions and a transparent CODEX assistance note; neither claims an independent final evaluation.
+Both projects are exploratory studies. Their documentation includes datasets, dependencies and evaluation limits.
 
-Other Python components remain with their [Dataiku projects](../Dataiku/) and are identified in the [Machine Learning catalogue](../README.md).
+[All Machine Learning projects](../README.md)
