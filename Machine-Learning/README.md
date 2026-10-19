@@ -20,7 +20,7 @@ Predictive projects in Dataiku and Python, with results and evaluation limits.
 | [Employee Attrition](Dataiku/Employee-Attrition/) | Employee-departure classification | Sampling tradeoffs, cross-validation leakage awareness and Logistic Regression | Dataiku, Python | Final interpretation pending |
 | [Boston Housing](Dataiku/Boston-Housing-Regularization/) | Housing-value regression | OLS, Ridge, Lasso and feature reduction | Dataiku | Final model documented |
 | [Titanic Survival](Dataiku/Titanic-Survival/) | Passenger-survival classification | Introductory feature engineering and classifier comparison | Dataiku | Further evaluation and final results pending |
-| [Titanic Survival · Python](Python/Titanic-Survival/) | Passenger-survival classification | Executable EDA and pipeline baselines; explicit validation review | Python | Exploratory notebooks published; methodological revision and final evaluation pending |
+| [Titanic Survival · Python](Python/Titanic-Survival/) | Passenger-survival classification | Feature preparation, pipeline baselines and model selection | Python | Exploratory comparison; independent final evaluation pending |
 | [Customer Churn Prediction · Python](Python/Customer-Churn-Prediction/) | Customer-churn classification | Logistic Regression vs Random Forest, oversampling and LR threshold tuning | Python | Reproduced exploratory comparison; independent final evaluation pending |
 
 [Back to portfolio](../README.md)

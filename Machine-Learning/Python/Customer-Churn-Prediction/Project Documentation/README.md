@@ -109,6 +109,6 @@ python scripts/execute_notebook.py
 
 On Windows, create the environment with `python` and activate with `.venv\Scripts\Activate.ps1`. The dataset is included. The [runner](../scripts/execute_notebook.py) uses the selected interpreter and a temporary kernel, writes `reports/customer_churn.executed.ipynb` with outputs, and recomputes the three CSV report tables.
 
-Direct dependencies are pinned in [requirements.txt](../requirements.txt). Execution was verified on macOS with CPython 3.14.6 on **2026-10-16**, including a new virtual environment that reproduced an identical `metrics.csv`.
+Direct dependencies are pinned in [requirements.txt](../requirements.txt). The cleaned notebook was executed on macOS with CPython 3.14.6 on **2026-10-19**, reproducing the published metrics, CV scores and selected threshold.
 
 Code developed with assistance from **CODEX**.

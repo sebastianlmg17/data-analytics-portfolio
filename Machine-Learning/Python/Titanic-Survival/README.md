@@ -12,7 +12,7 @@ Compare Logistic Regression, Decision Tree and Random Forest.
 
 ## Tools
 
-Python · Pandas · NumPy · Matplotlib · Scikit-learn · Jupyter. Code developed with assistance from **CODEX**.
+Python · Pandas · Scikit-learn · Jupyter. Code developed with assistance from **CODEX**.
 
 ## Methodology at a glance
 
@@ -20,7 +20,7 @@ Passenger features, missing-value handling, one-hot encoding, stratified 80/20 s
 
 ## Results and current limits
 
-Main-analysis Logistic Regression: accuracy **0.8315**, F1 **0.7619**, ROC AUC **0.8720**. Results are exploratory: both notebooks use full-data EDA; the tree notebook reuses its evaluation subset and preprocesses before CV. Different passenger subsets prevent comparison across notebooks.
+Main-analysis Logistic Regression: accuracy **0.8315**, F1 **0.7619**, ROC AUC **0.8720**. Feature choices came from earlier full-data EDA; the tree notebook reuses its evaluation subset and preprocesses before CV. Results remain exploratory, and different passenger subsets prevent comparison across notebooks.
 
 ## Explore this project
 

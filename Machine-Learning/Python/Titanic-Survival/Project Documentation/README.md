@@ -10,10 +10,10 @@ Both notebooks remove identifiers, original names, tickets and cabins after deri
 
 | Notebook | Preparation and models | Training / evaluation rows |
 | --- | --- | ---: |
-| Main analysis | Removes two missing-`Embarked` rows before splitting. Family size and normalized titles; imputation and encoding inside model pipelines. Logistic Regression and Random Forest. Ticket frequency is EDA only; numerical features are not scaled. | 711 / 178 |
+| Main analysis | Removes two missing-`Embarked` rows before splitting. Family size and normalized titles; imputation and encoding inside model pipelines. Logistic Regression and Random Forest. Ticket frequencies are excluded from modeling; numerical features are not scaled. | 711 / 178 |
 | Tree experiments | Removes missing-`Embarked` rows after splitting. Normalized titles, training-derived ticket frequency, training-median age imputation and aligned encoded columns. Decision Tree and Random Forest. | 710 / 179 |
 
-Five-fold searches optimize ROC AUC in the main analysis and F1 in the tree experiments. The analysis notebook's selected Random Forest has 100 trees, maximum depth 10, `min_samples_split=2` and `min_samples_leaf=2`.
+Five-fold searches optimize Random Forest ROC AUC in the main analysis and tree-model F1 in the second notebook. The main notebook's selected Random Forest has 100 trees, maximum depth 10, `min_samples_split=2` and `min_samples_leaf=2`.
 
 ## Results
 
@@ -29,8 +29,8 @@ Logistic Regression leads on accuracy, precision, F1 and ROC AUC; baseline Rando
 
 ## Evaluation Limits
 
-- Both notebooks perform full-dataset EDA before splitting, which may inform feature choices.
-- The tree notebook repeatedly reuses `X_test` for model and parameter comparisons. Its age imputation, ticket frequencies and encoding are prepared before CV, causing preprocessing leakage between folds.
+- Feature choices were informed by an earlier EDA of the full labelled dataset.
+- Earlier tree experiments reused `X_test` for parameter comparisons; the retained models still share that evaluation subset. Age imputation, ticket frequencies and encoding are prepared before CV, causing preprocessing leakage between folds.
 - The main analysis refits imputation and encoding within each CV fold, but compares multiple models on the same outer evaluation subset.
 - Different passenger subsets prevent direct comparison between notebooks. These are exploratory results, with **no independent final evaluation**.
 

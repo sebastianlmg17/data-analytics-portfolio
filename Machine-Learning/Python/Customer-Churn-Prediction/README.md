@@ -12,7 +12,7 @@ Compare churn detection against false alarms in potential retention outreach.
 
 ## Tools
 
-Python · Scikit-learn · Imbalanced-learn · Pandas · Matplotlib. Code developed with assistance from **CODEX**.
+Python · Scikit-learn · Imbalanced-learn · Pandas. Code developed with assistance from **CODEX**.
 
 ## Methodology at a glance
 

@@ -16,8 +16,6 @@ OUTPUT = ROOT / "reports/customer_churn.executed.ipynb"
 
 
 def main():
-    os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache/matplotlib"))
-    os.environ.setdefault("MPLBACKEND", "module://matplotlib_inline.backend_inline")
     with TemporaryDirectory(prefix="churn-kernel-") as temporary:
         os.environ["IPYTHONDIR"] = str(Path(temporary) / "ipython")
         os.environ["JUPYTER_RUNTIME_DIR"] = str(Path(temporary) / "runtime")
