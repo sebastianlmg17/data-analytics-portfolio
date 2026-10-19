@@ -24,7 +24,7 @@
 | Predictors | 45 columns after encoding, including numeric features |
 | Scaling | Standardize `tenure`, `MonthlyCharges` and `TotalCharges` for LR; no scaling for RF |
 
-The split precedes encoding, scaling and sampling. Numeric conversion and imputation are applied separately to training and test. The notebook checks the source hash, dimensions and zero-tenure condition.
+The split precedes encoding, scaling and sampling. Numeric conversion and imputation are applied separately to training and test. The notebook shows the original missing-charge inspection, cleaning instructions and checks for nulls and matching feature columns. The source checksum is recorded in the manifest.
 
 ---
 
@@ -107,8 +107,8 @@ python -m pip install -r requirements.txt
 python scripts/execute_notebook.py
 ```
 
-On Windows, create the environment with `python` and activate with `.venv\Scripts\Activate.ps1`. The dataset is included. The [runner](../scripts/execute_notebook.py) uses the selected interpreter and a temporary kernel, writes `reports/customer_churn.executed.ipynb` with outputs, and recomputes the three CSV report tables.
+On Windows, create the environment with `python` and activate with `.venv\Scripts\Activate.ps1`. The dataset is included. The [runner](../scripts/execute_notebook.py) uses the selected interpreter and a temporary kernel, writes `reports/customer_churn.executed.ipynb` with outputs, and recomputes the three CSV report tables in a separate reporting step. To run interactively, use `notebooks/` as the working directory so the original relative CSV path resolves.
 
-Direct dependencies are pinned in [requirements.txt](../requirements.txt). The cleaned notebook was executed on macOS with CPython 3.14.6 on **2026-10-19**, reproducing the published metrics, CV scores and selected threshold.
+Direct dependencies are pinned in [requirements.txt](../requirements.txt). The notebook preserves the original model statements and their execution order, organized with headings and smaller cells. Superseded preparation trials and the package-install command are omitted. It was executed on macOS with CPython 3.14.6 on **2026-10-19**, reproducing the published metrics, CV scores and selected threshold.
 
 Code developed with assistance from **CODEX**.

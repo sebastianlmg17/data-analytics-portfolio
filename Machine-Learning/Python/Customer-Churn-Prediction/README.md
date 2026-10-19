@@ -1,6 +1,8 @@
 # Customer Churn Prediction
 
-**[Open the model code →](notebooks/customer_churn_prediction.ipynb)** · [Full results and methodology](Project%20Documentation/) · [Run locally](Project%20Documentation/#python)
+**[Open the original model code →](notebooks/customer_churn_prediction.ipynb)** · [Full results and methodology](Project%20Documentation/) · [Run locally](Project%20Documentation/#python)
+
+The notebook follows the actual workflow: **load → clean → encode and scale → train → evaluate**, with each transformation in a clearly labelled section.
 
 ## Overview
 
