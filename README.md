@@ -13,3 +13,7 @@ Business Administration graduate studying Artificial Intelligence Applied to the
 
 - [All Machine Learning projects](Machine-Learning/) — Dataiku and Python implementations, results and evaluation limits.
 - [About & credentials](About/) — background, studies and course evidence.
+
+## Reporting guide
+
+- [Master Guide for Professional Reports v1.5 (Spanish)](docs/reporting/guia-maestra-informes-v1.5.md) — adaptable structure, narrative flow, evidence, tables, figures and final review.
