@@ -2,6 +2,8 @@
 
 Open the model code directly, or select a project for its results and reproduction instructions.
 
+**Project standard:** [Python ML Project Guide](PROJECT_GUIDE.md) — workflow, evaluation, documentation and publication requirements.
+
 | Project | Code | Focus |
 | --- | --- | --- |
 | [Customer Churn Prediction](Customer-Churn-Prediction/) | **[Open notebook](Customer-Churn-Prediction/notebooks/customer_churn_prediction.ipynb)** | Logistic Regression, Random Forest, oversampling and threshold tuning |
