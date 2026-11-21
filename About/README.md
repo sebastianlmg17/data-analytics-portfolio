@@ -20,12 +20,7 @@ Projects are documented in their analytical area rather than copied into an acad
 
 ## Credentials
 
-| Credential | Verified published status | Evidence |
-| --- | --- | --- |
-| Python preparation course — Xperience Education Differently (XED) | Course completed on 26 August 2026 | [Course completion certificate](credentials/XED-Python-Course-Completion-Certificate.png) |
-| Python Information Technology Specialist (ITS) | Official certification pending | Not claimed as obtained |
-
-The former SQL and Azure AI-900 pages described topics but did not publish an issuer/date/verification record sufficient to establish an obtained credential. They are not listed as verified certifications here.
+**Python preparation course — Xperience Education Differently (XED)** — completed on 26 August 2026. [View the course completion certificate](credentials/XED-Python-Course-Completion-Certificate.png).
 
 ## Skills demonstrated in the portfolio
 

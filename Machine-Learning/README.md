@@ -2,12 +2,12 @@
 
 Predictive projects in Dataiku and Python, with results and evaluation limits.
 
-**Open Python code:** [Churn](Python/Customer-Churn-Prediction/notebooks/customer_churn_prediction.ipynb) · [Titanic](Python/Titanic-Survival/titanic_analysis.ipynb) · [Titanic tree experiments](Python/Titanic-Survival/titanic_survival_prediction.ipynb)
+**Open Python code:** [Fraud anomaly detection](Python/Financial-Fraud-Anomaly-Detection/notebooks/financial_fraud_anomaly_detection.ipynb) · [Churn](Python/Customer-Churn-Prediction/notebooks/customer_churn_prediction.ipynb) · [Titanic](Python/Titanic-Survival/titanic_analysis.ipynb) · [Titanic tree experiments](Python/Titanic-Survival/titanic_survival_prediction.ipynb)
 
 ## Browse by tool
 
 - [Dataiku](Dataiku/) — current projects, including those with supporting Python.
-- [Python](Python/) — Customer Churn Prediction and Titanic Survival, with executable code and evaluation limits.
+- [Python](Python/) — Financial Fraud Anomaly Detection, Customer Churn Prediction and Titanic Survival, with notebooks and evaluation limits.
 
 ## Project catalogue
 
@@ -21,6 +21,7 @@ Predictive projects in Dataiku and Python, with results and evaluation limits.
 | [Boston Housing](Dataiku/Boston-Housing-Regularization/) | Housing-value regression | OLS, Ridge, Lasso and feature reduction | Dataiku | Final model documented |
 | [Titanic Survival](Dataiku/Titanic-Survival/) | Passenger-survival classification | Introductory feature engineering and classifier comparison | Dataiku | Further evaluation and final results pending |
 | [Titanic Survival · Python](Python/Titanic-Survival/) | Passenger-survival classification | Feature preparation, pipeline baselines and model selection | Python | Exploratory comparison; independent final evaluation pending |
+| [Financial Fraud Anomaly Detection · Python](Python/Financial-Fraud-Anomaly-Detection/) | Unsupervised transaction anomaly detection | DBSCAN vs Isolation Forest (P95/P85), confusion matrices and precision–recall trade-off | Python, scikit-learn | Exploratory complete; source CSV not included; no independent holdout |
 | [Customer Churn Prediction · Python](Python/Customer-Churn-Prediction/) | Customer-churn classification | Logistic Regression vs Random Forest, oversampling and LR threshold tuning | Python | Reproduced exploratory comparison; independent final evaluation pending |
 
 [Back to portfolio](../README.md)
