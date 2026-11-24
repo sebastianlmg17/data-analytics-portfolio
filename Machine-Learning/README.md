@@ -13,6 +13,7 @@ Predictive projects in Dataiku and Python, with results and evaluation limits.
 
 | Project | Problem | Distinct contribution | Tools | Status |
 | --- | --- | --- | --- | --- |
+| [Credit Card Customer Segmentation](Dataiku/Credit-Card-Customer-Segmentation/) | Unsupervised credit-card customer segmentation | K-Means k=3/5/7, scaling, outlier handling, five interpretable financial profiles, empirical cluster centers | Dataiku | k=5 selected; descriptive case study, Dataiku model not exported |
 | [Credit Risk Evaluation](Dataiku/Credit-Risk-Evaluation/) | High/low credit-risk classification | Decision Tree, Random Forest and Gradient Boosting comparison; credit-risk error interpretation | Dataiku | Model comparison documented |
 | [Bank Term Deposit](Dataiku/Bank-Term-Deposit/) | Campaign-response classification | Leakage prevention, sampling experiments and optimized Random Forest | Dataiku, Python | Final model documented |
 | [Fraud Detection](Dataiku/Fraud-Detection/) | Transaction-fraud classification | KNN vs GaussianNB; scaling and threshold comparison | Dataiku, Python | Final comparison documented; dataset/generalization limits apply |
