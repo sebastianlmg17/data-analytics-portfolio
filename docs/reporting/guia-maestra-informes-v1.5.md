@@ -27,8 +27,13 @@ Las reglas siguientes constituyen el formato base para documentos paginados nuev
 - Mantener espaciados moderados y consistentes. Evitar saltos de línea innecesarios, bloques comprimidos y espacios excesivos.
 - Incorporar numeración de páginas centrada en el pie, en Arial 10.
 - Escribir las cifras en formato español, con punto para miles y coma para decimales, salvo que el idioma o la norma aplicable requieran otro sistema. No modificar literales de código, identificadores ni transcripciones que deban conservar su forma original.
-- Usar espacios no separables entre cifras y símbolos, como «9,03 %», y dentro de expresiones que no convenga dividir, como «K = 3».
+- Usar espacios no separables entre cifras y símbolos, como "9,03 %", y dentro de expresiones que no convenga dividir, como "K = 3".
 - Mantener unidades, símbolos, abreviaturas y precisión numérica uniformes.
+
+### Comillas en todos los informes
+
+- Utilizar exclusivamente comillas dobles rectas ASCII (`"`) para citar términos, opciones de herramientas, títulos cortos o expresiones entrecomilladas. No utilizar comillas angulares españolas ni comillas tipográficas curvas en ninguna parte del informe.
+- Respetar las comillas que formen parte de código, fórmulas o literales técnicos que deban reproducirse exactamente; no alterarlos si ello modifica su significado.
 
 ### 2.1. Títulos principales
 
@@ -55,13 +60,13 @@ Como formato base, la primera página cuenta como página 1. Si una norma exige 
 **Contenido del índice.**
 
 - Incluir todos los títulos y subtítulos del cuerpo en idéntico orden, texto, numeración, ortografía y capitalización.
-- Excluir la portada, el propio encabezado «ÍNDICE» y los marcadores de anexos pendientes.
+- Excluir la portada, el propio encabezado "ÍNDICE" y los marcadores de anexos pendientes.
 - Incorporar solo contenido realmente presente. No incluir apartados vacíos para completar una plantilla.
 
 **Formato del índice.**
 
 - Arial 12, negro e interlineado de 1,25, como excepción al interlineado de 1,5 del cuerpo.
-- Encabezado «ÍNDICE» en mayúsculas, negrita, alineado a la izquierda y con 8 pt de espacio inferior.
+- Encabezado "ÍNDICE" en mayúsculas, negrita, alineado a la izquierda y con 8 pt de espacio inferior.
 - Entradas principales en mayúsculas y negrita, sin sangría y con 5 pt de espacio anterior.
 - Subtítulos sin negrita, con sangría izquierda de 0,63 cm, sin espacio anterior y con la misma escritura del cuerpo.
 - Números de página alineados al margen derecho y con la misma negrita que su entrada.
@@ -72,20 +77,20 @@ Como formato base, la primera página cuenta como página 1. Si una norma exige 
 
 Nunca estimar números de página. Maquetar el documento, exportarlo a PDF, localizar el inicio de cada título y subtítulo y actualizar el índice. Regenerar el PDF y comprobar de nuevo cuando esa actualización pueda desplazar contenido, hasta que las referencias sean estables.
 
-Verificar visualmente las entradas, la alineación de números, los puntos de guía, los saltos y el ajuste de las páginas iniciales. En Word, preferir un índice automático con tabulador derecho y relleno de puntos, actualizable mediante «Actualizar campo».
+Verificar visualmente las entradas, la alineación de números, los puntos de guía, los saltos y el ajuste de las páginas iniciales. En Word, preferir un índice automático con tabulador derecho y relleno de puntos, actualizable mediante "Actualizar campo".
 
 La paginación verificada corresponde a la versión final exportada. Si cambia al abrir o editar el documento en otro programa, se debe actualizar el índice.
 
 ### 2.4. Tablas
 
 - Colocar el título encima: etiqueta en negrita, como **Tabla 1.**, seguida de un título descriptivo en Arial 11.
-- Situar la fuente y las notas debajo, en cursiva y Arial 10. Identificar la procedencia real, por ejemplo: «Fuente: elaboración propia a partir de…».
+- Situar la fuente y las notas debajo, en cursiva y Arial 10. Identificar la procedencia real, por ejemplo: "Fuente: elaboración propia a partir de…".
 - Usar encabezados en negrita, centrados y con fondo gris claro D9D9D9, y bordes finos en gris 808080.
 - Usar Arial 10, interlineado sencillo y margen interior en las celdas. Alinear el texto a la izquierda y centrar las cifras, salvo que el formato acordado requiera alinearlas por decimales.
 - Mantener la misma precisión dentro de cada columna cuando la fuente lo permita. No añadir decimales que aparenten una precisión inexistente.
 - Ajustar el ancho al espacio útil de la página y distribuir columnas según el contenido. Ningún encabezado debe partirse a mitad de palabra.
 - Repetir el encabezado si la tabla continúa en otra página y evitar que una fila se divida. Las tablas pequeñas deben mantenerse juntas; si es necesario, comenzar en página nueva.
-- Escribir «No disponible» cuando falte un dato. No confundir ausencia con cero ni completar con estimaciones. Si existe una diferencia relevante, distinguir «No aplica» de «No disponible».
+- Escribir "No disponible" cuando falte un dato. No confundir ausencia con cero ni completar con estimaciones. Si existe una diferencia relevante, distinguir "No aplica" de "No disponible".
 - Indicar en las notas la base de los porcentajes, los cálculos propios y las diferencias de precisión o de origen.
 - Mantener cerca el título, la tabla y su fuente. Revisar su lectura en el tamaño real de entrega.
 
@@ -98,6 +103,8 @@ Usar un color sobrio o pocos colores bien diferenciados, sin cuadrículas pesada
 Centrar la figura, respetar el ancho útil y conservar proporciones. Para imágenes rasterizadas, utilizar al menos 200 ppp en su tamaño de uso; preferir formatos vectoriales cuando corresponda. Incorporar texto alternativo. Situar el título encima y la fuente debajo con las mismas reglas de las tablas.
 
 Las capturas deben conservar los parámetros y resultados relevantes y ser legibles en el documento final. No recortar información necesaria para interpretar o verificar la evidencia.
+
+**Espacio tras tablas y figuras.** La fuente, nota o leyenda final de una tabla o figura debe separarse del párrafo narrativo siguiente mediante un espacio posterior visible y constante (referencia: 10–12 pt). Nunca debe quedar visualmente pegada al texto que continúa. Mantener juntos el título, el elemento gráfico o tabla y su fuente; distinguir el espacio posterior de la separación interna entre estos tres componentes. Comprobarlo de forma visual en todas las páginas exportadas.
 
 ### 2.6. Listas
 
@@ -133,23 +140,23 @@ La redacción debe desarrollar un razonamiento continuo, evitando que los párra
 
 Cada párrafo debe permitir reconocer qué se afirma, en qué evidencia se apoya y qué significa para el objetivo del informe. No es necesario expresar esos tres componentes mediante una fórmula fija. Los conectores deben describir la relación real entre las ideas: comparación, contraste, consecuencia respaldada, continuidad o limitación. No introducir causalidad ni certeza mediante el lenguaje si la evidencia no las demuestra.
 
-La transición entre párrafos recupera el punto pertinente del anterior y abre el siguiente. Evitar empezar todos con la misma fórmula o añadir «además», «por tanto» o «en este sentido» cuando no aclaren la relación.
+La transición entre párrafos recupera el punto pertinente del anterior y abre el siguiente. Evitar empezar todos con la misma fórmula o añadir "además", "por tanto" o "en este sentido" cuando no aclaren la relación.
 
-**Ejemplo ilustrativo, con cifras ficticias.** En lugar de «La media es 120. La mediana es 80. El máximo es 900», puede escribirse: «La media de 120 supera a la mediana de 80, mientras que el máximo alcanza 900. Este contraste aconseja describir también la posición central y la dispersión antes de interpretar el valor medio como representativo». La interpretación debe ajustarse a lo que los datos permitan concluir; no basta una mejora estilística para validar una explicación.
+**Ejemplo ilustrativo, con cifras ficticias.** En lugar de "La media es 120. La mediana es 80. El máximo es 900", puede escribirse: "La media de 120 supera a la mediana de 80, mientras que el máximo alcanza 900. Este contraste aconseja describir también la posición central y la dispersión antes de interpretar el valor medio como representativo". La interpretación debe ajustarse a lo que los datos permitan concluir; no basta una mejora estilística para validar una explicación.
 
 **Criterio de revisión obligatorio:** comprobar que el informe se lea como un análisis desarrollado y no como una sucesión de cifras. Leer también las transiciones entre frases, párrafos y apartados, sin apoyarse en las tablas para suplir relaciones que el texto debería explicar.
 
 ### 3.2. Relación entre texto y evidencia visual
 
-No añadir frases cuya única función sea repetir lo que ya indica el título de una tabla o figura. Evitar fórmulas como «La Tabla 2 reúne estos estadísticos» o «La Figura 1 muestra el tamaño de cada segmento» si la leyenda inmediata ya lo expresa.
+No añadir frases cuya única función sea repetir lo que ya indica el título de una tabla o figura. Evitar fórmulas como "La Tabla 2 reúne estos estadísticos" o "La Figura 1 muestra el tamaño de cada segmento" si la leyenda inmediata ya lo expresa.
 
-Antes del elemento, aportar el contexto, el método, la decisión o la pregunta necesaria. Después, interpretar los hallazgos relevantes sin transcribir todas las cifras. Se permiten referencias como «Tabla 2» o «Figura 1» cuando fundamenten una afirmación, orienten entre apartados o expliquen algo que la leyenda no comunica.
+Antes del elemento, aportar el contexto, el método, la decisión o la pregunta necesaria. Después, interpretar los hallazgos relevantes sin transcribir todas las cifras. Se permiten referencias como "Tabla 2" o "Figura 1" cuando fundamenten una afirmación, orienten entre apartados o expliquen algo que la leyenda no comunica.
 
 Revisar expresamente la última frase de cada párrafo anterior a una tabla o figura. Si solo duplica la leyenda, eliminarla o sustituirla por contexto útil. Cuando una tabla presente una selección de información, explicar qué parte incluye y dónde se encuentra el resto.
 
 ### 3.3. Precisión del lenguaje
 
-Conservar literalmente los nombres de archivos, variables, fórmulas, modelos, procedimientos, recetas y herramientas cuando sean necesarios para identificar o reproducir el trabajo. Citar los nombres de configuraciones entre comillas angulares, «…».
+Conservar literalmente los nombres de archivos, variables, fórmulas, modelos, procedimientos, recetas y herramientas cuando sean necesarios para identificar o reproducir el trabajo. Citar los nombres de configuraciones entre comillas angulares, "…".
 
 Acompañar las cifras de unidades, periodos y referencias de comparación cuando corresponda. Cada porcentaje debe permitir identificar su denominador, en el texto o en una nota cercana. En distribuciones asimétricas, describir el caso habitual mediante mediana y cuartiles, además de la media cuando sea pertinente.
 
@@ -198,6 +205,13 @@ Todo dato debe proceder de una fuente verificable, de evidencia del trabajo o de
 - Señalar expresamente la información ausente y distinguirla de una observación nula, un cero o un resultado negativo.
 
 Registrar el origen y la versión o fecha de corte de la evidencia cuando sean relevantes. La trazabilidad debe permitir reconstruir el razonamiento sin incorporar datos privados innecesarios al documento o a un repositorio público.
+
+### 5.1. Redacción del proceso final y control de incidencias
+
+- El informe final documentará el flujo de trabajo **efectivamente utilizado y validado**, no la cronología de pruebas, intentos fallidos, equivocaciones corregidas, versiones intermedias o depuración interna.
+- No incluir frases sobre errores accidentales o su posterior corrección cuando estén completamente resueltos y no afecten a la interpretación de los resultados definitivos. Presentar directamente las transformaciones finales, sus verificaciones y los resultados vigentes.
+- Mantener la integridad académica: si una incidencia conserva consecuencias en los datos, introduce una limitación relevante, afecta a la comparabilidad o el enunciado exige explicarla, debe documentarse con transparencia. Esta regla no autoriza ocultar problemas materiales ni inventar una metodología.
+- En la revisión final, buscar y retirar expresiones de proceso interno ("primera versión", "lo corregimos", "se repitió tras un error", "se perdió por accidente") cuando no sean sustantivas para el lector.
 
 ## 6. Orientaciones especializadas, cuando correspondan
 
@@ -268,7 +282,7 @@ La comprobación textual no sustituye la revisión visual. Si queda algún requi
 
 ## 9. Conservación del original y entrega
 
-Conservar el documento original y entregar una copia editable con un nombre que permita identificar la revisión, salvo que el usuario haya solicitado expresamente editar el original. Si ya existe una versión «revisada», distinguir la nueva sin sobrescribirla.
+Conservar el documento original y entregar una copia editable con un nombre que permita identificar la revisión, salvo que el usuario haya solicitado expresamente editar el original. Si ya existe una versión "revisada", distinguir la nueva sin sobrescribirla.
 
 En una revisión de estilo, modificar únicamente lo autorizado. Comparar la versión final con la fuente para comprobar la conservación de cifras, metodología, resultados, conclusiones, tablas, figuras y formato cuando formen parte de las restricciones.
 
@@ -283,7 +297,7 @@ Esta guía regula la elaboración de informes. Los archivos README.md del portfo
 ### 9.2. Cambios de la versión 1.5
 
 - Alcance general para informes académicos, empresariales, financieros, técnicos, de investigación y de analítica.
-- Incorporación de la sección 3.1, «Fluidez narrativa y cohesión analítica», acordada a partir de la v1.4.
+- Incorporación de la sección 3.1, "Fluidez narrativa y cohesión analítica", acordada a partir de la v1.4.
 - Estructura adaptable a la finalidad, el público y la evidencia, con orientaciones especializadas opcionales.
 - Portada e índice configurables, incluida la posibilidad de portada independiente e índice en la segunda página.
 - Índice proporcional a la extensión, conservando la exigencia de verificar sus páginas y referencias.
