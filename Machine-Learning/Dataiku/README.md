@@ -7,6 +7,7 @@ Each project includes an overview and, where available, a Project Documentation 
 - [Credit Risk Evaluation](Credit-Risk-Evaluation/) — Decision Tree, Random Forest and Gradient Boosting.
 - [Bank Term Deposit](Bank-Term-Deposit/) — campaign response, leakage prevention and Random Forest tuning.
 - [Fraud Detection](Fraud-Detection/) — KNN and Gaussian Naive Bayes, with evaluation limitations documented.
+- [Credit Card Customer Segmentation](Credit-Card-Customer-Segmentation/) — K-Means on anonymized card behavior, k=3/5/7 comparison, five financial profiles, and empirical center coordinates.
 
 ## Statistical analysis and other applications
 
