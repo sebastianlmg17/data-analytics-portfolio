@@ -1,0 +1,4 @@
+k,silhouette,smallest_cluster_share_input_pct,comment
+3,0.206,15.11,Three broad groups
+5,0.2134,11.80,Selected for interpretability and balanced sizes
+7,0.229,5.56,Higher granularity with two groups under 7 percent
